@@ -15,4 +15,6 @@ Antes que comeces a me xingar na área dos comentários de algum post, quero avi
 
 Também não leve porra nenhuma do que eu fale a sério. Não estou por aqui tentando sustentar alguma identidade. Se quisesse fazer isso estaria no LinkedIn. Venho aqui para escrever sem me censurar, usar um corretor ortográfico ou pensar duas vezes sobre alguma frase.
 
-Se quiser falar comigo, pode usar o [twitter](https://twitter.com/brennords) ou o [telegram](https://t.me/brennords).
+Achou o layout familiar? Parabéns! Provavelmente você já é um amante do [study of weird machines](https://www.alchemistowl.org/pocorgtfo/pocorgtfo00.pdf). E não, não tenho vergonha nenhuma em copiar o que acho foda. Faça sua cópia também: [https://github.com/nick-belane/nick-belane.github.io](https://github.com/nick-belane/nick-belane.github.io)
+
+Para falar comigo, basta usar o [twitter](https://twitter.com/brennords) ou [telegram](https://t.me/brennords).
