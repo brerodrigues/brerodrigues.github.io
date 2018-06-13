@@ -5,6 +5,7 @@ date: 2018-04-28 20:50
 author: brennords
 comments: true
 categories: [CTFs]
+tags: [Hack The Box]
 ---
 O <a href="https://www.hackthebox.eu/" target="_blank" rel="noopener">Hack The Box</a> é "uma plataforma online que permite você testar e avançar com suas habilidades em cybersegurança". O Hack The Box nos dá acesso ao site onde, além de uns desafios clássicos de CTF (web, misc, rev...), há também servidores reais configurados para serem ownados. Esta segunda parte funciona com um acesso via VPN que é oferecido depois de você ter hackeado o sistema de convite e criado uma conta. O serviço é de graça, mas uns planos pagos são oferecidos. Se não conhecia e ficou curioso, dá uma olhada no site. Tem todo um ranking, sistema de níveis e outras putarias.
 
