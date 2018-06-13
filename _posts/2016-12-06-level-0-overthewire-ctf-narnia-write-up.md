@@ -5,6 +5,7 @@ date: 2016-12-06 18:53
 author: brennords
 comments: true
 categories: [CTFs]
+tags: [Narnia]
 ---
 Ok, depois terminar com os challs do <a href="https://brenn0.wordpress.com/category/ctfs/over-the-wire/leviathan/">Leviathan</a>, o negócio agora era subir de nível. Então, seguindo os conselhos da galera do <a href="http://overthewire.org/wargames/">Over The Wire</a>, prossegui para o <a href="http://overthewire.org/wargames/narnia/">Narnia</a>.
 
