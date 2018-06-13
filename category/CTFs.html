@@ -28,7 +28,7 @@ permalink: category/CTFs
 <strong>Sem Categoria</strong>
 <ul>
 {% for post in site.categories.CTFs %}
-  {% if post.tags == false %}
+  {% if post.tags == blank %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
