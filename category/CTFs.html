@@ -8,7 +8,7 @@ permalink: category/CTFs
 {% for post in site.categories.CTFs %}
 <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li> {{ post.tags | inspect }}
 {% endfor %}
-
+<!--
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
@@ -35,3 +35,4 @@ permalink: category/CTFs
   {% endif %}
 {% endfor %}
 </ul>
+-->
