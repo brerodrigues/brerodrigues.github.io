@@ -10,7 +10,7 @@ Descolei uma vaga do <a href="http://siteprouni.mec.gov.br/" target="_blank">Pro
 
 Para começar, sempre tive problemas com as aulas presenciais. Talvez possa se dizer que seria putaria ou preguiça, mas já cheguei a ser reprovado por faltas mesmo tendo boas notas, então podemos excluir a preguiça.
 
-<a href="https://brenn0.files.wordpress.com/2015/02/deadpoetssocietyfinal.jpg"><img class="size-large wp-image-1124" src="https://brenn0.files.wordpress.com/2015/02/deadpoetssocietyfinal.jpg?w=676" alt="A vida é curta demais para se perder tempo preso na sala de aula." width="676" height="454" /></a> A vida é curta demais para perder tempo preso na sala de aula. (Momento filosofo de padaria)
+<a href="https://brenn0.files.wordpress.com/2015/02/deadpoetssocietyfinal.jpg"><img class="size-large wp-image-1124" src="https://preview.ibb.co/hJHJBd/deadpoetssocietyfinal.jpg" alt="A vida é curta demais para se perder tempo preso na sala de aula." width="676" height="454" /></a> A vida é curta demais para perder tempo preso na sala de aula. (Momento filosofo de padaria)
 
 <!--more-->
 
@@ -22,13 +22,13 @@ Mas foram aí que minhas reprovações por faltas cresceram e me fizeram abandon
 
 E era fodasticamente chato.
 
-<a href="https://brenn0.files.wordpress.com/2015/02/ebab8921fab3b1a5754ed3bd3cc4c7c5.jpg"><img class="size-full wp-image-1125" src="https://brenn0.files.wordpress.com/2015/02/ebab8921fab3b1a5754ed3bd3cc4c7c5.jpg" alt="Após sobreviver a cenas como essa, eu iria ouvir sobre as diferenças entre TCP e UDP." width="470" height="230" /></a> Após sobreviver a cenas como essa, eu iria passar a manhã ouvindo sobre as diferenças entre TCP e UDP.
+<a href="https://brenn0.files.wordpress.com/2015/02/ebab8921fab3b1a5754ed3bd3cc4c7c5.jpg"><img class="size-full wp-image-1125" src="https://image.ibb.co/jqGH4y/ebab8921fab3b1a5754ed3bd3cc4c7c5.jpg" alt="Após sobreviver a cenas como essa, eu iria ouvir sobre as diferenças entre TCP e UDP." width="470" height="230" /></a> Após sobreviver a cenas como essa, eu iria passar a manhã ouvindo sobre as diferenças entre TCP e UDP.
 
 Pegava busão lotado as 6 da manhã e chegava 1 hora atrasado. Voltava de busão e já era mais tempo para chegar em casa. Tudo isso para não acharem que morri e cancelarem minha matrícula ou coisa assim. Só ia as aulas para saber dos assuntos e fazer as avaliações. Aprendia rápido os assuntos e ficava semanas estudando outros não relacionados ao curso no enorme tempo livre que sobrava (em uma semana eu acabava vendo o assunto que o professor planejava dar em um mês).
 
 Ficou óbvio que se tivesse que ficar 4 anos fazendo isso, eu iria tentar o suícidio <del>novamente</del>.
 
-<a href="https://brenn0.files.wordpress.com/2015/02/rgph9pp-jpg.gif"><img class="aligncenter size-full wp-image-1126" src="https://brenn0.files.wordpress.com/2015/02/rgph9pp-jpg.gif" alt="rgph9pp.jpg" width="480" height="455" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/02/rgph9pp-jpg.gif"><img class="aligncenter size-full wp-image-1126" src="https://image.ibb.co/kjNeHJ/rgph9pp_jpg.gif" alt="rgph9pp.jpg" width="480" height="455" /></a>
 
 Por esses motivos que acredito no EAD e eu, no eu e o EAD.
 
