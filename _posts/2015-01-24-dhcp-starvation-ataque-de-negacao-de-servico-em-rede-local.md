@@ -10,7 +10,7 @@ Esse post ensina a basicamente cometer um ato de <a href="http://desciclopedia.o
 
 Então vamos lá.
 
-<a href="https://brenn0.files.wordpress.com/2015/01/keep-calm-its-just-a-ddos-3.png"><img class="  wp-image-1090 aligncenter" src="https://brenn0.files.wordpress.com/2015/01/keep-calm-its-just-a-ddos-3.png?w=257" alt="keep-calm-its-just-a-ddos-3" width="437" height="507" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/01/keep-calm-its-just-a-ddos-3.png"><img class="  wp-image-1090 aligncenter" src="https://image.ibb.co/nENeHJ/keep_calm_its_just_a_ddos_3.png" alt="keep-calm-its-just-a-ddos-3" width="437" height="507" /></a>
 
 Antes de tudo, o que é o <strong>DHCP</strong>?
 
@@ -28,7 +28,7 @@ De uma forma simplificada, pode-se dizer que o seu funcionamento consiste nessas
 
 <strong>4.</strong> Enviando um pacote <em><a href="http://www.omnisecu.com/tcpip/dhcp-dynamic-host-configuration-protocol-messages.php" target="_blank">DHCPACK</a></em> como resposta, o servidor confirma e atribui o determinado endereço ip ao endereço MAC do cliente.
 
-<a href="https://brenn0.files.wordpress.com/2015/01/dhcp.jpg"><img class="aligncenter size-full wp-image-1087" src="https://brenn0.files.wordpress.com/2015/01/dhcp.jpg" alt="dhcp" width="400" height="390" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/01/dhcp.jpg"><img class="aligncenter size-full wp-image-1087" src="https://image.ibb.co/f01TBd/dhcp.jpg" alt="dhcp" width="400" height="390" /></a>
 
 Tentei não entrar em tantos detalhes e acabar fugindo do ponto central, mas se quiser saber mais, segue alguns links:
 <a href="http://support.microsoft.com/kb/169289/pt-br" target="_blank">http://support.microsoft.com/kb/169289/pt-br</a>
@@ -48,18 +48,18 @@ Agora vamos ver na prática usando a ferramenta <a href="http://www.yersinia.net
 
 <strong>2.</strong> É isso aí, há até uma interface gráfica. Coisa de criança.
 
-<strong><a href="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_33_351.png"><img class="aligncenter size-large wp-image-710" src="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_33_351.png?w=700" alt="Screenshot from 2014-01-14 15_33_35" width="700" height="400" /></a></strong>
+<strong><a href="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_33_351.png"><img class="aligncenter size-large wp-image-710" src="https://preview.ibb.co/kovc4y/screenshot_from_2014_01_14_15_33_351.png" alt="Screenshot from 2014-01-14 15_33_35" width="700" height="400" /></a></strong>
 
 <strong> 3.</strong> Agora basta clicar em <em>Launch Attack</em>, DHCP e selecionar a opção <em>sending DISCOVER packet</em>.
 
-<a href="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_34_58.png"><img class="aligncenter size-large wp-image-711" src="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_34_58.png?w=700" alt="Screenshot from 2014-01-14 15_34_58" width="700" height="401" /></a>
+<a href="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_34_58.png"><img class="aligncenter size-large wp-image-711" src="https://image.ibb.co/kg3ard/screenshot_from_2014_01_14_15_34_58.png" alt="Screenshot from 2014-01-14 15_34_58" width="700" height="401" /></a>
 
 <strong>4.</strong> Clique em OK e observe a quantidade absurda de pacotes enviados. Essa é a hora que o servidor DHCP deve estar enlouquecendo e não conseguindo atender as requisições de outros usuários da rede.
 
-<a href="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_35_16.png"><img class="aligncenter size-large wp-image-712" src="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_35_16.png?w=700" alt="Screenshot from 2014-01-14 15_35_16" width="700" height="394" /></a>
+<a href="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_35_16.png"><img class="aligncenter size-large wp-image-712" src="https://preview.ibb.co/bxCUHJ/screenshot_from_2014_01_14_15_35_16.png" alt="Screenshot from 2014-01-14 15_35_16" width="700" height="394" /></a>
 
 <strong>5.</strong> Clicando em <em>List Attacks</em> você terá a opção de para-lo.
 
-<a href="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_39_15.png"><img class="aligncenter size-large wp-image-713" src="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_39_15.png?w=700" alt="Screenshot from 2014-01-14 15_39_15" width="700" height="400" /></a>
+<a href="http://brenn0.files.wordpress.com/2014/01/screenshot-from-2014-01-14-15_39_15.png"><img class="aligncenter size-large wp-image-713" src="https://preview.ibb.co/i8qS4y/screenshot_from_2014_01_14_15_39_15.png" alt="Screenshot from 2014-01-14 15_39_15" width="700" height="400" /></a>
 
 <strong>6.</strong> Beba uma cerveja.
