@@ -10,7 +10,7 @@ Indicado ao oscar em várias categorias (incluindo melhor filme), <strong>O jogo
 
 O assisti na noite de ontem e realmente superou minhas expectativas (talvez porque eu tenha me frustado um pouco com o filme sobre a história <del>romantizada e doce, causando enjoo a quem assiste</del> do <strong><a href="http://www.adorocinema.com/filmes/filme-222221/" target="_blank"><span class="st">Stephen Hawking</span></a></strong>), e como fui seduzido pelo enredo envolvendo criptografia, conspirações, matemática e o envolvimento de Turing em computação e inteligência artificial, resolvi indica-lo.
 
-<a href="https://www.youtube.com/watch?v=NM4GZ3NQvxQ"><img class="wp-image-1118 size-large" src="https://brenn0.files.wordpress.com/2015/02/jogodeemitacao-topo10814187_734x355.jpg?w=676" alt="jogoDeEmitacao-Topo10814187_734x355" width="676" height="327" /></a> Clique na imagem para ver o trailer.
+<a href="https://www.youtube.com/watch?v=NM4GZ3NQvxQ"><img class="wp-image-1118 size-large" src="https://preview.ibb.co/dyZyBd/jogodeemitacao_topo10814187_734x355.jpg" alt="jogoDeEmitacao-Topo10814187_734x355" width="676" height="327" /></a> Clique na imagem para ver o trailer.
 
 <!--more-->
 
