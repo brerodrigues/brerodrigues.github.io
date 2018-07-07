@@ -9,7 +9,7 @@ tags: [Hack The Box]
 ---
 Nem sempre sou 1337 suficiente pra rootear as máquinas do Hack The Box. Você pode comprovar esse fato dando uma olhada no meu movimentado <a href="https://www.hackthebox.eu/home/users/profile/5731" target="_blank" rel="noopener">perfil</a>. Mas não quer dizer que eu não tente, algumas vezes exaustivamente, conseguir umas flags. Foi o que aconteceu com a máquina aposentada recentemente, 12/05/2018, Flux Capacitor.
 
-<img class="aligncenter size-full wp-image-1625" src="https://brenn0.files.wordpress.com/2018/05/htb.png" alt="" width="560" height="112" />
+<img class="aligncenter size-full wp-image-1625" src="https://image.ibb.co/nEwggd/htb.png" alt="" width="560" height="112" />
 
 Eu falhei miseravelmente. Poderia dizer que completei cerca de 15-20% do exigido para obter root nesse servidor. Tentei bastante nos últimos dias após receber um e-mail avisando que a máquina seria aposentada em breve porque sabia que caso travasse em algum momento, os write-ups não demorariam para surgir e poderia descobrir exatamente onde me perdi.
 
@@ -25,25 +25,25 @@ Como de costume, comecei com um scan padrão do nmap: <em>nmap -v -A 10.10.10.6
 
 Nada demais além da porta 80 e seu servidor web. Hora de checar o que era oferecido via HTTP:
 
-<img class="alignnone size-full wp-image-1620" src="https://brenn0.files.wordpress.com/2018/05/web_principal.png" alt="web_principal" width="597" height="266" />
+<img class="alignnone size-full wp-image-1620" src="https://image.ibb.co/iQzZ1d/web_principal.png" alt="web_principal" width="597" height="266" />
 
 Ok, não fazia ideia o que porra isso poderia significar. Node1... Algo com NodeJS? Acho que não.
 
 Então dei uma sacada no código fonte a procura de algumas respostas e me deparei com um comentário que poderia ter alguma utilidade:
 
-<img class="alignnone size-full wp-image-1621" src="https://brenn0.files.wordpress.com/2018/05/web_source.png" alt="web_source" width="705" height="339" />
+<img class="alignnone size-full wp-image-1621" src="https://image.ibb.co/dpoGEy/web_source.png" alt="web_source" width="705" height="339" />
 
 Mas, ao acessar /sync, recebo um 403 na cara:
 
-<img class="alignnone size-full wp-image-1622" src="https://brenn0.files.wordpress.com/2018/05/sync_forbidden.png" alt="sync_forbidden" width="753" height="256" />
+<img class="alignnone size-full wp-image-1622" src="https://image.ibb.co/mEzv7J/sync_forbidden.png" alt="sync_forbidden" width="753" height="256" />
 
 Aí lembrei do <a href="https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project" target="_blank" rel="noopener">DirBuster</a>, sempre pronto para mostrar algum caminho oculto.
 
-<img class="alignnone size-full wp-image-1623" src="https://brenn0.files.wordpress.com/2018/05/dirbuster.png" alt="dirbuster" width="773" height="539" />
+<img class="alignnone size-full wp-image-1623" src="https://image.ibb.co/ceDoSJ/dirbuster.png" alt="dirbuster" width="773" height="539" />
 
 Observe que escolhi tentar adivinhar apenas os diretórios por ainda não saber se o servidor web estava rodando PHP ou algo do tipo.
 
-<img class="alignnone size-full wp-image-1624" src="https://brenn0.files.wordpress.com/2018/05/dirbuster_resuls.png" alt="dirbuster_resuls" width="765" height="537" />
+<img class="alignnone size-full wp-image-1624" src="https://preview.ibb.co/cCTBgd/dirbuster_resuls.png" alt="dirbuster_resuls" width="765" height="537" />
 
 Calma lá, porque o DirBuster recebeu um <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/200" target="_blank" rel="noopener">HTTP 200</a> de sync? E ao tentar acessar todos os outros diretórios que o DirBuster supostamente encontrou, continuei ganhando um 403 Forbidden.
 
