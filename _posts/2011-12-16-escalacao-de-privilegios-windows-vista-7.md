@@ -24,7 +24,7 @@ Era tudo que eu precisava naquele momento, então rapidamente baixei o PoC: <a h
 
 Existe uma versão já compilada e o código fonte do exploit nesse arquivo zip, mais adiante eu vou explicar o motivo pelo qual talvez seja preciso mecher no código (o que não é muito fácil). Fica a seu critério compilar ou usar o que já está compilado, usei o já compilado (contrariando uma das regras número 1 sobre exloits já compilados e com backdoors) pelo simples motivo de ter preguiça de arrumar um compilador. Extrai os arquivos, abri o prompt e rodei o poc.exe pra ver o que iria rolar.
 
-<img class="aligncenter" title="fff" src="http://brenn0.files.wordpress.com/2011/12/poc.png" alt="" width="451" height="182" />
+<img class="aligncenter" title="fff" src="https://image.ibb.co/h2BA98/poc.png" alt="" width="451" height="182" />
 
 Acho que já deu pra perceber não é?
 
