@@ -15,7 +15,7 @@ Agora, vamos a parte que interessa.
 
 Entre as ativas, ela era uma das mais fáceis.
 
-<img class="alignnone size-full wp-image-1616" src="https://brenn0.files.wordpress.com/2018/04/bashed_ranking.png" alt="bashed_ranking" width="560" height="80" />
+<img class="alignnone size-full wp-image-1616" src="https://image.ibb.co/cL7ySJ/bashed_ranking.png" alt="bashed_ranking" width="560" height="80" />
 
 O processo de hackear uma máquina, normalmente, segue o mesmo padrão:
 
@@ -36,7 +36,7 @@ Então, comecei com um clássico scanner de portas usando o NMAP:
 
 Aparantemente o servidor só estava com a porta 80 aberta e rodando um servidor http apache. O passo seguinte foi acessar o site e analisa-lo.
 
-<img class="alignnone size-full wp-image-1609" src="https://brenn0.files.wordpress.com/2018/04/web_initial.png" alt="web_initial" width="897" height="609" />
+<img class="alignnone size-full wp-image-1609" src="https://image.ibb.co/chO57J/web_initial.png" alt="web_initial" width="897" height="609" />
 
 O site rodando é simples e não oferecia nada além de páginas estáticas. No código fonte não havia nada interessante.
 
@@ -46,15 +46,15 @@ Abaixo do curto texto há prints de tela com o phpbash rodando. Achei que seria 
 
 Foi hora de partir para ignorância: fazer força-bruta dos diretórios do servior web, o que é bem comum em muitas máquinas do hackthebox. Gosto de usar o <a href="https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project" target="_blank" rel="noopener">OWASP DirBuster</a> por nenhuma razão em especial. E usei <a href="https://github.com/thesp0nge/enchant/blob/master/db/directory-list-2.3-medium.txt" target="_blank" rel="noopener">esta</a> wordlist.
 
-<img class=" size-full wp-image-1610 aligncenter" src="https://brenn0.files.wordpress.com/2018/04/dir_buster1.png" alt="dir_buster1" width="771" height="547" />
+<img class=" size-full wp-image-1610 aligncenter" src="https://image.ibb.co/da0UZy/dir_buster1.png" alt="dir_buster1" width="771" height="547" />
 
 Depois de uns minutos, encontrei exatamente o que esperava:
 
-<img class=" size-full wp-image-1611 aligncenter" src="https://brenn0.files.wordpress.com/2018/04/dev_folder.png" alt="dev_folder" width="447" height="280" />
+<img class=" size-full wp-image-1611 aligncenter" src="https://image.ibb.co/hcbsnJ/dev_folder.png" alt="dev_folder" width="447" height="280" />
 
 Assim que tive acesso a webshell, fui em busca da flag do usuário. Ela sempre estará em /home dentro do diretório de alguém. Nesse caso, era o arrexel.
 
-<img class=" size-full wp-image-1612 aligncenter" src="https://brenn0.files.wordpress.com/2018/04/user_flag.png" alt="user_flag" width="589" height="377" />
+<img class=" size-full wp-image-1612 aligncenter" src="https://image.ibb.co/hz8Bgd/user_flag.png" alt="user_flag" width="589" height="377" />
 
 Agora era preciso virar root e para isso uma webshell não é legal. Costumo usar essas <a href="https://github.com/infodox/python-pty-shells" target="_blank" rel="noopener">shells em python</a> porque já pego um pseudo terminal.
 
@@ -72,11 +72,11 @@ brenno@budweiser ~/D/p/e/python-shellspython -m SimpleHTTPServer 8000 Serving HT
 
 Na webshell, entrei no diretório <a href="https://www.cyberciti.biz/tips/what-is-devshm-and-its-practical-usage.html" target="_blank" rel="noopener">/dev/shm</a>, que é um diretório que usa a memória RAM para armazenar os dados, assim podemos deixar menos evidências no servidor ownado. Boas práticas na simulação leva a boas práticas na prática. Aí foi só mandar um wget para buscar a shell reversa.
 
-<img class=" size-full wp-image-1613 aligncenter" src="https://brenn0.files.wordpress.com/2018/04/get_to_dev_shm_back_connect.png" alt="get_to_dev_shm_back_connect" width="654" height="212" />
+<img class=" size-full wp-image-1613 aligncenter" src="https://image.ibb.co/ihtzZy/get_to_dev_shm_back_connect.png" alt="get_to_dev_shm_back_connect" width="654" height="212" />
 
 Aí foi só rodar meu script com o comando <em>python back_connect.py</em> e voltar ao meu terminal para ver isso aqui:
 
-<img class="alignnone size-full wp-image-1614" src="https://brenn0.files.wordpress.com/2018/04/got_a_shell.png" alt="got_a_shell" width="777" height="44" />
+<img class="alignnone size-full wp-image-1614" src="https://image.ibb.co/iEbmEy/got_a_shell.png" alt="got_a_shell" width="777" height="44" />
 
 Temos uma bela shell!
 
@@ -155,7 +155,7 @@ testing!scriptmanager@bashed:/scripts$
 
 De alguma forma o script python test.py era executado como root, abria o arquivo test.txt e escrevia a palavra "<em>testing!</em>". Essa porra parecia promissora. Então coloquei um shell handler para esperar uma conexão em outra porta no meu computador, substitui o arquivo test.py pelo meu script de shell reversa e esperei.
 
-<img class="alignnone size-full wp-image-1615" src="https://brenn0.files.wordpress.com/2018/04/got_root.png" alt="got_root" width="769" height="38" />
+<img class="alignnone size-full wp-image-1615" src="https://image.ibb.co/cmdzZy/got_root.png" alt="got_root" width="769" height="38" />
 
 Acesso root obtido com sucesso. Agora era só pegar a flag:
 
