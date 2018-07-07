@@ -12,7 +12,7 @@ Por exemplo, uma busca <a href="https://www.shodan.io/search?query=apache" targe
 
 Ele não é algo novo. A maioria da galera já sabe que dá para encontrar <a href="https://www.shodan.io/explore/tag/webcam" target="_blank" rel="noopener">câmeras de segurança sem senha</a>, <a href="https://www.shodan.io/explore/tag/ftp" target="_blank" rel="noopener">ftps desprotegidos</a>, roteadores, switchs, impressoras e essas porra. Diz a lenda que se encontra até sistemas SCADA com senhas default e facilmente se destrói uma indústria nuclear com poucos cliques.
 
-<img class=" size-full wp-image-1555 aligncenter" src="https://brenn0.files.wordpress.com/2018/02/td-heavy-shit.gif" alt="TD-Heavy-Shit.gif" width="500" height="278" />
+<img class=" size-full wp-image-1555 aligncenter" src="https://preview.ibb.co/i7JSMd/td_heavy_shit.gif" alt="TD-Heavy-Shit.gif" width="500" height="278" />
 
 Não é a toa que, por jornalistas, ele é considerado "<a href="https://www.vice.com/pt_br/article/mgqgzx/o-shodan-e-realmente-o-mecanismo-de-busca-mais-perigoso-do-mundo" target="_blank" rel="noopener">o mecanismo de busca mais perigoso do mundo</a>".
 
