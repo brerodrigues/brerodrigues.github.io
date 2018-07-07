@@ -9,7 +9,7 @@ categories: [Hacking]
 
 Ultimamente venho lendo o livro <a href="http://www.amazon.com/The-Best-2600-Hacker-Odyssey/dp/0470294191" target="_blank">The Best of 2600 [A Hacker odyssey]</a> e encontrei um texto na categoria "A filosofia Hacker (The Hacker philosophy)" que achei interessante.
 
-<a href="http://brenn0.files.wordpress.com/2014/04/6a0120a85dcdae970b012877707f0d970c-pi.jpg"><img class="size-full wp-image-890" src="http://brenn0.files.wordpress.com/2014/04/6a0120a85dcdae970b012877707f0d970c-pi.jpg" alt="Capa do livro" width="380" height="500" /></a>
+<a href="http://brenn0.files.wordpress.com/2014/04/6a0120a85dcdae970b012877707f0d970c-pi.jpg"><img class="size-full wp-image-890" src="https://image.ibb.co/gHZGGo/6a0120a85dcdae970b012877707f0d970c_pi.jpg" alt="Capa do livro" width="380" height="500" /></a>
 
 O livro é formado (como o nome já diz) pelos melhores textos já publicados na famosa revista <a href="http://pt.wikipedia.org/wiki/2600:_The_Hacker_Quarterly" target="_blank">2600</a>. Caso não saiba do que estou falando, a 2600 é uma revista americana que trata de assuntos Hacker/Phreaker, novas tecnologias em geral e notícias sobre o "Underground" desde Março de 1984. Foi uma das pioneiras nesse ramo e é possível ver sua importância ao perceber como os textos da revistam foram evoluindo junto com o surgimento dos primeiros computadores pessoais, novos sistemas e novas redes de computadores, etc.
 
