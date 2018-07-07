@@ -115,7 +115,7 @@ Em outros write ups já falei sobre a famigerada stack. Se você não faz ideia 
 
 No ínicio do processo, a função main vai ser executada e jogar suas variáveis na stack:
 
-<img class="size-full wp-image-1410" src="https://brenn0.files.wordpress.com/2017/01/narnia3_1.png" alt="Um lindo desenho." width="147" height="147" />
+<img class="size-full wp-image-1410" src="https://image.ibb.co/ceNeHJ/narnia3_1.png" alt="Um lindo desenho." width="147" height="147" />
 
 Como sabemos, as variáveis não inicializadas apenas terão espaço reservado, por isso fiz referência a elas pelo nome e, no caso de ofile, usei seu valor "/dev/null".
 
