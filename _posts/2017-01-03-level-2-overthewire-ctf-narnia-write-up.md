@@ -80,7 +80,7 @@ Quando insiro 150 B's e o programa só tem reservado no stack espaço para 128 d
 
 Logo, assim que 128 B's lotam o espaço reservado pela variavel buf, os outros 22 B's sobreescrevem o que vem em seguida e entre esses dados sobreescritos está o endereço de retorno.
 
-<img class="size-full wp-image-1366" src="https://brenn0.files.wordpress.com/2016/12/stack_frame.jpg" alt="Créditos pela imagem: http://www.crimesciberneticos.com/2011/03/exploiting-buffer-overflow.html" width="400" height="241" />
+<img class="size-full wp-image-1366" src="https://image.ibb.co/b6jbxJ/stack_frame.jpg" alt="Créditos pela imagem: http://www.crimesciberneticos.com/2011/03/exploiting-buffer-overflow.html" width="400" height="241" />
 
 É importante que entendas sobre o funcionamento do stack, então, reforço que não ignores <a href="http://www.crimesciberneticos.com/2011/03/exploiting-buffer-overflow.html">este</a> link e pesquise mais pela internet se houver dúvidas.
 
