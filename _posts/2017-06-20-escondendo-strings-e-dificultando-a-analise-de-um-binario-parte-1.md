@@ -8,7 +8,7 @@ categories: [Hacking]
 ---
 Em um belo e aleatório dia, resolvi que iria criar desafios para um CTF inexistente. Sem grandes pretensões. Tinha apenas a intenção de aprender como resolver os desafios criados por outros seres, já que tentar recriar os mecanismos de segurança que se quer burlar pode ser uma ótima forma de aprender a alcançar tal feito.
 
-<img class="wp-image-1477 size-full" src="https://brenn0.files.wordpress.com/2017/06/arcane_bullshit.png" alt="" width="517" height="245" />
+<img class="wp-image-1477 size-full" src="https://image.ibb.co/iykMWd/arcane_bullshit.png" alt="" width="517" height="245" />
 
 Meu objetivo inicial foi criar um leve binário no linux que recebesse uma senha como entrada e, se a senha estivesse correta, imprimisse a flag.
 
