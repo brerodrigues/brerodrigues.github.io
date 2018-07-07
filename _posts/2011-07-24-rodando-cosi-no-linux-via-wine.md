@@ -8,7 +8,7 @@ categories: [Hacking]
 ---
 Eu pretendia escrever um post falando sobre a minha demora pra pôr atualizações aqui mas não tô muito afim pra falar a verdade, então resolvi postar uma coisa rapidinha aqui: como fazer o <strong>COSI</strong> rodar via wine.
 
-<p style="text-align:center;"><img src="http://brenn0.files.wordpress.com/2011/07/255245.jpg" alt="" width="247" height="344" />
+<p style="text-align:center;"><img src="https://image.ibb.co/b1vFbo/255245.jpg" alt="" width="247" height="344" />
 
 COSI é uma ferramenta de compressão e descompressão de que tipo de arquivos especificamente eu não sei, mas só sei que ela é muito usada pra descomprimir jogos de Playstation 1 ripados, e como eu gosto de jogar aqueles jogos velhos e lembrar da época em que eu era apenas uma criança <del>sociopata</del> inocente que ficava feliz em ter novos cds, uso essa ferramenta sempre. O grande problema agora que aparentemente eu migrei pra o Ubuntu de vez, é que eu não encontrei ferramenta similar que rodasse no meu linux. Mas antes de desistir e procurar por algum pornô barato na net resolvi persistir. Primeiro eu tentei fazer o que me parecia mais lógico: rodar essa porra via wine claro, mas ele não abria de maneira alguma, parecia que o pornô seria minha única opção da noite...
 
