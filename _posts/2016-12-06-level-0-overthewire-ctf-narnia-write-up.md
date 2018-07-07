@@ -68,7 +68,7 @@ Em um programa de computador, variáveis são declaradas. Estas variáveis preci
 
 A Stack (tem gente que chama de Call Stack, mas somos íntimos) é uma região da memória que guarda dados. Estes dados são guardados como se estivessem empilhados um por cima do outro (daí o nome stack, pilha) e a regra para eles é conhecida como <strong>LIFO</strong>, que significa Last in, First Out (última a entrar, primeira a sair). Ou seja, o processo joga uma variável no stack, duas, três, quatro e cinco. E assim que elas ficam organizadas:
 
-<img class="size-full wp-image-1328" src="https://brenn0.files.wordpress.com/2016/12/stack.gif" alt="Imagem roubada de: http://www.electronics.dit.ie/staff/tscarff/stack/stack.htm" width="224" height="253" />
+<img class="size-full wp-image-1328" src="https://preview.ibb.co/j8HJBd/stack.gif" alt="Imagem roubada de: http://www.electronics.dit.ie/staff/tscarff/stack/stack.htm" width="224" height="253" />
 
 Agora já tens ideia de como os dados ficam no stack, certo?
 
@@ -78,7 +78,7 @@ O stack frame de uma função fica responsável por guardar as variáveis locai
 
 Vamos a função main do narnia0. No ínicio ela declara val e guarda nela o valor 0x41414141. Logo depois, declara um vetor de 20 chars. No stack, isso fica assim:
 
-<img class="size-full wp-image-1336" src="https://brenn0.files.wordpress.com/2016/12/stack_horrivel3.png" alt="Antes de scanf copiar a entrada para buf." width="233" height="139" />
+<img class="size-full wp-image-1336" src="https://image.ibb.co/mT1Zjy/stack_horrivel3.png" alt="Antes de scanf copiar a entrada para buf." width="233" height="139" />
 
 Mesmo que, quando a função main seja chamada, buf ainda não tenha um valor definido, o processo precisa reservar espaço no stack para receber esse valor.
 
@@ -97,7 +97,7 @@ WAY OFF!!!!
 
 Exatamente. É assim que o stack vai ficar quando scanf mandar para a memória 4 caracteres a mais do que o que foi reservado para buf:
 
-<img class="size-full wp-image-1337" src="https://brenn0.files.wordpress.com/2016/12/stack_horrivel2.png" alt="Os 4 B's extras são empurrados e atropelam val." width="224" height="140" />
+<img class="size-full wp-image-1337" src="https://image.ibb.co/evAGxJ/stack_horrivel2.png" alt="Os 4 B's extras são empurrados e atropelam val." width="224" height="140" />
 
 O valor de val é sobreescrito porque o programa calculou errado o quanto de espaço seria necessário. Isso se chama <a href="https://pt.wikipedia.org/wiki/Transbordamento_de_dados">Buffer Overflow</a>. E aí que tá a chance de alterar val mesmo que o programa não nos dê uma opção direta.
 
