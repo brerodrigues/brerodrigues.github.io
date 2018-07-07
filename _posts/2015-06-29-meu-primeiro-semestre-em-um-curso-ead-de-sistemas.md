@@ -12,7 +12,7 @@ E isso não foi uma coincidência, senhores.
 
 Entrei de cabeça nessa coisa de cursar uma faculdade. Confesso que a preguiça de vir aqui toda semana também tem uma parcela de culpa, mas ter levado a sério meu primeiro semestre como aluno do ensino superior é a maior razão pelo hiato de posts.
 
-<a href="https://brenn0.files.wordpress.com/2015/06/collegesenior.png"><img class="aligncenter size-full wp-image-1178" src="https://brenn0.files.wordpress.com/2015/06/collegesenior.png" alt="collegesenior" width="325" height="323" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/06/collegesenior.png"><img class="aligncenter size-full wp-image-1178" src="https://image.ibb.co/mHKyBd/collegesenior.png" alt="collegesenior" width="325" height="323" /></a>
 
 Como forma de redenção, venho relatar como foi essa experiência. E também acho legal poder escrever sobre o assunto da modalidade da Educação a Distância, já que quando comecei não achei muita coisa útil.
 
@@ -30,13 +30,13 @@ O primeiro contato
 
 Com meu número de matrícula e senha, fui até o <a href="http://portal.estacio.br/" target="_blank">http://portal.estacio.br/</a>. Assim que consegui o acesso, me deparo com a página inicial.
 
-<a href="https://brenn0.files.wordpress.com/2015/06/1.png"><img class="aligncenter size-large wp-image-1176" src="https://brenn0.files.wordpress.com/2015/06/1.png?w=676" alt="1" width="676" height="354" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/06/1.png"><img class="aligncenter size-large wp-image-1176" src="https://preview.ibb.co/ePpn4y/1.png" alt="1" width="676" height="354" /></a>
 
 Achei tudo bem intuitivo e logo cliquei na visível opção que me permitiu conferir o manual do aluno. Foi nele que descobri que essa página inicial é meu "<strong>Campus Virtual</strong>". É nela que eu agendaria provas, atendimentos, verificaria notas, renovaria matricula, consultaria o acervo da biblioteca... Essas coisas que vocês podem sacar na foto.
 
 No manual também descobri que para acessar minhas aulas, seria preciso ir em outro endereço. Esse endereço seria o <a href="http://estacio.webaula.com.br/" target="_blank">http://estacio.webaula.com.br/</a>.  Entrando nessa página, usei minha matrícula e senha para logar novamente e encontrei esta página inicial:
 
-<a href="https://brenn0.files.wordpress.com/2015/06/2.png"><img class="aligncenter size-large wp-image-1177" src="https://brenn0.files.wordpress.com/2015/06/2.png?w=676" alt="2" width="676" height="353" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/06/2.png"><img class="aligncenter size-large wp-image-1177" src="https://image.ibb.co/hMMZjy/2.png" alt="2" width="676" height="353" /></a>
 
 Na época, esse slide central de notícias continha um link para o <strong>manual do aluno EAD</strong>. Nele encontrei muita informação útil e tive uma ideia geral de como tudo iria funcionar.
 
@@ -46,7 +46,7 @@ Eu poderia passar bem mais tempo descrevendo em detalhes todo o sistema, mas dei
 
 Durante o primeiro mês estava adorando a nova forma de estudar. <strong>Sem precisar sair de casa? Sem ter que encarar a faculdade? Uma beleza!</strong>
 
-<a href="https://brenn0.files.wordpress.com/2015/06/635572235021565930-304000212_crazy-cat-lady-meme-generator-i-love-online-classes-i-never-have-to-leave-my-cat-97c531-jpg.png"><img class="aligncenter size-full wp-image-1186" src="https://brenn0.files.wordpress.com/2015/06/635572235021565930-304000212_crazy-cat-lady-meme-generator-i-love-online-classes-i-never-have-to-leave-my-cat-97c531-jpg.png" alt="635572235021565930-304000212_crazy-cat-lady-meme-generator-i-love-online-classes-i-never-have-to-leave-my-cat-97c531.jpg" width="510" height="510" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/06/635572235021565930-304000212_crazy-cat-lady-meme-generator-i-love-online-classes-i-never-have-to-leave-my-cat-97c531-jpg.png"><img class="aligncenter size-full wp-image-1186" src="https://image.ibb.co/hAxqPy/635572235021565930_304000212_crazy_cat_lady_meme_generator_i_love_online_classes_i_never_have_to_leave_my_cat_97c531_jpg.png" alt="635572235021565930-304000212_crazy-cat-lady-meme-generator-i-love-online-classes-i-never-have-to-leave-my-cat-97c531.jpg" width="510" height="510" /></a>
 
 As cadeiras são formadas por <strong>10 aulas</strong>. Para cada aula, há um <strong>conteúdo em texto</strong> (não tipo um livro, são mais slides interativos), <strong>uma vídeoaula</strong> que dura de 30 a 50 minutos, dependendo do professor, e no fim <strong>um questionário</strong>. Em muitas aulas dispensei a vídeoaula e fiquei apenas com o conteúdo textual. Pelo que aprendi, eles não se completam. O professor apenas explica e, normalmente, põe em prática o que foi ensinado nos textos. Creio que a decisão sobre dispensar as aulas em vídeo seja pessoal e também dependa de que cadeira estamos falando. Por exemplo, dispensei os vídeos de fundamentos de sistema da informação porque os assuntos são completamente teóricos, mas aproveitei muito os de lógica matemática, que cobra bem mais prática que teoria.
 
@@ -54,7 +54,7 @@ As cadeiras são formadas por <strong>10 aulas</strong>. Para cada aula, há um 
 
 Gostei do player usado para a reprodução dos vídeos. Ele divide a tela em duas, mostrando o professor de um lado, e o slide do outro. Dá a opção de criar notas, baixar um mp3 com o áudio das aulas, dentre outras opções que não achei tão úteis. Talvez sejam para você.
 
-<a href="https://brenn0.files.wordpress.com/2015/06/3.png"><img class="aligncenter size-large wp-image-1181" src="https://brenn0.files.wordpress.com/2015/06/3.png?w=676" alt="3" width="676" height="332" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/06/3.png"><img class="aligncenter size-large wp-image-1181" src="https://image.ibb.co/gZkYcJ/3.png" alt="3" width="676" height="332" /></a>
 
 Na janela onde vemos os vídeos, o conteúdo de texto e os questionários, há um cabeçalho com ícones que oferecem várias opções. Algumas delas são: criar notas, colocar um marcador, acessar um fórum de dúvidas (nesse fórum você não pode postar, lá são listadas algumas dúvidas comuns e suas respectivas respostas), acessar o fórum real (mais sobre ele depois), acessar um sistema de chat de ajuda... Não usei quase nenhuma dessas opções e as que usei não há muito o que se falar, como por exemplo o sistema de criação e armazenamento de notas que é bastante simples e um pouco falho (não me deixou salvar as anotações feitas com símbolos como , o que deve ser uma medida de segurança, claro, mas limitou as notas).
 
@@ -70,7 +70,7 @@ Digo temidos porque, como qualquer calouro pouco sociável, me senti um pouco an
 
 E eu achando que o EAD ia fazer com que me livrasse das interações... Mesmo assim, melhor que uma sala cheia, certo?
 
-<a href="https://brenn0.files.wordpress.com/2015/06/bragging-about-being-an-introvert-is-the-newest-form-of-attention-whore-36634.jpg"><img class="aligncenter size-full wp-image-1184" src="https://brenn0.files.wordpress.com/2015/06/bragging-about-being-an-introvert-is-the-newest-form-of-attention-whore-36634.jpg" alt="bragging-about-being-an-introvert-is-the-newest-form-of-attention-whore-36634" width="347" height="346" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/06/bragging-about-being-an-introvert-is-the-newest-form-of-attention-whore-36634.jpg"><img class="aligncenter size-full wp-image-1184" src="https://image.ibb.co/m3CDcJ/bragging_about_being_an_introvert_is_the_newest_form_of_attention_whore_36634.jpg" alt="bragging-about-being-an-introvert-is-the-newest-form-of-attention-whore-36634" width="347" height="346" /></a>
 
 Eles dividem os fóruns de cada cadeira em 4. <strong>Há o fórum A (da aula 1 a 3), B (aula 4 e 5), C (aula 6 a 8) e D (já percebeu onde isso vai dar, né?)</strong>. Você pode participar de todos, mas sua participação só será julgada e pontuada em 2 deles: o A ou o B, e o C ou o D. Confuso? Calma...
 
@@ -82,7 +82,7 @@ Mas confesso que, após terminar esse semestre, percebi o quanto é fácil ter s
 
 Normalmente, no primeiro post do fórum, há as regras e blá blá e, logo depois, o professor faz um questionamento sobre os assuntos das aulas. Eles prezam bastante que, além de dar uma resposta coerente, você cite fontes. <strong>CITE FONTES!</strong> Já perdi valiosas estrelinhas por ter respondido a um questionamento apenas usando o que veio da mente. Quando o professor cobrou fontes, inventei que tinha pego de uns três sites e coloquei os links. Tudo pelas benditas estrelas. Psiu! Não conte a ninguém.
 
-<a href="https://brenn0.files.wordpress.com/2015/06/57452050.jpg"><img class="size-full wp-image-1185" src="https://brenn0.files.wordpress.com/2015/06/57452050.jpg" alt="Professores nos fóruns." width="400" height="400" /></a> Professores nos fóruns.
+<a href="https://brenn0.files.wordpress.com/2015/06/57452050.jpg"><img class="size-full wp-image-1185" src="https://image.ibb.co/nDZRxJ/57452050.jpg" alt="Professores nos fóruns." width="400" height="400" /></a> Professores nos fóruns.
 
 Eles prezam muito também que se interaja com os coleguinhas. <strong>Se aproveite quando alguém postar alguma dúvida ou postar uma informação incompleta.</strong> Capitalize na cabeça dos pobres! HAHA. Zoeira. Quer dizer, você ganha as estrelas e ainda ajuda os coleguinhas. Que mal tem se todo mundo ganha? (essa frase se parece com algo que alguém mal falaria tentando se convencer que é boa coisa) E no fundo vale a pena ajudar a galera. Das poucas pessoas que conheci, a maioria foi bastante legal.
 
@@ -92,7 +92,7 @@ E como estudar sem professor? Como administrar o tempo? Fudeu! Não consigo!
 
 A maioria se pergunta isso antes de embarcar no EAD. Até me perguntei no começo. Mas fiquem tranquilos, não há drama.
 
-<a href="https://brenn0.files.wordpress.com/2015/06/37503813.jpg"><img class="wp-image-1187 size-full" src="https://brenn0.files.wordpress.com/2015/06/37503813.jpg" alt="37503813" width="500" height="332" /></a> Também não será bem assim.
+<a href="https://brenn0.files.wordpress.com/2015/06/37503813.jpg"><img class="wp-image-1187 size-full" src="https://image.ibb.co/eezRxJ/37503813.jpg" alt="37503813" width="500" height="332" /></a> Também não será bem assim.
 
 Claro que tudo irá depender da sua capacidade e força de vontade. Não esqueçam que as pessoas que escolhem fazer o curso presencial passam umas 4 horas por dia em sala de aula durante 5 dias por semana. 20 horas de estudo por semana.
 
