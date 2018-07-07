@@ -10,7 +10,7 @@ Lhes trago uma curta postagem, mas com informação suficiente para passar algum
 
 Depois dessa introdução com cara de propaganda ruim, deixe-me explicar, para os que não sabem, o que é a tal <em>e-zine.</em>
 
-<a href="https://brenn0.files.wordpress.com/2015/01/aaapoooosssttt.png"><img class=" wp-image-1075 aligncenter" src="https://brenn0.files.wordpress.com/2015/01/aaapoooosssttt.png?w=300" alt="aaapoooosssttt" width="408" height="166" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/01/aaapoooosssttt.png"><img class=" wp-image-1075 aligncenter" src="https://image.ibb.co/h4cE2T/aaapoooosssttt.png" alt="aaapoooosssttt" width="408" height="166" /></a>
 
 De acordo com <a href="http://en.wikipedia.org/wiki/Online_magazine" target="_blank" rel="noopener">esta página</a> do wikipedia gringo, uma <em>e-zine</em> é uma revista digital publicada atráves da internet por meio de (extintos?) <a href="http://pt.wikipedia.org/wiki/Bulletin_board_system" target="_blank" rel="noopener">BBSs</a> ou outras formas de publicação permitidas pela <a href="http://pt.wikipedia.org/wiki/Internet" target="_blank" rel="noopener">grande rede de computadores</a>.
 
@@ -20,7 +20,7 @@ Ok, depois dessa definição estilo dicionário e não tão esclarecedora, irei 
 
 Elas eram escritas por uma rapaziada que não tinha a intenção de ganhar grana (uma faminha sim, talvez, quem não quer ser <strong>O</strong> hackudão, né?). Eram feitas pelo simples prazer de compartilhar informações e toda aquela (hoje em dia pode-se dizer útopica?) filosofia hacker pura.
 
-<a href="https://brenn0.files.wordpress.com/2015/01/vivendo_ahcking.png"><img class=" wp-image-1078 aligncenter" src="https://brenn0.files.wordpress.com/2015/01/vivendo_ahcking.png?w=300" alt="vivendo_ahcking" width="410" height="331" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/01/vivendo_ahcking.png"><img class=" wp-image-1078 aligncenter" src="https://image.ibb.co/hm28U8/vivendo_ahcking.png" alt="vivendo_ahcking" width="410" height="331" /></a>
 
 Algumas contém informações realmente ultrapassadas, afinal, a tecnologia evolui. Umas são do fim dos anos 90 e outras datadas de 2006 (nem parece tanto tempo, mas já fazem quase dez anos que 2006 se foi). Mesmo assim, há um monte de artigos ainda úteis hoje em dia e, arrisco dizer, há alguns que sejam únicos.
 
