@@ -13,7 +13,7 @@ E com esse tipo de sinopse misteriosa que sempre me atrai, <a href="http://www.i
 
 Um drama de 85 minutos diferente de tudo que já vi é a indicação que lhe trago hoje.
 
-[caption id="attachment_1135" align="aligncenter" width="570"]<a href="http://youtu.be/2Ao2r6qD22A"><img class="wp-image-1135 size-full" src="https://brenn0.files.wordpress.com/2015/02/locke-movie-poster-570x427.jpg" alt="locke-movie-poster-570x427" width="570" height="427" /></a> Clique na imagem para ver o trailer.[/caption]
+[caption id="attachment_1135" align="aligncenter" width="570"]<a href="http://youtu.be/2Ao2r6qD22A"><img class="wp-image-1135 size-full" src="https://image.ibb.co/iqcwxJ/locke_movie_poster_570x427.jpg" alt="locke-movie-poster-570x427" width="570" height="427" /></a> Clique na imagem para ver o trailer.[/caption]
 
 Não serei aquele cara chato pseudo-intelectual que dirá que esse filme não é para todos, mas serei o amigo que dirá que ele não será tão atraente para fãs de ação, tiros e explosões. Se você provavelmente quer só relaxar e dar umas risadas, claro que não irá ver um drama, muito menos um em que todo o filme se passa dentro de um carro e você só verá um único ator.
 
@@ -29,7 +29,7 @@ No decorrer da história iremos entender tudo.
 
 Fazendo ligações para sua família e trabalho enquanto dirige para o seu destino, Ivan irá nos fazer pensar sobre vários assuntos. Acredito que essa parte seja uma experiência bem pessoal, mas iremos poder refletir sobre as fragilidades da vida, nossas vontades de controlar tudo, o que nos prende e nos faz agir da forma que agimos... Enfim, uma caralhada de coisas que provavelmente vai mudar um pouco de espectador para espectador.
 
-<a href="https://brenn0.files.wordpress.com/2015/02/locke.jpg"><img class="aligncenter size-full wp-image-1136" src="https://brenn0.files.wordpress.com/2015/02/locke.jpg" alt="Locke" width="640" height="326" /></a>
+<a href="https://brenn0.files.wordpress.com/2015/02/locke.jpg"><img class="aligncenter size-full wp-image-1136" src="https://image.ibb.co/iYu9HJ/locke.jpg" alt="Locke" width="640" height="326" /></a>
 
 Como encaramos nossa vida tem relações com traumas passados que muitas vezes ignoramos? Não gostamos de reconhecer a fragilidade do que nos rodeia e ignoramos o fato da vida ser algo tão instável que tem maneiras (as vezes terrivelmente) irônicas de virar de cabeça pra baixo?
 
