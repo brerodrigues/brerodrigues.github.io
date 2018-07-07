@@ -10,7 +10,7 @@ Nessa última semana, não lembro exatamente como, mas esbarrei com o site deste
 
 O que ele propõe é bem contrário ao que vemos hoje.<strong> Ele sugere que você compartilhe um pedacinho da sua internet criando uma rede WiFi aberta</strong>. Isso mesmo, aberta para qualquer um por perto usar.
 
-<a href="https://brenn0.files.wordpress.com/2014/07/open-wireless-router-firmware-download-security.jpg"><img class="size-large wp-image-1022" src="http://brenn0.files.wordpress.com/2014/07/open-wireless-router-firmware-download-security.jpg?w=676" alt="Compartilha sua internet com o mundo." width="676" height="417" /></a>
+<a href="https://brenn0.files.wordpress.com/2014/07/open-wireless-router-firmware-download-security.jpg"><img class="size-large wp-image-1022" src="https://preview.ibb.co/gg5ujy/open_wireless_router_firmware_download_security.jpg" alt="Compartilha sua internet com o mundo." width="676" height="417" /></a>
 
 Caso você saia procurando, dificilmente encontrará redes abertas (até mesmo as de estabelecimentos como restaurantes usam uma senha para apenas compartilha-la com os consumidores).
 
@@ -30,7 +30,7 @@ Maaaas nem só de ideais vive o homem. Mesmo sendo algo bonito a se fazer, essa 
 
 Ao permitir que terceiros convivam na mesma rede que você, corre-se o risco de que algum espírito de porco tente se aproveitar. Caso esse ser consiga ter sucesso em um ataque do tipo <a href="http://www.vivaolinux.com.br/artigo/ARP-Poisoning-compreenda-os-principios-e-defendase" target="_blank">ARP Poisoning</a>, é possível que ele <strong>intercepte e até modifique as conexões de todos que estão ligados a rede</strong> (configurando o ataque denominado <a href="https://pt.wikipedia.org/wiki/Ataque_man-in-the-middle" target="_blank">Man-in-the-middle)</a>. Pode-se obter senhas, suas conversas no Facebook... Tudo que você e as outras pessoas conectadas estejam enviando e recebendo. Sem falar que também é possível a falsificação de dados, como fazer que você seja redirecionado a uma página falsa ao entrar no site do seu banco, por exemplo. Enfim, a imaginação é o limite e esse é o mais perigoso dos riscos.
 
-<a href="https://brenn0.files.wordpress.com/2014/07/attaque_man_in_the_middle.jpg"><img class="wp-image-1017 size-full" src="http://brenn0.files.wordpress.com/2014/07/attaque_man_in_the_middle.jpg" alt="Um ataque Man-in-the-middle ilustrado. (De forma passiva, o atacante apenas escuta todas as conexões. De forma ativa, ele escuta e ainda altera as mesmas." width="495" height="314" /></a>
+<a href="https://brenn0.files.wordpress.com/2014/07/attaque_man_in_the_middle.jpg"><img class="wp-image-1017 size-full" src="https://image.ibb.co/g8APHJ/attaque_man_in_the_middle.jpg" alt="Um ataque Man-in-the-middle ilustrado. (De forma passiva, o atacante apenas escuta todas as conexões. De forma ativa, ele escuta e ainda altera as mesmas." width="495" height="314" /></a>
 
 Obviamente não queremos que ninguém conectado a nossa rede possa fazer isso, certo?
 
@@ -46,13 +46,13 @@ Provavelmente aí na sua rede doméstica seu roteador esteja configurado com um 
 
 Você terá que reservar <a href="http://tecnologia.hsw.uol.com.br/questao549.htm" target="_blank">endereços IP</a>s fixos para cada dispositivo pessoal (seu notebook, desktop, celular... A porra toda). Não é algo complicado de se fazer. Ao ir nas configurações do pequeno servidor DHCP do roteador, é necessário que se conheça o <a href="http://www.tecmundo.com.br/5483-o-que-e-um-endereco-mac-e-como-fazer-para-descobri-lo-no-seu-computador-ou-smartphone.htm" target="_blank">endereço MAC</a> do dispositivo que queira dar um IP e pronto.
 
-<a href="https://brenn0.files.wordpress.com/2014/07/1.png"><img class="wp-image-1018 size-full" src="http://brenn0.files.wordpress.com/2014/07/1.png" alt="1" width="578" height="223" /></a>
+<a href="https://brenn0.files.wordpress.com/2014/07/1.png"><img class="wp-image-1018 size-full" src="https://image.ibb.co/gMbmWd/1.png" alt="1" width="578" height="223" /></a>
 
 Talvez seja preciso verificar o manual do seu roteador ou, infelizmente, caso você não sabia da metade do que falei, <a href="https://duckduckgo.com/" target="_blank">pedir ajuda a alguém</a>.
 
 Feito isso, agora é só ir nas configurações de associação ARP e dizer ao seu roteador que determinado endereço IP pertence a tal endereço MAC. Pronto, agora ele nunca mais será enganado por pessoas maldosas.
 
-<a href="https://brenn0.files.wordpress.com/2014/07/2.png"><img class="aligncenter size-large wp-image-1019" src="http://brenn0.files.wordpress.com/2014/07/2.png?w=676" alt="2" width="676" height="255" /></a>
+<a href="https://brenn0.files.wordpress.com/2014/07/2.png"><img class="aligncenter size-large wp-image-1019" src="https://preview.ibb.co/d2bycJ/2.png" alt="2" width="676" height="255" /></a>
 
 Ha, antes que eu esqueça, isso irá proteger apenas os dispositivos que estiverem nesta lista (os seus, no caso). As outras pessoas que virão usar seu WiFi irão ficar vulneráveis, a menos que você faça esse processo para elas também, o que é inviável caso sejam estranhos. O que podemos fazer é apenas torcer para que elas sejam inteligentes e usem conexões criptografadas como <a href="https://pt.wikipedia.org/wiki/HTTPS" target="_blank">SSL/TSL</a> e <a href="https://pt.wikipedia.org/wiki/SSH" target="_blank">SSH</a> (<strong>quem em sã consciência não faz isso em uma rede WiFi pública??</strong>).
 
@@ -66,7 +66,7 @@ A configuração também pode depender de roteador para roteador (cheque o manua
 
 Suponho que você já tenha configurado endereços de IPs fixos para seus dispositivos, deixando o resto disponível para o uso geral. Após isso, o processo é simples: definir toda a faixa de ip restante e limitar o quanto da sua banda eles poderão usar. Depois disso não precisa se preocupar, pois sua conexão nunca irá ficar lenta por causa do uso e abuso de alguém.
 
-<a href="https://brenn0.files.wordpress.com/2014/07/4.png"><img class="wp-image-1021 size-large" src="http://brenn0.files.wordpress.com/2014/07/4.png?w=676" alt="4" width="676" height="196" /></a> 10% da minha conexão para o povão.
+<a href="https://brenn0.files.wordpress.com/2014/07/4.png"><img class="wp-image-1021 size-large" src="https://preview.ibb.co/gxqrxJ/4.png" alt="4" width="676" height="196" /></a> 10% da minha conexão para o povão.
 
 
 
