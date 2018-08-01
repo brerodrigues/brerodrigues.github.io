@@ -1,9 +1,9 @@
 ---
-categories: Uncategoried
-layout: post
-published: false
-tags: 
-title: Unnamed
+layout: default
+title: Valentine [Hack The Box] write-up
+author: brennords
+comments: true
+tags: [Hack The Box]
 ---
 ![](https://github.com/brerodrigues/brerodrigues.github.io/raw/master/assets/img/valentine.png)
 
