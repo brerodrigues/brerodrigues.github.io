@@ -2,7 +2,7 @@
 layout: default
 title: Valentine [Hack The Box] write-up
 author: brennords
-comments: true
+categories: [CTFs]
 tags: [Hack The Box]
 ---
 ![](https://github.com/brerodrigues/brerodrigues.github.io/raw/master/assets/img/valentine.png)
