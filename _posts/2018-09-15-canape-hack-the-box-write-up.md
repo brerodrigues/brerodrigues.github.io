@@ -85,13 +85,13 @@ O diretório static contém os arquivos css e js e o templates os arquivos html.
 
 <script src="https://gist.github.com/brerodrigues/257d98376eb085e46c49d0de5625b05f.js"></script>
 
-Podemos ver que na parte do "submit quotes", é feita uma verificação do nome do personagem de acordo com uma lista e, se ele estiver na lista, é criado um arquivo em /tmp com o nome formado por um hash md5 do nome do personagem e a citação e a extensão .p.
+Podemos ver que na parte do "submit quotes", é feita uma verificação do nome do personagem de acordo com uma lista e, se ele estiver na lista, é criado um arquivo em /tmp com o nome formado por um hash md5 do nome do personagem e a citação, e a extensão .p.
 
-É possível também analisar o que /check faz, que é bem simples: recebe via paramêtro 'id' o md5, lê o arquivo, se "p1" estiver no arquivo, carrega o conteúdo do mesmo usando um tal de cPickle que eu ainda não fazia ideia direito do que era, e se não encontrar "p1", não usa o cPickle e no fim retorna um "Still reviewing " + a citação que enviamos.
+É possível também analisar o que /check faz, que é bem simples: recebe via paramêtro 'id' o md5, lê o arquivo, se "p1" estiver no arquivo, carrega o conteúdo do mesmo usando um tal de cPickle que eu ainda não fazia ideia o que era, e se não encontrar "p1", não usa o cPickle e no fim retorna um "Still reviewing " + a citação que enviamos.
 
-Outras informações úteis foi descobrir que o site usa um servidor couchdb, o nome do banco e tal. Coisas que podem ser úteis num futuro.
+Outras informações úteis foi descobrir que o site usa um servidor couchdb, o nome do banco e tal. Coisas que podiam ser úteis num futuro.
 
-Fui pesquisar sobre o tal cPickle e descobri que o mesmo é usado para serializar and de-serializar objetos em python. Isso costuma ser perigoso quando é feito com objetos que o usuário controla. A própria página (https://docs.python.org/2/library/pickle.html) alerta:
+Fui pesquisar sobre o tal cPickle e descobri que o mesmo é usado para serializar and de-serializar objetos em python. Isso costuma ser perigoso quando é feito com objetos que o usuário controla. [A própria página](https://docs.python.org/2/library/pickle.html) alerta:
 
 ```
 Warning
@@ -99,13 +99,13 @@ Warning
 The pickle module is not secure against erroneous or maliciously constructed data. Never unpickle data received from an untrusted or unauthenticated source.
 ```
 
-Não vou dar uma aula sobre de-serialização e essas porra porque não sou capaz, vale uma pesquisa no google sua para entender melhor.
+Não vou dar uma aula sobre de-serialização e essas porra porque não sou capaz, vale uma pesquisa sua no google para entender melhor.
 
-Então, pesquisando "cPickle exploit" no google encontramos formas de explorar o mal uso desse módulo e um esqueleto de exploit (https://gist.github.com/0xBADCA7/f4c700fcbb5fb8785c14)
+Então, pesquisando "cPickle exploit" no google encontramos formas de explorar o mal uso desse módulo e um [esqueleto de exploit] (https://gist.github.com/0xBADCA7/f4c700fcbb5fb8785c14).
 
 Desse esqueleto criei o exploit para o site. É um script bem mal feito mas que dá conta do recado.
 
-<script src="https://gist.github.com/brerodrigues/7e195b28078a80d6db98fe130686210f"></script>
+<script src="https://gist.github.com/brerodrigues/7e195b28078a80d6db98fe130686210f.js"></script>
 
 É alto explicativo, mas para os senhores que não se alto explicaram, aqui vai um resumo breve: crio um pickle venenoso contendo o comando para jogar uma shell reversa para meu ip, desse pickle venenoso monto a requisição para o /submit do site, que vai receber de boas e criar o arquivo. Como sabemos que é criado um md5 do nome do personagem + citação para ser usado como identificador, se cria uma string md5 com com os mesmos valores e se usa essa string para fazer a requisição para /check e ler nosso pickle venenoso e executar o comando.
 
@@ -142,7 +142,7 @@ www-data
 O usuário www-data não dá nem a flag do user. E, dando uma olhada no diretório /home pode-se ver que nosso alvo é o usuário homer.
 Depois de dar uma fuçada aqui ali, lembrar, após rodar um **netstat -l**, que havia um servidor de banco de dados rodando, pensei em ir nas configurações do servidor web e puxar as credenciais do banco. Poderia ter algo útil. Para minha surpresa, graças ao netstat, também observei um servidor SSH que o nmap não encontrou porque está rodando na porta 65535. Um script kiddie, como eu, rodando o nmap com as flags padrão também deixaria passar essa porta de entrada. Da próxima vez não custa nada deixar um nmap -p- rodando em background enquanto estou tentando outras coisas. Nunca se sabe.
 
-Voltando ao banco de dados: encontrei um rce para o mesmo que permite a criação de um usuário admin https://justi.cz/security/2017/11/14/couchdb-rce-npm.html
+Voltando ao banco de dados: encontrei um rce para o mesmo que permite a criação de um usuário admin [https://justi.cz/security/2017/11/14/couchdb-rce-npm.html](https://justi.cz/security/2017/11/14/couchdb-rce-npm.html)
 
 
 ```
@@ -152,13 +152,13 @@ $ curl -X PUT 'http://localhost:5984/_users/org.couchdb.user:ratf' --data-binary
 www-data@canape:/$
 ```
 
-Bom, agora com acesso adm ao banco, hora de ver o que havia guardado. Acessar os recursos do couchdb via curl foi trabalhoso porque no começo eu não fazia ideia do que realmente estava fazendo. Foi após de ler documentação (http://docs.couchdb.org/en/stable/intro/curl.html) atrás de documentação (http://guide.couchdb.org/draft/tour.html) que comecei a compreender como mandar umas querys. Logo mandei uma que me retornasse credenciais.
+Bom, agora com acesso adm ao banco, hora de ver o que havia guardado. Acessar os recursos do couchdb via curl foi trabalhoso porque no começo eu não fazia ideia do que realmente estava fazendo. Foi após ler [documentação](http://docs.couchdb.org/en/stable/intro/curl.html) atrás de [documentação](http://guide.couchdb.org/draft/tour.html) que comecei a compreender como mandar umas querys. Logo mandei uma que me retornasse credenciais.
 
 ```
 $ curl -X GET curl -X GET ‘http://ratf:password@localhost:5984/passwords/_all_docs?include_docs=true'
 ```
 
-Recebi como resposta um json nojento não formatado na tela. Após formata-lo, vi isso:
+Recebi como resposta um json nojento e não formatado na tela. Após formata-lo, vi isso:
 
 
 ```
@@ -245,7 +245,7 @@ User homer may run the following commands on canape:
     (root) /usr/bin/pip install *
 ```
 
-Uma pesquisa rápida por "pip privelege escalation" me trouxe isso: https://github.com/0x00-0x00/FakePip
+Uma pesquisa rápida por "pip privelege escalation" me trouxe isso: [https://github.com/0x00-0x00/FakePip](https://github.com/0x00-0x00/FakePip). É óbvio que rodar algo que execute comandos não deve ser rodado como root. A não ser que você deseje isso.
 Logo baixei o setup.py para meu computador, modifiquei para inserir o meu ip e porta para a shell reversa, subi o SimpleHttpServer para hospedar o setup.py e, da máquina invadida, mandei um wget:
 
 ```
