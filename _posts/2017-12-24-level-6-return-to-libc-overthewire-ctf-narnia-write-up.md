@@ -4,7 +4,7 @@ title: Level 6 - Return-to-libc [OverTheWire CTF - Narnia] write-up
 date: 2017-12-24 15:57
 author: brennords
 comments: true
-categories: [CTFs]
+categories: [CTFs, Favorites]
 tags: [Narnia]
 ---
 <ul>
