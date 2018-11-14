@@ -2,7 +2,7 @@
 layout: default
 title: Canape [Hack The Box] write-up
 author: brennords
-categories: [CTFs]
+categories: [CTFs, Favorites]
 tags: [Hack The Box]
 ---
 
