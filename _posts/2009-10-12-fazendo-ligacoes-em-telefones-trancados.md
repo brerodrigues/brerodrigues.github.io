@@ -4,7 +4,7 @@ title: Fazendo Ligações em Telefones Trancados
 date: 2009-10-12 15:03
 author: brennords
 comments: true
-categories: [Hacking]
+categories: [Hacking, Favorites]
 ---
 É um truque simples acho que um montão de gente já deve conheçer, mas para quem não conheçe pode ser útil, esse truque pode salvar uma vida =P imagina que você tá em casa morrendo de fome e não sabe cozinhar, o telefone está bem ali mas pôr estar trancado o priva de pedir uma pizza... Realmente trágico.
 
