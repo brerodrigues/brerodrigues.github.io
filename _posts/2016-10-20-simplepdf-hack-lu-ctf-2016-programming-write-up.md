@@ -4,7 +4,7 @@ title: SimplePDF - 10.000 PDF Unpackings [hack.lu CTF 2016 - Programming] Write-
 date: 2016-10-20 17:24
 author: brennords
 comments: true
-categories: [CTFs]
+categories: [CTFs, Favorites]
 ---
 Descrição:
 
