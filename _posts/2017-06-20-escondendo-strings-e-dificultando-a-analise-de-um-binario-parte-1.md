@@ -4,7 +4,7 @@ title: Escondendo strings e dificultando a análise de um binário [Parte 1]
 date: 2017-06-20 18:17
 author: brennords
 comments: true
-categories: [Hacking]
+categories: [Hacking, Favorites]
 ---
 Em um belo e aleatório dia, resolvi que iria criar desafios para um CTF inexistente. Sem grandes pretensões. Tinha apenas a intenção de aprender como resolver os desafios criados por outros seres, já que tentar recriar os mecanismos de segurança que se quer burlar pode ser uma ótima forma de aprender a alcançar tal feito.
 
