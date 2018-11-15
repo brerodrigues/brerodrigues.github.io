@@ -4,7 +4,7 @@ title: Straight Flush e uma demonstração do que eu já aprendi no poker
 date: 2012-05-08 21:54
 author: brennords
 comments: true
-categories: [Rant]
+categories: [Rant, Favorites]
 ---
 Jogando uma pequena sessão de sits-and-go hoje, me deparei com a seguinte situação:
 
