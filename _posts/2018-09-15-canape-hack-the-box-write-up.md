@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jerry [Hack The Box] write-up
+title: Canape [Hack The Box] write-up
 author: brennords
 categories: [CTFs, Favorites]
 tags: [Hack The Box]
