@@ -5,12 +5,9 @@ author: brennords
 categories: [CTFs]
 tags: [Hack The Box]
 ---
-
-![](https://raw.githubusercontent.com/brerodrigues/brerodrigues.github.io/master/assets/img/jerry_htb.jpg)
-
 Jerry é uma máquina windows nada díficil.
 
-[jerry1.png]
+![](https://raw.githubusercontent.com/brerodrigues/brerodrigues.github.io/master/assets/img/jerry_htb.jpg)
 
 Um scan do nmap padrão me fez verificar se estava mesmo conectado a vpn e se tinha algo errado com minha conexão.
 
