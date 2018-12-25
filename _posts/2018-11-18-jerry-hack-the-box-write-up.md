@@ -164,3 +164,5 @@ user.txt
 root.txt
 04a8b36e1545a455393d067e772fe90e
 ```
+
+Se tiver afim de ler o write-up de uma máquina menos fácil, dá uma sacada na [canape](https://brerodrigues.github.io/ctfs/favorites/canape-hack-the-box-write-up).
