@@ -229,7 +229,7 @@ echo "source ~/peda/peda.py" >> ~/.gdbinit
 echo "DONE! debug your program with gdb and enjoy"
 ```
 
-E não esqueça de dar uma olhada nos novos comandos que estarão disponíveis, serão úteis um dia: [https://github.com/longld/peda](https://github.com/longld/peda)
+E não esqueça de dar uma olhada nos novos comandos que estarão disponíveis, serão úteis um dia: [https://github.com/longld/peda](https://github.com/longld/peda). As próximas saídas do GDB serão cortadas para não exibir a caralhada de informações que o PEDA imprime a cada breakpoint.
  
 - *next*: executa proxima linha do binário (sem entrar em chamadas de função).
 
@@ -241,41 +241,20 @@ Starting program: /home/b/gdb_post/binario
 
 [----------------------------------registers-----------------------------------]
 RAX: 0x5555555546ca (<main>:	push   rbp)
-RBX: 0x0 
-RCX: 0x555555554750 (<__libc_csu_init>:	push   r15)
-RDX: 0x7fffffffe668 --> 0x7fffffffe9c0 ("LC_MEASUREMENT=pt_BR.UTF-8")
-RSI: 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-RDI: 0x1 
-RBP: 0x555555554750 (<__libc_csu_init>:	push   r15)
-RSP: 0x7fffffffe578 --> 0x7ffff7a05b97 (<__libc_start_main+231>:	mov    edi,eax)
-RIP: 0x5555555546ca (<main>:	push   rbp)
-R8 : 0x7ffff7dd0d80 --> 0x0 
-R9 : 0x7ffff7dd0d80 --> 0x0 
-R10: 0x0 
-R11: 0x0 
-R12: 0x5555555545c0 (<_start>:	xor    ebp,ebp)
-R13: 0x7fffffffe650 --> 0x1 
-R14: 0x0 
-R15: 0x0
+[...]
 EFLAGS: 0x246 (carry PARITY adjust ZERO sign trap INTERRUPT direction overflow)
 [-------------------------------------code-------------------------------------]
    0x5555555546c1 <frame_dummy+1>:	mov    rbp,rsp
    0x5555555546c4 <frame_dummy+4>:	pop    rbp
-   0x5555555546c5 <frame_dummy+5>:	
-    jmp    0x555555554630 <register_tm_clones>
-=> 0x5555555546ca <main>:	push   rbp
+   0x5555555546c5 <frame_dummy+5>:	jmp    0x555555554630 <register_tm_clones>
+*=> 0x5555555546ca <main>:	push   rbp*
    0x5555555546cb <main+1>:	mov    rbp,rsp
    0x5555555546ce <main+4>:	sub    rsp,0x20
    0x5555555546d2 <main+8>:	mov    DWORD PTR [rbp-0x14],edi
    0x5555555546d5 <main+11>:	mov    QWORD PTR [rbp-0x20],rsi
 [------------------------------------stack-------------------------------------]
 0000| 0x7fffffffe578 --> 0x7ffff7a05b97 (<__libc_start_main+231>:	mov    edi,eax)
-0008| 0x7fffffffe580 --> 0x1 
-0016| 0x7fffffffe588 --> 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-0024| 0x7fffffffe590 --> 0x100008000 
-0032| 0x7fffffffe598 --> 0x5555555546ca (<main>:	push   rbp)
-0040| 0x7fffffffe5a0 --> 0x0 
-0048| 0x7fffffffe5a8 --> 0xe169e4e8e633c51c 
+[...]
 0056| 0x7fffffffe5b0 --> 0x5555555545c0 (<_start>:	xor    ebp,ebp)
 [------------------------------------------------------------------------------]
 Legend: code, data, rodata, value
@@ -290,41 +269,20 @@ gdb-peda$ n
 
 [----------------------------------registers-----------------------------------]
 RAX: 0x5555555546ca (<main>:	push   rbp)
-RBX: 0x0 
-RCX: 0x555555554750 (<__libc_csu_init>:	push   r15)
-RDX: 0x7fffffffe668 --> 0x7fffffffe9c0 ("LC_MEASUREMENT=pt_BR.UTF-8")
-RSI: 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-RDI: 0x1 
-RBP: 0x555555554750 (<__libc_csu_init>:	push   r15)
-RSP: 0x7fffffffe570 --> 0x555555554750 (<__libc_csu_init>:	push   r15)
-RIP: 0x5555555546cb (<main+1>:	mov    rbp,rsp)
-R8 : 0x7ffff7dd0d80 --> 0x0 
-R9 : 0x7ffff7dd0d80 --> 0x0 
-R10: 0x0 
-R11: 0x0 
-R12: 0x5555555545c0 (<_start>:	xor    ebp,ebp)
-R13: 0x7fffffffe650 --> 0x1 
-R14: 0x0 
-R15: 0x0
+[...]
 EFLAGS: 0x246 (carry PARITY adjust ZERO sign trap INTERRUPT direction overflow)
 [-------------------------------------code-------------------------------------]
    0x5555555546c4 <frame_dummy+4>:	pop    rbp
-   0x5555555546c5 <frame_dummy+5>:	
-    jmp    0x555555554630 <register_tm_clones>
+   0x5555555546c5 <frame_dummy+5>:	jmp    0x555555554630 <register_tm_clones>
    0x5555555546ca <main>:	push   rbp
-=> 0x5555555546cb <main+1>:	mov    rbp,rsp
+*=> 0x5555555546cb <main+1>:	mov    rbp,rsp*
    0x5555555546ce <main+4>:	sub    rsp,0x20
    0x5555555546d2 <main+8>:	mov    DWORD PTR [rbp-0x14],edi
    0x5555555546d5 <main+11>:	mov    QWORD PTR [rbp-0x20],rsi
    0x5555555546d9 <main+15>:	mov    DWORD PTR [rbp-0x8],0x3e7
 [------------------------------------stack-------------------------------------]
 0000| 0x7fffffffe570 --> 0x555555554750 (<__libc_csu_init>:	push   r15)
-0008| 0x7fffffffe578 --> 0x7ffff7a05b97 (<__libc_start_main+231>:	mov    edi,eax)
-0016| 0x7fffffffe580 --> 0x1 
-0024| 0x7fffffffe588 --> 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-0032| 0x7fffffffe590 --> 0x100008000 
-0040| 0x7fffffffe598 --> 0x5555555546ca (<main>:	push   rbp)
-0048| 0x7fffffffe5a0 --> 0x0 
+[...]
 0056| 0x7fffffffe5a8 --> 0xe169e4e8e633c51c 
 [------------------------------------------------------------------------------]
 Legend: code, data, rodata, value
@@ -340,29 +298,13 @@ gdb-peda$
 
 [----------------------------------registers-----------------------------------]
 RAX: 0x0 
-RBX: 0x0 
-RCX: 0x555555554750 (<__libc_csu_init>:	push   r15)
-RDX: 0x7fffffffe668 --> 0x7fffffffe9c0 ("LC_MEASUREMENT=pt_BR.UTF-8")
-RSI: 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-RDI: 0x5555555547d4 ("Uso: %s [senha]\n")
-RBP: 0x7fffffffe570 --> 0x555555554750 (<__libc_csu_init>:	push   r15)
-RSP: 0x7fffffffe550 --> 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-RIP: 0x5555555546fc (<main+50>:	call   0x555555554590 <printf@plt>)
-R8 : 0x7ffff7dd0d80 --> 0x0 
-R9 : 0x7ffff7dd0d80 --> 0x0 
-R10: 0x0 
-R11: 0x0 
-R12: 0x5555555545c0 (<_start>:	xor    ebp,ebp)
-R13: 0x7fffffffe650 --> 0x1 
-R14: 0x0 
-R15: 0x0
+[...]
 EFLAGS: 0x246 (carry PARITY adjust ZERO sign trap INTERRUPT direction overflow)
 [-------------------------------------code-------------------------------------]
    0x5555555546ed <main+35>:	mov    rsi,rax
-   0x5555555546f0 <main+38>:	
-    lea    rdi,[rip+0xdd]        # 0x5555555547d4
+   0x5555555546f0 <main+38>:	lea    rdi,[rip+0xdd]        # 0x5555555547d4
    0x5555555546f7 <main+45>:	mov    eax,0x0
-=> 0x5555555546fc <main+50>:	call   0x555555554590 <printf@plt>
+*=> 0x5555555546fc <main+50>:	call   0x555555554590 <printf@plt>*
    0x555555554701 <main+55>:	mov    eax,0x1
    0x555555554706 <main+60>:	jmp    0x555555554745 <main+123>
    0x555555554708 <main+62>:	mov    rax,QWORD PTR [rbp-0x20]
@@ -372,12 +314,7 @@ arg[0]: 0x5555555547d4 ("Uso: %s [senha]\n")
 arg[1]: 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
 [------------------------------------stack-------------------------------------]
 0000| 0x7fffffffe550 --> 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-0008| 0x7fffffffe558 --> 0x1555545c0 
-0016| 0x7fffffffe560 --> 0x7fffffffe650 --> 0x1 
-0024| 0x7fffffffe568 --> 0x3e7 
-0032| 0x7fffffffe570 --> 0x555555554750 (<__libc_csu_init>:	push   r15)
-0040| 0x7fffffffe578 --> 0x7ffff7a05b97 (<__libc_start_main+231>:	mov    edi,eax)
-0048| 0x7fffffffe580 --> 0x1 
+[...]
 0056| 0x7fffffffe588 --> 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
 [------------------------------------------------------------------------------]
 Legend: code, data, rodata, value
@@ -386,41 +323,20 @@ gdb-peda$ s
 
 [----------------------------------registers-----------------------------------]
 RAX: 0x0 
-RBX: 0x0 
-RCX: 0x555555554750 (<__libc_csu_init>:	push   r15)
-RDX: 0x7fffffffe668 --> 0x7fffffffe9c0 ("LC_MEASUREMENT=pt_BR.UTF-8")
-RSI: 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-RDI: 0x5555555547d4 ("Uso: %s [senha]\n")
-RBP: 0x7fffffffe570 --> 0x555555554750 (<__libc_csu_init>:	push   r15)
-RSP: 0x7fffffffe548 --> 0x555555554701 (<main+55>:	mov    eax,0x1)
-RIP: 0x7ffff7a48e80 (<__printf>:	sub    rsp,0xd8)
-R8 : 0x7ffff7dd0d80 --> 0x0 
-R9 : 0x7ffff7dd0d80 --> 0x0 
-R10: 0x0 
-R11: 0x0 
-R12: 0x5555555545c0 (<_start>:	xor    ebp,ebp)
-R13: 0x7fffffffe650 --> 0x1 
-R14: 0x0 
-R15: 0x0
+[...]
 EFLAGS: 0x246 (carry PARITY adjust ZERO sign trap INTERRUPT direction overflow)
 [-------------------------------------code-------------------------------------]
-   0x7ffff7a48e6c <__fprintf+172>:	
-    call   0x7ffff7b18c80 <__stack_chk_fail>
+   0x7ffff7a48e6c <__fprintf+172>:	call   0x7ffff7b18c80 <__stack_chk_fail>
    0x7ffff7a48e71:	nop    WORD PTR cs:[rax+rax*1+0x0]
    0x7ffff7a48e7b:	nop    DWORD PTR [rax+rax*1+0x0]
-=> 0x7ffff7a48e80 <__printf>:	sub    rsp,0xd8
+*=> 0x7ffff7a48e80 <__printf>:	sub    rsp,0xd8*
    0x7ffff7a48e87 <__printf+7>:	test   al,al
    0x7ffff7a48e89 <__printf+9>:	mov    QWORD PTR [rsp+0x28],rsi
    0x7ffff7a48e8e <__printf+14>:	mov    QWORD PTR [rsp+0x30],rdx
    0x7ffff7a48e93 <__printf+19>:	mov    QWORD PTR [rsp+0x38],rcx
 [------------------------------------stack-------------------------------------]
 0000| 0x7fffffffe548 --> 0x555555554701 (<main+55>:	mov    eax,0x1)
-0008| 0x7fffffffe550 --> 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-0016| 0x7fffffffe558 --> 0x1555545c0 
-0024| 0x7fffffffe560 --> 0x7fffffffe650 --> 0x1 
-0032| 0x7fffffffe568 --> 0x3e7 
-0040| 0x7fffffffe570 --> 0x555555554750 (<__libc_csu_init>:	push   r15)
-0048| 0x7fffffffe578 --> 0x7ffff7a05b97 (<__libc_start_main+231>:	mov    edi,eax)
+[...]
 0056| 0x7fffffffe580 --> 0x1 
 [------------------------------------------------------------------------------]
 Legend: code, data, rodata, value
@@ -439,40 +355,20 @@ Continuing at 0x555555554746.
 
 [----------------------------------registers-----------------------------------]
 RAX: 0x5555555546ca (<main>:	push   rbp)
-RBX: 0x0 
-RCX: 0x555555554750 (<__libc_csu_init>:	push   r15)
-RDX: 0x7fffffffe668 --> 0x7fffffffe9c0 ("LC_MEASUREMENT=pt_BR.UTF-8")
-RSI: 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-RDI: 0x1 
-RBP: 0x555555554750 (<__libc_csu_init>:	push   r15)
-RSP: 0x7fffffffe578 --> 0x7ffff7a05b97 (<__libc_start_main+231>:	mov    edi,eax)
-RIP: 0x555555554746 (<main+124>:	ret)
-R8 : 0x7ffff7dd0d80 --> 0x0 
-R9 : 0x7ffff7dd0d80 --> 0x0 
-R10: 0x0 
-R11: 0x0 
-R12: 0x5555555545c0 (<_start>:	xor    ebp,ebp)
-R13: 0x7fffffffe650 --> 0x1 
-R14: 0x0 
-R15: 0x0
+[...]
 EFLAGS: 0x246 (carry PARITY adjust ZERO sign trap INTERRUPT direction overflow)
 [-------------------------------------code-------------------------------------]
    0x55555555473b <main+113>:	call   0x555555554580 <puts@plt>
    0x555555554740 <main+118>:	mov    eax,0x0
    0x555555554745 <main+123>:	leave  
-=> 0x555555554746 <main+124>:	ret    
+*=> 0x555555554746 <main+124>:	ret    *
    0x555555554747:	nop    WORD PTR [rax+rax*1+0x0]
    0x555555554750 <__libc_csu_init>:	push   r15
    0x555555554752 <__libc_csu_init+2>:	push   r14
    0x555555554754 <__libc_csu_init+4>:	mov    r15,rdx
 [------------------------------------stack-------------------------------------]
 0000| 0x7fffffffe578 --> 0x7ffff7a05b97 (<__libc_start_main+231>:	mov    edi,eax)
-0008| 0x7fffffffe580 --> 0x1 
-0016| 0x7fffffffe588 --> 0x7fffffffe658 --> 0x7fffffffe9a7 ("/home/b/gdb_post/binario")
-0024| 0x7fffffffe590 --> 0x100008000 
-0032| 0x7fffffffe598 --> 0x5555555546ca (<main>:	push   rbp)
-0040| 0x7fffffffe5a0 --> 0x0 
-0048| 0x7fffffffe5a8 --> 0xda598140c66ec959 
+[...]
 0056| 0x7fffffffe5b0 --> 0x5555555545c0 (<_start>:	xor    ebp,ebp)
 [------------------------------------------------------------------------------]
 Legend: code, data, rodata, value
