@@ -43,6 +43,7 @@ Reading symbols from binario...(no debugging symbols found)...done.
 ```
 
 2. *info functions*: vai listar as funções.
+
 ```
 (gdb) info functions
 All defined functions:
