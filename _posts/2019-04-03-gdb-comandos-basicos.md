@@ -14,7 +14,7 @@ São os comandos básicos que utilizo e exemplos de como usar. Se algumda dúvid
 
 ** A formatação desse texto ficou uma bosta.
 
-- Executando e passando o binário que será debugado: *gdb binario*.
+- *gdb binario*: executando e passando o binário que será debugado.
 
 ```
 $ gdb binario
