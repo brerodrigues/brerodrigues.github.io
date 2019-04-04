@@ -12,6 +12,8 @@ Então me meti a escrever algo simples para colaborar com a galera e evitar que 
 
 São os comandos básicos que utilizo e exemplos de como usar. Se algumda dúvida persistir, o [manual](https://sourceware.org/gdb/current/onlinedocs/gdb/) deverá ser consultado.
 
+** A formatação desse texto ficou uma bosta.
+
 - Executando e passando o binário que será debugado: *gdb binario*.
 
 ```
