@@ -67,6 +67,7 @@ Non-debugging symbols:
 ```
 
 4. *disas nome_funcao*: vai trazer o assembly da função.
+
 ```
 (gdb) disas main
 Dump of assembler code for function main:
@@ -107,12 +108,14 @@ End of assembler dump.
 (gdb)
 ```
 
-5. *set disassembly flavor*: para mudar a forma de representação do assembly entre Intel e AT&T. A maioria da galera acha a Intel mais fácil de ler. Se quiser saber a diferença entre as duas dá uma olhada [aqui](https://pt.wikibooks.org/wiki/Assembly_no_Linux/Sintaxes_e_ferramentas).
+5. *set disassembly flavor*: para mudar a forma de representação do assembly entre Intel e AT&T. A maioria da galera acha a Intel mais fácil de ler. Se quiser saber a diferença entre as duas dá uma olhada [aqui](https://pt.wikibooks.org/wiki/Assembly_no_Linux/Sintaxes_e_ferramentas
+
 ```
 (gdb) set disassembly-flavor intel
 ```
 
 E agora observe a diferença para o *disasm main* anterior:
+
 ```
 (gdb) disas main
 Dump of assembler code for function main:
@@ -153,18 +156,21 @@ End of assembler dump.
 ```
 
 6. *break* ou *b*: seta um [breakpoint](https://pt.wikipedia.org/wiki/Ponto_de_parada). Você pode usar o nome da função como referência ou passar um endereço direto.
+
 ```
 (gdb) b *main
 Breakpoint 1 at 0x6ce
 ```
 
 E até usar *b *main+26*
+
 ```
 (gdb) b *main+26
 Breakpoint 2 at 0x6e4
 ```
 
 6. *info break* ou *info b*: lista breakpoints.
+
 ```
 (gdb) info b
 Num     Type           Disp Enb Address            What
@@ -173,6 +179,7 @@ Num     Type           Disp Enb Address            What
 ```
 
 7. *del 1*: remove breakpoint por número.
+
 ```
 (gdb) del 2
 (gdb) info b
@@ -181,6 +188,7 @@ Num     Type           Disp Enb Address            What
 ```
 
 8. *run*: roda o programa
+
 ```
 (gdb) run
 Starting program: /home/b/gdb_post/binario 
@@ -190,6 +198,7 @@ Uso: /home/b/gdb_post/binario [senha]
 ```
 
 9. *continue* ou *c*: resume execução do binário apos bater em breakpoint.
+
 ```
 (gdb) b *main
 Breakpoint 1 at 0x5555555546ca
@@ -204,6 +213,7 @@ Uso: /home/b/gdb_post/binario [senha]
 ```
 
 10. *r*: reinicia execução do binário
+
 ```
 (gdb) r
 Starting program: /home/b/gdb_post/binario 
@@ -219,7 +229,8 @@ echo "DONE! debug your program with gdb and enjoy"
 
 E não esqueça de dar uma olhada nos novos comandos que estarão disponíveis, serão úteis um dia: [https://github.com/longld/peda](https://github.com/longld/peda)
  
-11. *next*: executa proxima linha do binário (sem entrar em chamadas de função)
+11. *next*: executa proxima linha do binário (sem entrar em chamadas de função).
+
 ```
 gdb-peda$ b *main
 Breakpoint 1 at 0x6ca
@@ -271,6 +282,7 @@ Breakpoint 1, 0x00005555555546ca in main ()
 ```
 
 E, após bater num breakpoint, usa-se *n* para ir a próxima instrução:
+
 ```
 gdb-peda$ n
 
@@ -320,6 +332,7 @@ Legend: code, data, rodata, value
 12. *step*: executa proxima linha do binário (entrando em chamadas de função)
 
 Ao chegar com o breakpoint em uma instrução tipo *0x5555555546fc <main+50>:	call   0x555555554590 <printf@plt>* e usar o *next*, printf vai ser executada e seguiremos a próxima instrução de main. Ao se usar *step*, se entra na função, no caso printf.
+
 ```
 gdb-peda$ 
 
@@ -415,6 +428,7 @@ gdb-peda$
 ```
 
 13. *jump*: pula a execução do binário para algum endereço arbitrário.
+
 ```
 gdb-peda$ b *main+124
 Breakpoint 2 at 0x555555554746
@@ -466,6 +480,7 @@ Breakpoint 2, 0x0000555555554746 in main ()
 
 14. *x*: para examinar a memória. É um pouco mais complexo que os comandos anteriores porque é preciso que você saiba o que está procurando.
 Por exemplo: x/4xw $sp tratá 4 words do $sp, que é o stack pointer.
+
 ```
 gdb-peda$ x/4xw $sp
 0x7fffffffe578:	0xf7a05b97	0x00007fff	0x00000001	0x00000000
