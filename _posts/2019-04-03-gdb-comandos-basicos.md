@@ -488,6 +488,4 @@ gdb-peda$ x/4xw $sp
 0x7fffffffe578:	0xf7a05b97	0x00007fff	0x00000001	0x00000000
 ```
 
-E envolve coisas complexas demais para um tutorial básico do gdb.
-
 [Dúvidas?](https://sourceware.org/gdb/current/onlinedocs/gdb/)
