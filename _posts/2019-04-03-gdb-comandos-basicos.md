@@ -12,7 +12,7 @@ Então me meti a escrever algo simples para colaborar com a galera e evitar que 
 
 São os comandos básicos que utilizo e exemplos de como usar. Se algumda dúvida persistir, o [manual](https://sourceware.org/gdb/current/onlinedocs/gdb/) deverá ser consultado.
 
-1. Executando e passando o binário que será debugado: *gdb binario*.
+- Executando e passando o binário que será debugado: *gdb binario*.
 
 ```
 $ gdb binario
