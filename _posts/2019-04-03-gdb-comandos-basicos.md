@@ -12,7 +12,7 @@ Então me meti a escrever algo simples para colaborar com a galera e evitar que 
 
 São os comandos básicos que utilizo e exemplos de como usar. Se algumda dúvida persistir, o [manual](https://sourceware.org/gdb/current/onlinedocs/gdb/) deverá ser consultado.
 
-** A formatação desse texto ficou uma bosta.
+** A formatação desse texto ficou uma bosta, se te incomoda, lê direto no [git](https://github.com/brerodrigues/brerodrigues.github.io/blob/master/_posts/2019-04-03-gdb-comandos-basicos.md): 
 
 - *gdb binario*: executando e passando o binário que será debugado.
 
