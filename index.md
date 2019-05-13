@@ -13,7 +13,7 @@ Mesmo assim, nos tempos de vlogs e tutorias coloridos no youtube, uma vez ou out
 
 Antes de tudo, quero avisar que não sou nenhum 1337 h4x0r do caralho de asas. Pode esperar que irei falar merda muitas vezes. Mas aceito de boas sugestões que solucionem o problema de forma mais bela ou que corrijam minha noobice ;)
 
-Também não leve porra nenhuma do que eu fale a sério. Não estou por aqui tentando sustentar alguma identidade ou escrever para parecer superior. Se quisesse fazer isso estaria no LinkedIn.
+Também não leve porra nenhuma do que eu fale a sério. Não estou por aqui tentando sustentar alguma identidade ou escrever para me exibir. Se quisesse fazer isso estaria no LinkedIn.
 
 Achou o layout familiar? Parabéns! Provavelmente você já é um amante do [study of weird machines](https://www.alchemistowl.org/pocorgtfo/pocorgtfo00.pdf). E não, não tenho vergonha nenhuma em copiar o que acho foda. Faça sua cópia também: [https://github.com/brerodrigues/brerodrigues.github.io](https://github.com/brerodrigues/brerodrigues.github.io)
 
