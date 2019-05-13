@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cant_even_unplug_it writeup [DEF CON CTF Qualifier 2019]
-date: 2017-12-17 20:22
+date: 2019-05-12 22:00
 author: brennords
 comments: true
 categories: [CTFs]
