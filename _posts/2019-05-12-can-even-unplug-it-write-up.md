@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cant_even_unplug_it writeup [DEF CON CTF Qualifier 2019]
+title: Cant_even_unplug_it - Writeup [DEF CON CTF Qualifier 2019]
 date: 2019-05-12 22:00
 author: brennords
 comments: true
@@ -38,4 +38,5 @@ Fiquei um tempo pensando e, por confiar que num CTF do nível de qualificatória
 Ou seja, claro que nada viria daquele endereço, o servidor foi desconectado da internet. Haveria uma forma de obter as informações que um dia estavam online e outra não? Claro que sim. Pela [Wayback Machine](https://web.archive.org/).
 
 E após pesquisar pelo domínio forgetme-not, encontrei [isso](https://web.archive.org/web/20190427160922/https://forget-me-not.even-more-militarygrade.pw/) com a flag bem vísivel: 
+
 THE FLAG IS: OOO{DAMNATIO_MEMORIAE}
