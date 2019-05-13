@@ -6,7 +6,7 @@ author: brennords
 comments: true
 categories: [CTFs]
 ---
-No fim de semana passado (11/05/2019), participei, com meu time, do [DEF CON CTF Qualifier](https://ctftime.org/event/762). 
+No fim de semana (11/05/2019), participei, com meu time, do [DEF CON CTF Qualifier](https://ctftime.org/event/762). 
 
 Como era esperado de um evento qualificatorio para a [Defcon](https://www.defcon.org/), a maior parte dos desafios estavam bem acima do meu nível, então fiquei feliz quando consegui resolver um da categoria *FIRST CONTACT*, que tinha desafios mais simples do que das outras categorias.
 
