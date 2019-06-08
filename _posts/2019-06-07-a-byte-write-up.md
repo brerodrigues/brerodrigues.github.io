@@ -142,9 +142,7 @@ Legend: code, data, rodata, value
 Breakpoint 1, 0x0000555555554610 in strcmp@plt ()
 ```
 
-Se não me engano, strcmp recebe dois argumentos, duas strings, para fazer a comparação. Assim que bati o olho no registrador RAX e vi que ele apontava para a string: "irbugzv1v\^x1t\^jo1v\^e5\^v@2^9i3c@138|". 
-
-Reiniciei a execução passando esse valor como argumento e vi a flag nascer na stack.
+Se não me engano, strcmp recebe dois argumentos, duas strings, para fazer a comparação. Assim que bati o olho no registrador RAX e vi que ele apontava para uma string diferenciada. Reiniciei a execução passando esse valor como argumento e vi a flag nascer na stack.
 
 ```
 gdb-peda$ run irbugzv1v^x1t^jo1v^e5^v@2^9i3c@138\|
