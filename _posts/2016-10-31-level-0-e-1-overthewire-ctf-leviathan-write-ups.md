@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 0 - Usando grep [OverTheWire CTF – Leviathan] write-up
+title: Level 0 - Usando grep [OverTheWire CTF – Leviathan]
 date: 2016-10-31 18:18
 author: brennords
 comments: true
