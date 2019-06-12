@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 1 - Debuggando com o ltrace [OverTheWire CTF – Leviathan] write-up
+title: Level 1 - Debuggando com o ltrace [OverTheWire CTF – Leviathan]
 date: 2016-11-02 13:55
 author: brennords
 comments: true
