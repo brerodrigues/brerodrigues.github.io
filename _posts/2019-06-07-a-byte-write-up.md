@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A byte - Writeup [HSCTF 019] - Análise de um binário stripped
+title: A byte - Writeup [HSCTF 2019] - Análise de um binário stripped
 date: 2019-06-07 22:50
 author: brennords
 comments: true
