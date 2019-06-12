@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bash Jail 1 [RingZer0 CTF - Jail Escaping] write-up
+title: Bash Jail 1 [RingZer0 CTF - Jail Escaping]
 date: 2016-10-25 20:43
 author: brennords
 comments: true
