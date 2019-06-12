@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Valentine [Hack The Box] write-up - Hearthbleed
+title: Valentine [Hack The Box] - Hearthbleed
 author: brennords
 categories: [CTFs]
 tags: [Hack The Box]
