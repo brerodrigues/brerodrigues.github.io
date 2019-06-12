@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bashed [Hack The Box] Write-up
+title: Bashed [Hack The Box]
 date: 2018-04-28 20:50
 author: brennords
 comments: true
