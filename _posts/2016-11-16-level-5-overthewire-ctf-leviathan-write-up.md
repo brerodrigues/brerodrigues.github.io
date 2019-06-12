@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 5 Abusando links simbólicos [OverTheWire CTF – Leviathan] write-up
+title: Level 5 Abusando links simbólicos [OverTheWire CTF – Leviathan]
 date: 2016-11-16 19:29
 author: brennords
 comments: true
