@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 4 - Outro simples stack overflow [OverTheWire CTF – Narnia] write-up
+title: Level 4 - Outro simples stack overflow [OverTheWire CTF – Narnia]
 date: 2017-01-15 13:20
 author: brennords
 comments: true
