@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 1 - Simples stack overflow - Pwnage Linux - RingZer0team Writeup
+title: Level 1 - Simples stack overflow - Pwnage Linux - RingZer0team
 date: 2016-10-16 19:55
 author: brennords
 comments: true
