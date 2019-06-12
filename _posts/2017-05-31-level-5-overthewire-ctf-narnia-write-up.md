@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 5 - Format String Attack [OverTheWire CTF – Narnia] write-up
+title: Level 5 - Format String Attack [OverTheWire CTF – Narnia]
 date: 2017-05-31 17:14
 author: brennords
 comments: true
