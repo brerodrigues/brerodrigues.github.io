@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Canape [Hack The Box] write-up - Modificando exploits e explorando o Pip
+title: Canape [Hack The Box] - Modificando exploits e explorando o Pip
 author: brennords
 categories: [CTFs, Favorites]
 tags: [Hack The Box]
