@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 2 - Explorando um stack overflow como se fosse anos 90 [OverTheWire CTF – Narnia] write-up
+title: Level 2 - Explorando um stack overflow como se fosse anos 90 [OverTheWire CTF – Narnia]
 date: 2017-01-03 17:00
 author: brennords
 comments: true
