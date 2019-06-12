@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assemble your way to the flag [Pragyan CTF 2018] - write-up
+title: Assemble your way to the flag [Pragyan CTF 2018]
 date: 2018-03-06 17:32
 author: brennords
 comments: true
