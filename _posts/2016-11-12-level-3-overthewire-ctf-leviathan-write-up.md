@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 3 - Reutilizando o velho ltrace [OverTheWire CTF – Leviathan] write-up
+title: Level 3 - Reutilizando o velho ltrace [OverTheWire CTF – Leviathan]
 date: 2016-11-12 18:55
 author: brennords
 comments: true
