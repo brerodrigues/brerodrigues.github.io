@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 3 - Corrompendo variáveis locais na stack [OverTheWire CTF – Narnia] write-up
+title: Level 3 - Corrompendo variáveis locais na stack [OverTheWire CTF – Narnia]
 date: 2017-01-07 15:55
 author: brennords
 comments: true
