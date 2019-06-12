@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 0 - Alterando variáveis locais com um stack overflow [OverTheWire CTF – Narnia] write-up
+title: Level 0 - Alterando variáveis locais com um stack overflow [OverTheWire CTF – Narnia]
 date: 2016-12-06 18:53
 author: brennords
 comments: true
