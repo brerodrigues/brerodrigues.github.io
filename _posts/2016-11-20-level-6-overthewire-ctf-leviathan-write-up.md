@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 6 Que tal interpretar um pouco de asm? [OverTheWire CTF – Leviathan] write-up
+title: Level 6 Que tal interpretar um pouco de asm? [OverTheWire CTF – Leviathan]
 date: 2016-11-20 00:35
 author: brennords
 comments: true
