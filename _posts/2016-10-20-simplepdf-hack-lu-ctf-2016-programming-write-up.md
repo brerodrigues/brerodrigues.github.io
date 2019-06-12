@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SimplePDF - 10.000 PDF Unpackings [hack.lu CTF 2016 - Programming] Write-up
+title: SimplePDF - 10.000 PDF Unpackings [hack.lu CTF 2016 - Programming]
 date: 2016-10-20 17:24
 author: brennords
 comments: true
