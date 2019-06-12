@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 1 - Execução de código de variáveis de ambiente - [OverTheWire CTF – Narnia] write-up
+title: Level 1 - Execução de código de variáveis de ambiente - [OverTheWire CTF – Narnia]
 date: 2016-12-13 17:32
 author: brennords
 comments: true
