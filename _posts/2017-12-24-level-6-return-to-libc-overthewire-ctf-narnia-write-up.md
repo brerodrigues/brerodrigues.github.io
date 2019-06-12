@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 6 - Return-to-libc [OverTheWire CTF - Narnia] write-up
+title: Level 6 - Return-to-libc [OverTheWire CTF - Narnia]
 date: 2017-12-24 15:57
 author: brennords
 comments: true
