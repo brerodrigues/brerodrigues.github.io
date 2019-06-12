@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Canape [Hack The Box] write-up
+title: Canape [Hack The Box] write-up - Modificando exploits e explorando o Pip
 author: brennords
 categories: [CTFs, Favorites]
 tags: [Hack The Box]
@@ -8,7 +8,7 @@ tags: [Hack The Box]
 
 ![](https://raw.githubusercontent.com/brerodrigues/brerodrigues.github.io/master/assets/img/canape.png)
 
-Essa máquina foi uma das menos fáceis e mais interesantes que encarei e consegui pegar root no htb.
+Essa máquina foi uma das menos fáceis e mais interesantes que encarei e consegui pegar root no htb. Foi necessário até modificar um exploit que achei jogado nas webs.
 
 Começando com um **nmap -v -A** obtive o seguinte:
 
