@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 2 - Command Injection [OverTheWire CTF – Leviathan] write-up
+title: Level 2 - Command Injection [OverTheWire CTF – Leviathan]
 date: 2016-11-06 18:44
 author: brennords
 comments: true
