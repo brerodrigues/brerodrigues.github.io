@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jerry [Hack The Box] write-up
+title: Jerry [Hack The Box] write-up - Explorando Apache Tomcat
 author: brennords
 categories: [CTFs]
 tags: [Hack The Box]
