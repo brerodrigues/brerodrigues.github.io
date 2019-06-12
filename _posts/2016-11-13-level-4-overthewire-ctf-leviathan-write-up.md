@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Level 4 01101100101 [OverTheWire CTF – Leviathan] write-up
+title: Level 4 01101100101 [OverTheWire CTF – Leviathan]
 date: 2016-11-13 23:34
 author: brennords
 comments: true
