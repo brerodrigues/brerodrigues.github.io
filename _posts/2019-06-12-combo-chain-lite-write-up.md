@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Combo Chain Lite - Writeup [HSCTF 2019] - Return to libc x64
+title: Combo Chain Lite - [HSCTF 2019] - Return to libc x64
 date: 2019-06-12 18:22
 author: brennords
 comments: true
