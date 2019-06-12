@@ -6,6 +6,8 @@ author: brennords
 comments: true
 categories: [CTFs]
 ---
+Quando o binário vem stripped desanima um pouco porque sou noob. Mas enquanto caminho para um dia deixar de ser, vou aprendendo como analisar e lidar com esses casos. Esse desafio foi um desses que com um truque simples deu para pegar a flag.
+
 Vou usar muito o GDB nesse write-up e não irei entrar nos detalhes de comandos e bla bla porque já escrevi sobre isso [aqui](https://brerodrigues.github.io/hacking/gdb-comandos-basicos). Passe lá se nunca usou o debugger e não faz ideia o que é PEDA.
 
 A descrição dizia: *"Just one byte makes all the difference."* e me lembrou de *One toke over the line* por motivos que não me recordo.
