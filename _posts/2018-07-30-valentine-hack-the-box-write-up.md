@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Valentine [Hack The Box] write-up
+title: Valentine [Hack The Box] write-up - Hearthbleed
 author: brennords
 categories: [CTFs]
 tags: [Hack The Box]
 ---
 ![](https://github.com/brerodrigues/brerodrigues.github.io/raw/master/assets/img/valentine.png)
 
-Essa máquina foi bem fácil e básica, bastou ser um bom script kiddie para conseguir um root fácil. Demorei muito mais tempo que o necessário por não ter percebido algo óbvio que irei citar ao longo do post.
+Essa máquina foi bem fácil e básica, bastou ser um bom script kiddie para conseguir um root fácil. Demorei muito mais tempo que o necessário por não ter percebido algo óbvio que irei citar ao longo do post. A parte mais interessante foi poder explorar e ver na prática a falha Hearthbleed.
 
 Acessando o IP da Valentine no chrome nos leva a uma página estática com uma imagem familiar para quem ficou ligado em notícias de segurança nos últimos tempos. Nela tem a logo de uma vulnerabilidade bem pop e sacar isso já daria meio caminho andado para a flag do user.
 
