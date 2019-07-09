@@ -176,7 +176,7 @@ Após o looping, no endereço 0x4005e0, acontece uma movimentação de dados da 
 e em seguida de edx para eax
 *mov    eax,edx*
 
-Ao olhar o valor em EAX, vejo um 0x82. Um A é presentado por 0x41 em hexadecimal, e por ter em mente o código gerado pela ghidra, desconfio que no looping são somados os valores hexadecimal de cada char da string. Rodo passando BB (0x42 em hex) como argumento e vejo 0x84 em EAX. Teoria confirmada.
+Ao olhar o valor em EAX, vejo um 0x82. Um A é representado por 0x41 em hexadecimal, e por ter em mente o código gerado pela ghidra, desconfio que no looping são somados os valores hexadecimal de cada char da string. Rodo passando BB (0x42 em hex) como argumento e vejo 0x84 em EAX. Teoria confirmada.
 
 No ghidra vejo que depois do looping o resultado é multiplicado por 0xf antes da comparação:
 ```
