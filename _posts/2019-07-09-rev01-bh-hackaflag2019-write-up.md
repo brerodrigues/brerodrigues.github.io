@@ -119,7 +119,7 @@ Legend: code, data, rodata, value
 
 Breakpoint 2, 0x0000000000400585 in ?? ()
 ```
-Se você pegar um binário stripped e não souber por onde começar, tente ser criativo e colocar em prática o que sabe. Eu, por exemplo, usei o conhecimento de como funciona a stack numa função, pois sabia que o endereço para onde puts retornaria após sua execução seria, provavelmente, para dentro de uma das funções que queria chegar, que era main ou a valida_serial. No meu caso, pela análise feita no ghidra, tive certeza que estava dentro de valida_serial quando puts retornou porque é manda imprimir o 'sai fora rapa.' .
+Se você pegar um binário stripped e não souber por onde começar, tente ser criativo e colocar em prática o que sabe. Eu, por exemplo, usei o conhecimento de como funciona a stack numa função, pois sabia que o endereço para onde puts retornaria após sua execução seria, provavelmente, para dentro de uma das funções que queria chegar, que era main ou a valida_serial. No meu caso, pela análise feita no ghidra, tive certeza que estava dentro de valida_serial quando puts retornou porque é ela manda imprimir o 'sai fora rapa.' .
 
 Sabendo que 0x400585 cai no meio de valida_serial, começo a chutar endereços para encontrar o inicio e fim da mesma. Com o comando *disas endereco_inicial, endereco_final* o gdb imprime o asm desse intervalo de endereços. Por exemplo:
 ```
