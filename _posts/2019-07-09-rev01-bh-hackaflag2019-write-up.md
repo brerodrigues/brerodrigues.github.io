@@ -8,64 +8,13 @@ categories: [CTFs, Favorites]
 ---
 Depois de um chegado do [RATF](http://ratf.com.br/) ter me falado de um desafio interessante de engenharia reversa do [hackaflag]([http://hackaflag.com.br](http://hackaflag.com.br/)), decidi tentar a sorte e ver até onde eu chegaria na resolução. Acabei dando sorte com minhas pobres habilidades e consegui analisar e compreender o programa a ponto de criar um script que gera seriais válidos.
 
-Quando comecei a análise no Ghidra sabia que o que interessava era a função responsável por verificar o serial. Depois de importar o arquivo ELF e mandar o *CodeBrowser* fazer uma análise default, fui em busca das funções que ficam na janela "*Symbol Tree*" e em meios as *FUN_** encontrei uma forte suspeita. Fui renomeando o nome da função e as variáveis para tentar fazer sentido e desse código:
+Quando comecei a análise no Ghidra sabia que o que interessava era a função responsável por verificar o serial. Depois de importar o arquivo ELF e mandar o *CodeBrowser* fazer uma análise default, fui em busca das funções que ficam na janela "*Symbol Tree*" e em meios as *FUN_\** encontrei uma forte suspeita. Fui renomeando o nome da função e as variáveis para tentar fazer sentido e desse código:
 
-```
-undefined8 FUN_00400566(int iParm1,long lParm2)
-
-{
-  int local_10;
-  int local_c;
-  
-  if (iParm1 == 2) {
-    local_c = 0;
-    local_10 = 0;
-    while (*(char *)((long)local_10 + *(long *)(lParm2 + 8)) != 0) {
-      local_c = local_c + (int)*(char *)((long)local_10 + *(long *)(lParm2 + 8));
-      local_10 = local_10 + 1;
-    }
-    if (local_c * 0xf == 0x11a7b) {
-      printf("Pegue sua flag em https://hackaflag.com.br/ctf/desafios/validarev05.php");
-    }
-    else {
-      puts("Nem vem :)");
-    }
-  }
-  else {
-    puts("sai fora rapa ");
-  }
-  return 0;
-}
-```
+<script src="https://gist.github.com/brerodrigues/75deb282c5af868f5f7a7e7028058a6b.js"></script>
 
 Cheguei a esse:
-```
-undefined8 check_serial(int argv,undefined *serial)
 
-{
-  int acumulador;
-  int serial_encoded;
-  
-  if (argv == 2) {
-    serial_encoded = 0;
-    acumulador = 0;
-    while (*(char *)((long)acumulador + *(long *)(serial + 8)) != 0) {
-      serial_encoded = serial_encoded + (int)*(char *)((long)acumulador + *(long *)(serial + 8));
-      acumulador = acumulador + 1;
-    }
-    if (serial_encoded * 0xf == 0x11a7b) {
-      printf("Pegue sua flag em https://hackaflag.com.br/ctf/desafios/validarev05.php");
-    }
-    else {
-      puts("Nem vem :)");
-    }
-  }
-  else {
-    puts("sai fora rapa ");
-  }
-  return 0;
-}
-```
+<script src="https://gist.github.com/brerodrigues/fa36e7a928c252211f8e101c602e7e2f.js"></script>
 
 Pouco impressionante.
 
