@@ -7,7 +7,7 @@ permalink: books
 **2019**
 
 - [Rio de Janeiro - Histórias de Vida e Morte](https://www.saraiva.com.br/rio-de-janeiro-historias-de-vida-e-morte-8950581.html)
-- **[O Dono do Morro](https://www.saraiva.com.br/o-dono-do-morro-9341610.html)**
+- \*[O Dono do Morro](https://www.saraiva.com.br/o-dono-do-morro-9341610.html)\*
 - [Sobrevivente](http://leya.com.br/sobrevivente/)
 - [Post Office](https://www.livrariacultura.com.br/p/livros/literatura-internacional/post-office-1868454)
 - [Elite da Tropa](https://www.saraiva.com.br/elite-da-tropa-1100552.html)
@@ -15,7 +15,7 @@ permalink: books
 **2018**
 
 - [Porno](https://www.travessa.com.br/porno/artigo/f37be2f1-7e85-4907-bb27-2b30443eb711)*
-- **[A beleza da ignorância: Parte 01](https://www.amazon.com.br/BELEZA-IGNOR%C3%82NCIA-Parte-01-ebook/dp/B07BN34SXD)**
+- \*[A beleza da ignorância: Parte 01](https://www.amazon.com.br/BELEZA-IGNOR%C3%82NCIA-Parte-01-ebook/dp/B07BN34SXD)\*
 - [Por Quem Os Sinos Dobram](https://www.saraiva.com.br/por-quem-os-sinos-dobram-7076922.html)*
 - [Mastering Fear](https://www.amazon.com/Mastering-Fear-Navy-SEALs-Guide/dp/0525533567)*
 - [Mario Prata entrevista uns brasileiros](https://www.saraiva.com.br/mario-prata-entrevista-uns-brasileiros-8889455.html)*
@@ -23,7 +23,7 @@ permalink: books
 **2017**
 
 - [O capitão saiu para o almoço e os marinheiros tomaram conta do navio](https://www.amazon.com.br/capit%C3%A3o-almo%C3%A7o-marinheiros-tomaram-conta/dp/8525412104)
-- **[The Conspiracy Against the Human Race: A Contrivance of Horror](https://www.amazon.com.br/Conspiracy-Against-Human-Race-Contrivance/dp/0984480277)**
+- \*[The Conspiracy Against the Human Race: A Contrivance of Horror](https://www.amazon.com.br/Conspiracy-Against-Human-Race-Contrivance/dp/0984480277)\*
 - [Notas do Subsolo](https://www.saraiva.com.br/notas-do-subsolo-2404913.html)*
 - [No sufoco](http://leya.com.br/no-sufoco/)
 
@@ -32,7 +32,7 @@ permalink: books
 - [13 Horas - Os Soldados Secretos de Benghazi](https://www.saraiva.com.br/13-horas-os-soldados-secretos-de-benghazi-9257250.html)
 - [Sapiens - Uma Breve História da Humanidade](https://www.amazon.com.br/Sapiens-Uma-Breve-Hist%C3%B3ria-Humanidade/dp/8525432180)*
 - [Homo Deus - uma Breve História do Amanhã](https://www.estantevirtual.com.br/livros/yuval-noah-harari/homo-deus-uma-breve-historia-do-amanha/1525137314?q=Homo%20Deus%20-%20uma%20Breve%20Hist%C3%B3ria%20do%20Amanh%C3%A3&livro_usado=1&b_order=preco&gclid=Cj0KCQjwpavpBRDQARIsAPfTwiyGkeB5IsQo06hh4nkcrbzjJb-3LrKv7txDiYwn-NrDBmkIdWiV41QaAivQEALw_wcB)*
-- **[Nada De Novo No Front](https://www.saraiva.com.br/nada-de-novo-no-front-10273899.html?pac_id=123134&gclid=Cj0KCQjwpavpBRDQARIsAPfTwiwEBG5KR0RbtJGMJrpHUpHjtHcey8oo0yyzpVgH74HTu3RdZcGEApsaAmxeEALw_wcB)**
+- \*[Nada De Novo No Front](https://www.saraiva.com.br/nada-de-novo-no-front-10273899.html?pac_id=123134&gclid=Cj0KCQjwpavpBRDQARIsAPfTwiwEBG5KR0RbtJGMJrpHUpHjtHcey8oo0yyzpVgH74HTu3RdZcGEApsaAmxeEALw_wcB)\*
 
 **2015**
 
@@ -57,12 +57,12 @@ permalink: books
 - [Porque não sou cristão](https://www.lpm.com.br/site/default.asp?Template=../livros/layout_produto.asp&CategoriaID=637394&ID=919399)
 - [Sniper Americano](https://www.saraiva.com.br/sniper-americano-8324454.html)
 - [Cartas na rua](https://www.saraiva.com.br/cartas-na-rua-col-l-pm-pocket-3681707.html)
-- **[Galveston](https://www.intrinseca.com.br/livro/506/)**
+- \*[Galveston](https://www.intrinseca.com.br/livro/506/)\*
 - [Countdown to zero day](https://www.amazon.com.br/Countdown-Zero-Day-Stuxnet-Digital-ebook/dp/B00KEPLC08)
 
 **200x**
 
-- **[The Best of 2600: A Hacker Odyssey](https://www.amazon.com.br/Best-2600-Hacker-Odyssey/dp/0470294191)**
+- \*[The Best of 2600: A Hacker Odyssey](https://www.amazon.com.br/Best-2600-Hacker-Odyssey/dp/0470294191)\*
 - [Misto Quente](https://www.livrariacultura.com.br/p/livros/literatura-internacional/romances/misto-quente-5040668)
 - [Pulp](https://www.lpm.com.br/site/default.asp?TroncoID=805133&SecaoID=816261&SubsecaoID=935305&Template=../artigosnoticias/user_exibir.asp&ID=162084)
 - [Despertar - Uma Vida de Buda](https://www.saraiva.com.br/despertar-uma-vida-de-buda-col-lpm-pocket-3068053.html)*
