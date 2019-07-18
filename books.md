@@ -5,8 +5,8 @@ category: books
 permalink: books
 ---
 
-{% for item in site.data.main-menu.itens %}
-  [ <a href="{{ item.url }}" class="menu-link" title="{{ item.url }}">{{ item.title }}</a> ]
+{% for item in site.data.books.2018 %}
+  - [{{itemtitle}}]({{item.url}})
 {% endfor %} 
 
 
