@@ -5,9 +5,17 @@ category: books
 permalink: books
 ---
 
+<ul>
 {% for item in site.data.books.2018 %}
-  - [{{itemtitle}}]({{item.url}})
+  <li><a href="{{item.url}}">{{itemtitle}}</a></li>
 {% endfor %} 
+</ul>
+
+<ul>
+{% for item in site.data.books.2019 %}
+  <li><a href="{{item.url}}">{{itemtitle}}</a></li>
+{% endfor %} 
+</ul>
 
 
 **2019**
