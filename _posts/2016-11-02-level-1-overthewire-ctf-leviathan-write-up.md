@@ -5,7 +5,7 @@ date: 2016-11-02 13:55
 author: brennords
 comments: true
 categories: [CTFs]
-tags: [Leviathan]
+tags: [Leviathan OverTheWire]
 ---
 Depois de passar rapidamente pelo <a href="https://brenn0.wordpress.com/2016/10/31/level-0-e-1-overthewire-ctf-leviathan-write-ups/">Level 0</a>, pulei no Level 1. Nele, logo após o login, encontrei o seguinte arquivo:
 

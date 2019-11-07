@@ -5,7 +5,7 @@ date: 2017-05-31 17:14
 author: brennords
 comments: true
 categories: [CTFs]
-tags: [Narnia]
+tags: [Narnia OverTheWire]
 ---
 <ul>
     <li style="text-align:justify;"><a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">Level 0</a></li>

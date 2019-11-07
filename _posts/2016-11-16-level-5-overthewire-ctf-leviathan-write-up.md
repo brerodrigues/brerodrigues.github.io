@@ -5,7 +5,7 @@ date: 2016-11-16 19:29
 author: brennords
 comments: true
 categories: [CTFs]
-tags: [Leviathan]
+tags: [Leviathan OverTheWire]
 ---
 <ul>
     <li><a href="https://brenn0.wordpress.com/2016/10/31/level-0-e-1-overthewire-ctf-leviathan-write-ups/">Level 0</a></li>

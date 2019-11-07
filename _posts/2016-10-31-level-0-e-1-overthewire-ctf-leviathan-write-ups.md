@@ -5,7 +5,7 @@ date: 2016-10-31 18:18
 author: brennords
 comments: true
 categories: [CTFs]
-tags: [Leviathan]
+tags: [Leviathan OverTheWire]
 ---
 Depois de finalizar o <a href="http://overthewire.org/wargames/bandit/">Bandit</a> do notório CTF online <a href="http://overthewire.org/about">OverTheWire</a>, me achei preparado para encarar os outros desafios. Pretendo, talvez, fazer write-up para os challs do Bandit, mas eles são tão simples que caberiam em uma postagem de uma única linha (a maioria deles). Logo achei melhor qualquer dia desses fazer um único grande post com a história de como passei de cada nível.
 
