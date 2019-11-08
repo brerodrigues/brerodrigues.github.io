@@ -8,9 +8,9 @@ categories: [CTFs]
 tags: [Narnia OverTheWire]
 ---
 <ul>
-    <li><a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">Level 0</a></li>
-    <li><a href="https://brenn0.wordpress.com/2016/12/13/level-1-overthewire-ctf-narnia-write-up/">Level 1</a></li>
-    <li><a href="https://brenn0.wordpress.com/2017/01/03/level-2-overthewire-ctf-narnia-write-up/">Level 2</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">Level 0</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-1-overthewire-ctf-narnia-write-up">Level 1</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-2-overthewire-ctf-narnia-write-up">Level 2</a></li>
 </ul>
 
 Dando seguimento a série de write ups do <a href="http://overthewire.org/wargames/narnia/">Narnia</a>, chegou a hora de exploitar o level3.
@@ -85,7 +85,7 @@ Para finalizar, a última parte da função lê o ifile e copia o conteúdo para
     }
  ```
 
-Depois de compreender todo o código, pareceu que para ganhar a flag bastava estourar ifile passando um argumento do mal que executasse /bin/sh assim como foi feito no <a href="https://brenn0.wordpress.com/2017/01/03/level-2-overthewire-ctf-narnia-write-up/">último chall</a>. Sei bem que não faria sentido que dois challs seguidos tivessem a mesma resolução, <a href="https://brenn0.wordpress.com/category/ctfs/over-the-wire/leviathan/">mas já aconteceu coisa parecida antes</a>, então não custava tentar.
+Depois de compreender todo o código, pareceu que para ganhar a flag bastava estourar ifile passando um argumento do mal que executasse /bin/sh assim como foi feito no <a href="https://brerodrigues.github.io/ctfs/level-2-overthewire-ctf-narnia-write-up">último chall</a>. Sei bem que não faria sentido que dois challs seguidos tivessem a mesma resolução, <a href="https://brerodrigues.github.io/category/CTFs">mas já aconteceu coisa parecida antes</a>, então não custava tentar.
 
 Mas essa ideia logo se mostrou impossível assim que mandei um checksec com o binário carregado no gdb aprimorado pelo peda.
 
@@ -111,7 +111,7 @@ Isso significa que explorar o espaço da stack para guardar um shellcode e tenta
 
 E agora?
 
-Em outros write ups já falei sobre a famigerada stack. Se você não faz ideia do que seja, recomendo que leia o write up do <a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">level 0</a> do próprio narnia que acredito ter conteúdo suficiente para que você me acompanhe. Mas, como sempre faço, vou deixando links pelo meio do post e te dando a ideia de usar o <a href="https://duckduckgo.com/">Google</a> para ir tirando dúvidas.
+Em outros write ups já falei sobre a famigerada stack. Se você não faz ideia do que seja, recomendo que leia o write up do <a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">level 0</a> do próprio narnia que acredito ter conteúdo suficiente para que você me acompanhe. Mas, como sempre faço, vou deixando links pelo meio do post e te dando a ideia de usar o <a href="https://duckduckgo.com/">Google</a> para ir tirando dúvidas.
 
 No ínicio do processo, a função main vai ser executada e jogar suas variáveis na stack:
 

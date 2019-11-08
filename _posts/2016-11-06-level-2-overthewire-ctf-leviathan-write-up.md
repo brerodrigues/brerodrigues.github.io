@@ -8,8 +8,8 @@ categories: [CTFs]
 tags: [Leviathan OverTheWire]
 ---
 <ul>
-    <li><a href="https://brenn0.wordpress.com/2016/11/02/level-1-overthewire-ctf-leviathan-write-up/">Level 0</a></li>
-    <li><a href="https://brenn0.wordpress.com/2016/11/02/level-1-overthewire-ctf-leviathan-write-up/" target="_blank" rel="noopener">Level 1</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-1-overthewire-ctf-leviathan-write-up">Level 0</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-1-overthewire-ctf-leviathan-write-up" target="_blank" rel="noopener">Level 1</a></li>
 </ul>
 
 E agora é hora do Level 2.

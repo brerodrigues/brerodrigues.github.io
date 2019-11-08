@@ -8,10 +8,10 @@ categories: [CTFs]
 tags: [Leviathan OverTheWire]
 ---
 <ul>
-    <li><a href="https://brenn0.wordpress.com/2016/10/31/level-0-e-1-overthewire-ctf-leviathan-write-ups/">Level 0</a></li>
-    <li><a href="https://brenn0.wordpress.com/2016/11/02/level-1-overthewire-ctf-leviathan-write-up/">Level 1</a></li>
-    <li><a href="https://brenn0.wordpress.com/2016/11/06/level-2-overthewire-ctf-leviathan-write-up/">Level 2</a></li>
-    <li><a href="https://brenn0.wordpress.com/2016/11/12/level-3-overthewire-ctf-leviathan-write-up/">Level 3</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-0-e-1-overthewire-ctf-leviathan-write-ups">Level 0</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-1-overthewire-ctf-leviathan-write-up">Level 1</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-2-overthewire-ctf-leviathan-write-up">Level 2</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-3-overthewire-ctf-leviathan-write-up">Level 3</a></li>
 </ul>
 
 Depois do level3 e seu nível de desafio não muito impressionante, cheguei no 4 esperando algo pior. Mas o <strong>leviathan4</strong> conseguiu ser ainda mais simples.

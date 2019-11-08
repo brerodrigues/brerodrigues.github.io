@@ -8,8 +8,8 @@ categories: [CTFs]
 tags: [Narnia OverTheWire]
 ---
 <ul>
-    <li><a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">Level 0</a></li>
-    <li><a href="https://brenn0.wordpress.com/2016/12/13/level-1-overthewire-ctf-narnia-write-up/">Level 1</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">Level 0</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-1-overthewire-ctf-narnia-write-up">Level 1</a></li>
 </ul>
 
 Continuando a viagem por narnia, chegou a hora de passar do level2.
@@ -64,7 +64,7 @@ gdb-peda$
 
 O comando checksec do <a href="https://github.com/longld/peda">peda</a> serve para verificar se o binário tem determinadas proteções. Nem vou entrar no mérito de explica-las porque ainda estou engatinhando por essas águas (engatinhar na água?), mas foi bom saber que não há nenhuma proteção ativa e que o programa pode ser explorado como se <a href="http://insecure.org/stf/smashstack.html">estivessemos nos anos 90</a>.
 
-No <a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">write-up do level0</a> falei de forma básica pra caaralho de como o stack se parecia e funcionava. Irei supôr que saibas o que tentei ensinar e agilizar este post pulando as explicações que fiz lá.
+No <a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">write-up do level0</a> falei de forma básica pra caaralho de como o stack se parecia e funcionava. Irei supôr que saibas o que tentei ensinar e agilizar este post pulando as explicações que fiz lá.
 
 Agora quer saber a razão do segmentation fault?
 
@@ -90,7 +90,7 @@ Se controlamos o endereço de retorno, controlamos o processo. E se controlamos 
 
 Ok, mas como fazer isso?
 
-Basicamente o que precisa ser feito é: inserir instruções no processo e fazer com que o endereço de retorno aponte para onde estiver essas instruções. Vamos substituir o endereço de retorno original pelo endereço de nosso <a href="https://brenn0.wordpress.com/2016/12/13/level-1-overthewire-ctf-narnia-write-up/" target="_blank" rel="noopener">shellcode</a>.
+Basicamente o que precisa ser feito é: inserir instruções no processo e fazer com que o endereço de retorno aponte para onde estiver essas instruções. Vamos substituir o endereço de retorno original pelo endereço de nosso <a href="https://brerodrigues.github.io/ctfs/level-1-overthewire-ctf-narnia-write-up" target="_blank" rel="noopener">shellcode</a>.
 
  Mas antes de usar qualquer shellcode, precisa-se saber onde o mesmo estará na memória. Há varias formas de se descobrir isso. Usei o gdb e o peda para pôr um breakpoint no momento que a função main chama strcpy, afinal, tanto o endereço de origem, quanto o endereço de destino da nossa string envenenada serão passados como argumento para a função.
 
@@ -127,7 +127,7 @@ O que mais importante se tira da interpretação dessas instruções é: o taman
 
 Agora temos a faca e o queijo na mão.
 
-Usei o mesmo shellcode usado no <a href="https://brenn0.wordpress.com/2016/12/13/level-1-overthewire-ctf-narnia-write-up/">chall anterior</a> e comecei a montar o exploit. Subtrai os 48 bytes do shellcode e preferi, ao invés de B's, usar um <a href="https://en.wikipedia.org/wiki/NOP_slide">nopsled</a> para preencher o espaço restante do buffer porque é coisa de leet. O exploit ficou: <strong>\x90 * 92 + shellcode + endereço de retorno.</strong>
+Usei o mesmo shellcode usado no <a href="https://brerodrigues.github.io/ctfs/level-1-overthewire-ctf-narnia-write-up">chall anterior</a> e comecei a montar o exploit. Subtrai os 48 bytes do shellcode e preferi, ao invés de B's, usar um <a href="https://en.wikipedia.org/wiki/NOP_slide">nopsled</a> para preencher o espaço restante do buffer porque é coisa de leet. O exploit ficou: <strong>\x90 * 92 + shellcode + endereço de retorno.</strong>
 
 Ainda somei uns bytes ao endereço que peguei sendo argumento de destino para o buffer só para ver o nopsled em ação e ao invés de usar <strong>0xffffd4c0</strong>, usei <strong>0xffffd510 </strong>(faça suas modificações e analise com o gdb se souber).
 

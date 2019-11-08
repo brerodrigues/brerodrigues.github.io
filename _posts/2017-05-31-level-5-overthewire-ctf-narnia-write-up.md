@@ -8,11 +8,11 @@ categories: [CTFs]
 tags: [Narnia OverTheWire]
 ---
 <ul>
-    <li style="text-align:justify;"><a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">Level 0</a></li>
-    <li style="text-align:justify;"><a href="https://brenn0.wordpress.com/2016/12/13/level-1-overthewire-ctf-narnia-write-up/">Level 1</a></li>
-    <li style="text-align:justify;"><a href="https://brenn0.wordpress.com/2017/01/03/level-2-overthewire-ctf-narnia-write-up/">Level 2</a></li>
-    <li style="text-align:justify;"><a href="https://brenn0.wordpress.com/2017/01/07/level-3-overthewire-ctf-narnia-write-up/">Level 3</a></li>
-    <li style="text-align:justify;"><a href="https://brenn0.wordpress.com/2017/01/15/level-4-overthewire-ctf-narnia-write-up/">Level 4</a></li>
+    <li style="text-align:justify;"><a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">Level 0</a></li>
+    <li style="text-align:justify;"><a href="https://brerodrigues.github.io/ctfs/level-1-overthewire-ctf-narnia-write-up">Level 1</a></li>
+    <li style="text-align:justify;"><a href="https://brerodrigues.github.io/ctfs/level-2-overthewire-ctf-narnia-write-up">Level 2</a></li>
+    <li style="text-align:justify;"><a href="https://brerodrigues.github.io/ctfs/level-3-overthewire-ctf-narnia-write-up">Level 3</a></li>
+    <li style="text-align:justify;"><a href="https://brerodrigues.github.io/ctfs/level-4-overthewire-ctf-narnia-write-up">Level 4</a></li>
 </ul>
 
 Quem diria que é mais trabalhoso escrever writeup do que resolver os desafios? Mas continuo firme e forte na tentativa de documentar e ensinar um pouco que sei para os próximos 1337 afim de aprender.
@@ -105,7 +105,7 @@ i = 36 (0xffffd6dc)
 
 Uow, viu isso? Vamos por partes:
 
-No começo do argumento venenoso que mandei (usei o python para escrever no formato que se deve mas, se simplesmente não entendeu o que fiz, tente ler os <a href="https://brenn0.wordpress.com/category/ctfs/over-the-wire/narnia/">write-ups anteriores do narnia</a> que é onde explico mais cuidadosamente esses paranauê) temos <em>ff ff d6 dc</em>, o endereço de i.
+No começo do argumento venenoso que mandei (usei o python para escrever no formato que se deve mas, se simplesmente não entendeu o que fiz, tente ler os <a href="https://brerodrigues.github.io/category/CTFs">write-ups anteriores do narnia</a> que é onde explico mais cuidadosamente esses paranauê) temos <em>ff ff d6 dc</em>, o endereço de i.
 
 Após o endereço, usei uns %x para sair puxando uns valores da stack até chegar no início do meu próprio argumento, que será <em>ff ff d6 dc</em>. E é ai que entra o %n, que vai alegremente escrever a quantidade de bytes já escritos em <em>ff ff d6 dc</em>.
 

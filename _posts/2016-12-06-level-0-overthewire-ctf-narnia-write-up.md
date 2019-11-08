@@ -7,7 +7,7 @@ comments: true
 categories: [CTFs]
 tags: [Narnia OverTheWire]
 ---
-Ok, depois terminar com os challs do <a href="https://brenn0.wordpress.com/category/ctfs/over-the-wire/leviathan/">Leviathan</a>, o negócio agora era subir de nível. Então, seguindo os conselhos da galera do <a href="http://overthewire.org/wargames/">Over The Wire</a>, prossegui para o <a href="http://overthewire.org/wargames/narnia/">Narnia</a>.
+Ok, depois terminar com os challs do <a href="https://brerodrigues.github.io/category/CTFs">Leviathan</a>, o negócio agora era subir de nível. Então, seguindo os conselhos da galera do <a href="http://overthewire.org/wargames/">Over The Wire</a>, prossegui para o <a href="http://overthewire.org/wargames/narnia/">Narnia</a>.
 
 <blockquote>
 This wargame is for the ones that want to learn basic exploitation. You can see the most common bugs in this game and we've tried to make them easy to exploit. You'll get the source code of each level to make it easier for you to spot the vuln and abuse it. The difficulty of the game is somewhere between Leviathan and Behemoth, but some of the levels could be quite tricky.
@@ -17,7 +17,7 @@ Em uma tradução resumida: Narnia é para os que querem aprender o básico sobr
 
 Tudo muito bom, tudo muito bem. Hora de sujar as mãos e ficar mais cego por passar tanto tempo encarando a tela de um pc.
 
-Não explicarei as coisas básicas que expliquei nos write-ups do <a href="https://brenn0.wordpress.com/category/ctfs/over-the-wire/leviathan/">Leviathan</a>. Caso se sinta perdido nesse aqui (ou nos próximos que seguirão), dê uma passada pelo link. Ou só grite para a mãe google quando alguma dúvida ser instanciada.
+Não explicarei as coisas básicas que expliquei nos write-ups do <a href="https://brerodrigues.github.io/category/CTFs">Leviathan</a>. Caso se sinta perdido nesse aqui (ou nos próximos que seguirão), dê uma passada pelo link. Ou só grite para a mãe google quando alguma dúvida ser instanciada.
 
 Hora de logar no ssh <strong>narnia.labs.overthewire.org</strong> com o user <strong>narnia0</strong> e repetir o user como password e começar nesta porra.
 

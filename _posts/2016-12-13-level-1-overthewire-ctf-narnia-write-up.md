@@ -8,14 +8,14 @@ categories: [CTFs]
 tags: [Narnia OverTheWire]
 ---
 <ul>
-    <li><a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">Level 0</a></li>
+    <li><a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">Level 0</a></li>
 </ul>
 
 Levei mais tempo do que deveria para resolver esse chall e isso apenas prova o que é ter problemas em níveis fundamentais do estudo de exploitation. Fiquei feliz por ter demorando tempo suficiente para aprender novos conceitos e ter estudado uma boa quantidade de assuntos.
 
 Depois da putaria de se justificar para ninguém, hora de write-up o/
 
-Feita a conexão ssh com o servidor <a href="http://overthewire.org/wargames/narnia/">narnia do Over The Wire</a> usando o usuário narnia1 e o pass encontrado como a <a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">flag do último nível</a>, fui em <strong>/narnia</strong> e executei o chall da vez:
+Feita a conexão ssh com o servidor <a href="http://overthewire.org/wargames/narnia/">narnia do Over The Wire</a> usando o usuário narnia1 e o pass encontrado como a <a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">flag do último nível</a>, fui em <strong>/narnia</strong> e executei o chall da vez:
 
 ```
 narnia1@melinda:/narnia$ ./narnia1
@@ -72,7 +72,7 @@ Usando x/s + o endereço que ret ganhou, pude ver que o BLABLA estava lá.
 
 Após entender o código do chall, ficou fácil ter ideia do que fazer em seguida: enriquecer EGG com instruções válidas, de preferência instruções que dessem uma shell! Ou seja, um <a href="http://www.mentebinaria.com.br/zine/edicoes/1/ConstruindoShellcodes.txt">shellcode</a>!
 
-Assim como no <a href="https://brenn0.wordpress.com/2016/12/06/level-0-overthewire-ctf-narnia-write-up/">chall anterior</a>, usarei o python para passar as instruções em um formato que o processo entenda e execute.
+Assim como no <a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">chall anterior</a>, usarei o python para passar as instruções em um formato que o processo entenda e execute.
 
 Claro que poderia copiar algum <a href="https://www.google.com.br/search?q=a+%2Fbin%2Fsh+shellcode&amp;oq=a+%2Fbin%2Fsh+shellcode&amp;aqs=chrome..69i57j69i58j69i60j69i64l3.7092j0j9&amp;sourceid=chrome&amp;es_sm=122&amp;ie=UTF-8">shellcode pronto</a> e tentar fazer funcionar com o chall, mas preferi ir atrás de mais conhecimento e acabei encontrando um ótimo paper ensinando a construir shellcodes: <a href="https://www.exploit-db.com/papers/13224/">https://www.exploit-db.com/papers/13224/</a> (<a href="http://www.mentebinaria.com.br/zine/edicoes/1/ConstruindoShellcodes.txt">aqui</a> tem um outro que está em pt-br, só dei uma lida por cima mas parece ser bem equivalente ao outro).
 
