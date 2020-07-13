@@ -9,6 +9,11 @@ body {
 
 li {
     margin-bottom: 3px;
+    list-style: none;
+}
+
+li:before {
+    content: '&gt;';
 }
 
 a:link {
