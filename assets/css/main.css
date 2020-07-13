@@ -13,7 +13,7 @@ li {
 }
 
 li:before {
-    content: '&gt;';
+    content: '>';
 }
 
 a:link {
