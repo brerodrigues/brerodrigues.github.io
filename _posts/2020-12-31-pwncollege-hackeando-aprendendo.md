@@ -7,7 +7,7 @@ categories: [Hacking]
 
 Enquanto tento sobreviver a pandemia no meu lockdown solitário, ando usando o tempo livre para estudar e hackear umas coisas. Não é como se antes eu já saísse de casa, mas agora há uma desculpa aceitável socialmente.
 
-E foi em meio a andanças pela internet na busca por algum material de estudo sobre exploitation e engenharia reversa que encontrei, mas ou menos na terceira página do Google usando uma keyword que não me recordo o (https://pwn.college/). 
+E foi em meio a andanças pela internet na busca por algum material de estudo sobre exploitation e engenharia reversa que encontrei, mas ou menos na terceira página do Google usando uma keyword que não me recordo o [https://pwn.college/](https://pwn.college/). 
 
 Quem já leu alguma coisa que escrevi sabe que de vez em quando consigo hacker uma coisa [aqui](https://brerodrigues.github.io/ctfs/combo-chain-lite-write-up) e [ali](https://brerodrigues.github.io/ctfs/favorites/rev01-bh-hackaflag2019-write-up), mas nem sempre me sinto satisfeito com meu desempenho e culpo bastante a falta de conhecimento para se fazer uma boa engenharia reversa ou explorar um overflow de maneiras criativas, que vão além do tradicional. E sinto que esse curso poderia me dar essa mão.
 
@@ -15,7 +15,7 @@ O material faz parte do Computer Systems Security course, CSE466, da Universidad
 
 Sabendo das credenciais dos caras por trás do negócio eu me empolguei. Tava em busca exatamente de um material como esse. Um material que me ajudasse a fortalecer bem as bases do meu conhecimento.
 
-Achei todo o conteúdo muito foda. As aulas foram streamadas no twitcher mas estão no YouTube. Não sou fã de vídeo-aulas. Prefiro o material escrito. Mas há boas exceções, e esse cursinho é uma delas. Minha metodologia é a mais básica e óbvia: assisto as aulas, faço umas anotações do que julgo digno de ser anotado e parto para os challenges. Tem uma caralhada de challenges e até uma infra estrutura própria para a galera treinar em: (https://cse466.pwn.college/)
+Achei todo o conteúdo muito foda. As aulas foram streamadas no twitcher mas estão no YouTube. Não sou fã de vídeo-aulas. Prefiro o material escrito. Mas há boas exceções, e esse cursinho é uma delas. Minha metodologia é a mais básica e óbvia: assisto as aulas, faço umas anotações do que julgo digno de ser anotado e parto para os challenges. Tem uma caralhada de challenges e até uma infra estrutura própria para a galera treinar em: [https://cse466.pwn.college/](https://cse466.pwn.college/)
 
 Os challs são organizados de uma forma interessante. Primeiro eles tem uma versão “teaching”, que tenta te dar uma luz de como as coisas tão funcionando e te da dicas de como explorar. Por exemplo, os de engenharia reversa dizem o que estão fazendo com o input inserido e mostram o resultado que em seguida é comparado com o resultado esperado, que também é exibido. Já os de shellcode te falam quais constraints tão botando para te obrigar a ser criativo. Em seguida tem a versão do challenge “testing” que costuma ser semelhante, e em uns casos iniciais iguais, a versão “teaching”, mas com a diferença de não te falarem nada para ajudar na exploração. Curti essa ideia. É tipo resolver um problema com o professor e em seguida pegar um problema mais difícil para praticar.
 
