@@ -5,6 +5,13 @@ category: books
 permalink: books
 ---
 
+**2020**
+- [The Biggest Bluff: How I Learned to Pay Attention, Master Myself, and Win](https://www.amazon.com.br/Biggest-Bluff-Learned-Attention-Master/dp/052552262X)
+- [Acqua Toffana](https://www.amazon.com.br/Acqua-Toffana-Patr%C3%ADcia-Melo/dp/8532524915)
+- [O matador](https://www.amazon.com.br/matador-Patr%C3%ADcia-Melo-ebook/dp/B00A3H9X9Y)
+- [A Guerra: a ascensão do PCC e o mundo do crime no Brasil](https://www.amazon.com.br/Guerra-ascens%C3%A3o-mundo-crime-Brasil/dp/858880803X)
+- [Condenada](https://www.amazon.com.br/Condenada-1-Chuck-Palahniuk-ebook/dp/B00DNJYVGE)
+
 **2019**
 
 - [Rio de Janeiro - Histórias de Vida e Morte](https://www.saraiva.com.br/rio-de-janeiro-historias-de-vida-e-morte-8950581.html)
