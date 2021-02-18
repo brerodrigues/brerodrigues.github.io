@@ -2,7 +2,6 @@
 title: Hello friend
 page-title: Hello friend
 author: brennords
-date: 05/03/2018
 permalink: index
 layout: default
 ---
