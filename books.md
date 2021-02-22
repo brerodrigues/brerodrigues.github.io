@@ -5,6 +5,9 @@ category: books
 permalink: books
 ---
 
+**2021**
+- [Sobre a escrita](http://toupdate.com)
+
 **2020**
 - [The Biggest Bluff: How I Learned to Pay Attention, Master Myself, and Win](https://www.amazon.com.br/Biggest-Bluff-Learned-Attention-Master/dp/052552262X)
 - [Acqua Toffana](https://www.amazon.com.br/Acqua-Toffana-Patr%C3%ADcia-Melo/dp/8532524915)
