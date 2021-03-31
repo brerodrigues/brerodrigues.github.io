@@ -6,7 +6,8 @@ permalink: books
 ---
 
 **2021**
-- [Sobre a escrita](http://toupdate.com)
+- [Mulheres empilhadas](http://www.leya.com.br/mulheres-empilhadas/)
+- [Sobre a escrita](https://www.amazon.com.br/Sobre-escrita-Stephen-King/dp/8581052770)
 
 **2020**
 - [The Biggest Bluff: How I Learned to Pay Attention, Master Myself, and Win](https://www.amazon.com.br/Biggest-Bluff-Learned-Attention-Master/dp/052552262X)
