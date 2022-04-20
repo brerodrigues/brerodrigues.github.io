@@ -15,6 +15,10 @@ Antes de tudo, quero avisar que não sou nenhum 1337 h4x0r do caralho de asas. P
 
 Também não leve porra nenhuma do que eu fale a sério. Não estou por aqui tentando sustentar alguma identidade ou escrever para me exibir. Se quisesse fazer isso estaria no LinkedIn.
 
-Não sabe por onde começar? Dá uma olhada nos meus textos favoritos: [https://brerodrigues.github.io/favorites](https://brerodrigues.github.io/favorites)
+Não sabe por onde começar? Dá uma olhada nos meus textos favoritos: [https://brerodrigues.github.io/favorites](https://brerodrigues.github.io/favorites). Ou escolhe um dos mais recentes:
+
+{% for post in site.posts offset:1 limit:3 %}
+[{{ post.title }}]({{ site.url }}{{ post.url }}) - **{{ post.date | date: "%b %-d, %Y" }}**
+{% endfor %}
 
 Para falar comigo basta usar o [twitter](https://twitter.com/obrerodrigues).
