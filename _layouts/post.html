@@ -1,0 +1,19 @@
+---
+layout: default
+title:  "POSTS"
+---
+
+{%- if page.detail_image -%}<img class="detail_header" src="{{ page.detail_image }}">{%- endif -%}
+
+<!-- <h1>{{ page.title }}</h1> -->
+<span class="reading-time" title="Tempo de leitura:"> <!-- https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/ -->
+    Data da postagem: {{ page.date | date: "%b %-d, %Y" }} <br> 
+    {% assign words = content | number_of_words %}
+    {% if words < 360 %}
+      <b>Tempo de leitura: 1 min</b>
+    {% else %}
+      <b>Tempo de leitura: {{ words | divided_by:180 }} minutos</b>
+    {% endif %}
+</span>
+
+{{ content }}

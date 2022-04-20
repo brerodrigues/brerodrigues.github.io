@@ -1,0 +1,28 @@
+title: "brenn0_weblog"
+tagline: "Hacking, CTFs e qualquer merda que vier a mente"
+description: "Hacking, CTFs e qualquer merda que vier a mente."
+github_username: brerodrigues
+twitter_username: obrerodrigues
+baseurl: "/"
+url: "https://brerodrigues.github.io"
+#permalink: /:categories/:title
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+sass:
+  style: compressed
+
+highlighter: rouge
+
+header_pages:
+  - index.md
+  - hacking.md
+  - ctfs.md
+  - rant.md
+
+# set the size of the text to 'large' or 'small', default is small
+font-size: small
