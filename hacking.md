@@ -6,7 +6,7 @@ title: Hacking posts
 ---
 
 # Hacking e derivados
-Das vezes que tentei hackear uns negócios aí e resolvi contar a história.
+`Das vezes que tentei hackear uns negócios aí e resolvi contar a história.`
 
 {% for post in site.categories.Hacking %}
 [{{ post.title }}]({{ site.url }}{{ post.url }}) - **{{ post.date | date: "%b %-d, %Y" }}**

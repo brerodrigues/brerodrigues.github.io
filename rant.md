@@ -6,7 +6,7 @@ title: Aleatoriedades
 ---
 
 # Aleatoriedades nem sempre computacionais
-Eu sei lá.
+`Eu sei lá.`
 
 {% for post in site.categories.Rant %}
 [{{ post.title }}]({{ site.url }}{{ post.url }}) - **{{ post.date | date: "%b %-d, %Y" }}**
