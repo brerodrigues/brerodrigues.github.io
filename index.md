@@ -17,7 +17,7 @@ Também não leve porra nenhuma do que eu fale a sério. Não estou por aqui ten
 
 Não sabe por onde começar? Dá uma olhada nos meus textos favoritos: [https://brerodrigues.github.io/favorites](https://brerodrigues.github.io/favorites). Ou escolhe um dos mais recentes:
 
-{% for post in site.posts offset:1 limit:3 %}
+{% for post in site.posts offset:0 limit:3 %}
 [{{ post.title }}]({{ site.url }}{{ post.url }}) - **{{ post.date | date: "%b %-d, %Y" }}**
 {% endfor %}
 
