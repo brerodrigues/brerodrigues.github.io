@@ -6,10 +6,11 @@ author: obrerodrigues
 comments: true
 categories: [CTFs]
 ---
+Existe um óbvio buffer overflow que permite sobreescrever valores. Mas ao invés de uma simples execução de shellcode ou redirecionamento de código, havia um caminho mais simples de se percorrer.
+
 Caso queira acompanhar, o binário do challenge está [aqui](https://github.com/brerodrigues/exploit_drafts/tree/main/ctfing/b01lers_CTF_2022/gambler_overflow). E o link com as informações do evento [aqui](https://ctftime.org/event/1583).
 
-Existe um óbvio buffer overflow que permite sobreescrever o valor que guarda o valor correto:
-
+Com o overflow é possível sobreescrever o valor da `Correct Word`:
 ```
 Welcome to the casino! A great prize awaits you when you hit 1000 coins ;)
 Your current balance: 100
@@ -26,7 +27,7 @@ Your current balance: 80
 Guess me a string of length 4 with lowercase letters: 
 ```
 
-Essa tese pode ser confirmada ao se analisar o pseudo código gerado pelo Ghidra da função `casino`, responsável por maior parte da lógica do programa:
+Essa tese pode ser confirmada ao se analisar o pseudo código gerado pelo Ghidra da função `casino`, responsável por maior parte da lógica do programa. Renomeei as variáveis que achei interessantes e deixei o resto do jeito que o Ghidra quis:
 
 ```C++
 void casino(void)
