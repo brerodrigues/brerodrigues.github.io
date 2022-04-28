@@ -29,56 +29,7 @@ Guess me a string of length 4 with lowercase letters:
 
 Essa tese pode ser confirmada ao se analisar o pseudo código gerado pelo Ghidra da função `casino`, responsável por maior parte da lógica do programa. Renomeei as variáveis que achei interessantes e deixei o resto do jeito que o Ghidra quis:
 
-```C++
-void casino(void)
-
-{
-  int iVar1;
-  long in_FS_OFFSET;
-  int local_24;
-  char user_input [8];
-  char correct_guess [8];
-  long local_10;
-  
-  local_10 = *(long *)(in_FS_OFFSET + 0x28);
-  puts("Welcome to the casino! A great prize awaits you when you hit 1000 coins ;)");
-  memset(correct_guess,0,8);
-  memset(user_input,0,8);
-  do {
-    if ((int)balance < 1) goto LAB_00101745;
-    printf("Your current balance: %d\n",(ulong)balance);
-    for (local_24 = 0; local_24 < 4; local_24 = local_24 + 1) {
-      iVar1 = rand();
-      correct_guess[local_24] = (char)iVar1 + (char)(iVar1 / 0x1a) * -0x1a + 'a';
-    }
-    printf("Guess me a string of length 4 with lowercase letters: ");
-    gets(user_input);
-    printf("Your guess: %s\n",user_input);
-    printf("Correct word: %s\n",correct_guess);
-    iVar1 = strcmp(correct_guess,user_input);
-    if (iVar1 == 0) {
-      printf("You won (wow)! +%d coins.\n",(ulong)bet_win);
-      balance = bet_win + balance;
-    }
-    else {
-      printf("Bummer, you lost. -%d coins.\n",(ulong)bet_loss);
-      balance = balance - bet_loss;
-    }
-    if ((int)balance < 0) {
-      puts("You lost your entire balance! Better luck next time...");
-      goto LAB_00101745;
-    }
-  } while ((int)balance < 1000);
-  give_flag();
-LAB_00101745:
-  puts("See you next time!");
-  if (local_10 != *(long *)(in_FS_OFFSET + 0x28)) {
-                    /* WARNING: Subroutine does not return */
-    __stack_chk_fail();
-  }
-  return;
-}
-```
+<script src="https://gist.github.com/brerodrigues/dfb4567a3b433ad61586db8da2525e6f.js"></script>
 
 Pode se observar na linha 23 que o programa utiliza a função `gets` para obter o input do usuário, como `gets` não se importa com o tamanho do input, possibilita que seja armazenado em `user_input` um valor maior que os 8 chars previamente reservados, nos deixando sobreescrever os valores armazenados abaixo de `user_input` na stack. E logo abaixo de `user_input` na stack está, convenientemente, `correct_guess` com o valor pseudo aleatório gerado no looping iniciado na linha `36`.
 
