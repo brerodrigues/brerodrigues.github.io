@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /rant
-permalink_name: /rant
+permalink: /journal
+permalink_name: /journal
 title: Aleatoriedades
 ---
 
