@@ -5,7 +5,6 @@ github_username: brerodrigues
 twitter_username: obrerodrigues
 baseurl: "/"
 url: "https://brerodrigues.github.io"
-analytics: UA-115183311-1
 #permalink: /:categories/:title
 
 plugins:
