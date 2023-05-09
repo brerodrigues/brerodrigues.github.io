@@ -4,6 +4,8 @@ permalink: /books
 permalink_name: /books
 title: Livros favoritos
 ---
+**2023**
+- [Raiva](https://www.amazon.com.br/Raiva-rua-Sabao-Monica-Isakstuen/dp/658921803X)
 
 **2021**
 - [Mulheres empilhadas](http://www.leya.com.br/mulheres-empilhadas/)
