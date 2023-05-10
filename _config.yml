@@ -6,6 +6,8 @@ twitter_username: obrerodrigues
 baseurl: "/"
 url: "https://brerodrigues.github.io"
 #permalink: /:categories/:title
+paginate: 5 # Set the number of posts per page
+paginate_path: "/page:num/" # Set the URL structure for paginated pages
 
 plugins:
   - jemoji
