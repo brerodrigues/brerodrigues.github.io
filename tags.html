@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>Posts by Tags</h1>
+
+<ul>
+  {% for tag in site.tags %}
+    <li><a href="{{ site.baseurl }}/tags/{{ tag[0] }}">{{ tag[0] }}</a></li>
+  {% endfor %}
+</ul>
+
+{% if page.tag %}
+  <h2>{{ page.tag }}</h2>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
