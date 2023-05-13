@@ -27,10 +27,13 @@ title: CTFs writeups
     <strong>{{ t }}</strong>
     <ul>
       {% for post in filtered_posts %}
-        <p><a href="{{ post.url }}">{{ post.title }}</a> - <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
-        {{ post.content | strip_html | truncatewords:20 }}
+        <li>
+          <p><a href="{{ post.url }}">{{ post.title }}</a> - <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
+          {{ post.content | strip_html | truncatewords:20 }}
+        </li>
       {% endfor %}
     </ul>
   {% endif %}
 {% endfor %}
+
 
