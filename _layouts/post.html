@@ -20,6 +20,6 @@ title:  "POSTS"
 
 <p>
     <i>tags:</i>{% for tag in page.tags %}
-    <b>{{ tag }}</b>,
+    <b><a href="/tag/{{ tag }}">{{ tag }}</a></b>,
     {% endfor %}
 </p>
