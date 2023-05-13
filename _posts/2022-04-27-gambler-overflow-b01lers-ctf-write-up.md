@@ -5,6 +5,7 @@ date: 2022-04-27 22:26
 author: obrerodrigues
 comments: true
 categories: [CTFs]
+tags: [Sem Categoria, stack overflow]
 ---
 Existe um óbvio buffer overflow que permite sobreescrever valores. Mas ao invés de uma simples execução de shellcode ou redirecionamento de código, havia um caminho mais simples de se percorrer.
 
