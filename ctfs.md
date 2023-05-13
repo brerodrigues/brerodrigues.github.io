@@ -20,16 +20,15 @@ title: CTFs writeups
 </ul>
 
 {% for tag in site.tags %}
-  {% assign t = tag[0] | first %}
-  {% assign posts = tag[1] | last %}
-<strong>{{ t }}</strong>
-<ul>
+  {% assign t = tag[0] %}
+  {% assign posts = tag[1] %}
+  <strong>{{ t }}</strong>
+  <ul>
     {% for post in site.categories.CTFs %}
-    {% if post.tags contains t %}
+      {% if post.tags contains t %}
         <p><a href="{{ post.url }}">{{ post.title }}</a> - <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
-
-    {{ post.content | strip_html | truncatewords:20 }}
-    {% endif %}
+        {{ post.content | strip_html | truncatewords:20 }}
+      {% endif %}
     {% endfor %}
-</ul>
+  </ul>
 {% endfor %}
