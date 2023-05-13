@@ -31,11 +31,9 @@ title: CTFs writeups
       <strong>{{ first_tag }}</strong>
       <ul>
         {% for post_with_tag in site.tags[first_tag] %}
-          <li>
-  <p><a href="{{ post_with_tag.url }}">{{ post_with_tag.title }}</a> - <b>{{ post_with_tag.date | date: "%b %-d, %Y" }}</b></p>
+          <p><a href="{{ post_with_tag.url }}">{{ post_with_tag.title }}</a> - <b>{{ post_with_tag.date | date: "%b %-d, %Y" }}</b></p>
 
-  {{ post_with_tag.content | strip_html | truncatewords:20 }}
-          </li>
+          {{ post_with_tag.content | strip_html | truncatewords:20 }}
         {% endfor %}
       </ul>
     {% endunless %}
