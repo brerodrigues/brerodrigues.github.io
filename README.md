@@ -6,5 +6,8 @@ Theme used is [**Jekyll Shell Theme**](https://github.com/tareqdandachi/jekyll-s
 - Inserted in the _includes/footer.html of includes the date of a post (showed only when a page is a blog post) and the twitter handle.
 - Modified the `<p>` html tag to `text-align: justify` in assets/css/main.scss
 - Inserted the plugin `jekyll-feed`
+- Inserted posts tags in the post
+- Inserted the tag_page.html in _layouts folder to show posts by tags
+- Inserted .py script to generate .md tags in the tags folder because in githubpages we cannot generate them
 
 Feel free to create your fork and modify too.
