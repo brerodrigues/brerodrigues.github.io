@@ -25,7 +25,6 @@ title: CTFs writeups
   <strong>{{ t }}</strong>
   <ul>
     {% for post in site.categories.CTFs %}
-      {% if post.tags contains t %}
       {% if post.tags.size > 0 and post.tags[0] == t %}
         <p><a href="{{ post.url }}">{{ post.title }}</a> - <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
         {{ post.content | strip_html | truncatewords:20 }}
