@@ -5,6 +5,7 @@ date: 2018-04-21 16:58
 author: obrerodrigues
 comments: true
 categories: [CTFs, Favorites]
+tags: [Sem Categoria, exploits]
 ---
 O <a href="https://wpictf.xyz/" target="_blank" rel="noopener">WPICTF</a> rolou no final de semana passado, do dia 13/04 ao dia 15/04. Não tive tempo suficiente para tentar resolver todos os challs, mas, nos poucos minutos que passei, consegui solucionar o mistério de dois binários. Um deles foi o <strong>ezpz</strong>.
 

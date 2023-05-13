@@ -5,7 +5,7 @@ date: 2016-12-06 18:53
 author: obrerodrigues
 comments: true
 categories: [CTFs]
-tags: [Narnia OverTheWire]
+tags: [Narnia OverTheWire, exploits, stack overflow]
 ---
 Ok, depois terminar com os challs do <a href="https://brerodrigues.github.io/category/CTFs">Leviathan</a>, o negócio agora era subir de nível. Então, seguindo os conselhos da galera do <a href="http://overthewire.org/wargames/">Over The Wire</a>, prossegui para o <a href="http://overthewire.org/wargames/narnia/">Narnia</a>.
 

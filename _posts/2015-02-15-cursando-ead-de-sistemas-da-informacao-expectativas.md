@@ -5,6 +5,7 @@ date: 2015-02-15 16:17
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Descolei uma vaga do <a href="http://siteprouni.mec.gov.br/" target="_blank">Prouni</a> para o curso superior de Sistemas da Informação pela universidade <a href="http://portal.estacio.br/" target="_blank">Estácio</a> na pouco falada e sofredora de certo preconceito modalidade <strong>EAD</strong> (Ensino a Distância). Não pretendo nessa postagem apontar vantagens/desvantagens da modalidade ou coisa do tipo porque ainda não tive experiência prática (começo neste semestre). Irei escrever sobre minhas expectativas com o curso e quais fatores me dizem que tomei uma decisão acertada.
 

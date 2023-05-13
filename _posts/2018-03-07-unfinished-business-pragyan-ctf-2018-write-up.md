@@ -5,6 +5,7 @@ date: 2018-03-07 12:00
 author: obrerodrigues
 comments: true
 categories: [CTFs]
+tags: [Sem Categoria, web]
 ---
 Acredito que esse desafio era o primeiro ou segundo da categoria Web no Pragyan. Não foi nem um pouco complexo porque, se fosse, provavelmente eu não estaria fazendo um write up já que ainda sou mais noob nos challs de web do que nos que não me considero tão noob assim.
 

@@ -5,6 +5,7 @@ date: 2011-12-16 01:44
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [exploits, windows]
 ---
 Tudo começou quando a <a href="https://twitter.com/#!/Ju_Pereeira" target="_blank">Ju_Pereeira</a> trocou a senha da conta de administrador (Windows Vista) e acabou esqueçendo da mesma, eu como estava de mãos limpas (sem cds bootaveis para explorar a famosa falha do utilman.exe) e com acesso a uma única conta (com direitos administrativos limitados), tive que me virar por lá. Dei uma googlada rápida e só encontrei textos sobre como recuperar a senha usando tal distro linux, tal software que precisa de direitos administrativos pra ser instalado... Enfim, nada útil.
 

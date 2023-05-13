@@ -5,7 +5,7 @@ date: 2018-05-15 11:52
 author: obrerodrigues
 comments: true
 categories: [CTFs]
-tags: [Hack The Box]
+tags: [Hack The Box, linux]
 ---
 Nem sempre sou 1337 suficiente pra rootear as máquinas do Hack The Box. Você pode comprovar esse fato dando uma olhada no meu movimentado <a href="https://www.hackthebox.eu/home/users/profile/5731" target="_blank" rel="noopener">perfil</a>. Mas não quer dizer que eu não tente, algumas vezes exaustivamente, conseguir umas flags. Foi o que aconteceu com a máquina aposentada recentemente, 12/05/2018, Flux Capacitor.
 

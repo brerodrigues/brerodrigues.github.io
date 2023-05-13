@@ -5,6 +5,7 @@ date: 2018-03-06 17:32
 author: obrerodrigues
 comments: true
 categories: [CTFs, Favorites]
+tags: [Sem Categoria, reversing, engenharia reversa]
 ---
 A solução desse chall é bem simples e praticamente só exige que você saiba o que a instrução <a href="http://webcache.googleusercontent.com/search?q=cache:lfRLmgWzBvMJ:www.linguagemassembly.com.br/fundamentos/pilhas-assembly-stack/+&amp;cd=3&amp;hl=pt-BR&amp;ct=clnk&amp;gl=br" target="_blank" rel="noopener">PUSH</a> faz, e ler o que há na stack usando um debugger qualquer.
 

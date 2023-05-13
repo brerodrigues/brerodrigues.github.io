@@ -5,6 +5,7 @@ date: 2015-01-24 21:47
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [estudo, técnicas]
 ---
 Esse post ensina a basicamente cometer um ato de <a href="http://desciclopedia.org/wiki/Vandalismo" target="_blank">vandalismo</a>. Então seja responsável e, caso faça isso em alguma rede que não lhe pertença, esqueça que foi esta postagem que te ensinou. E, claro que preciso dizer, esse conhecimento que passo agora deve ser usado para fins pacíficos e tem a intenção de mostrar como se proteger ao exibir a forma que ocorre o ataque. Blá, blá, bla.
 

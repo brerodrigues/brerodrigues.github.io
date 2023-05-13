@@ -5,6 +5,7 @@ date: 2013-11-21 22:20
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Lançado no ano passado, <a href="http://www.livrariasaraiva.com.br/produto/4199306" target="_blank">Não há dia fácil</a> (no original: No easy day) conta em variados detalhes, do ponto de vista de um dos <a href="http://pt.wikipedia.org/wiki/Navy_Seals" target="_blank">Navy Seals</a> que participaram, como foi a missão que localizou e executou o famoso terrorista Osama Bin Laden. Assim como detalha muito bem como é o dia a dia de um soldado que participou ativamente da guerra contra o terrorismo em regiões do oriente médio.
 

@@ -5,6 +5,7 @@ date: 2010-05-28 00:01
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [programação]
 ---
 Eu ainda nem conheçia esse código, mas é bem legal o efeito que ele dá, eu o encontrei em uns cds velhos, os comentários estão em alemão, resolvi não mudar, para que talvez fique como, tipo os créditos do cara que escreveu (: .
 

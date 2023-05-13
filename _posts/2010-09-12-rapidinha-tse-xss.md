@@ -5,6 +5,7 @@ date: 2010-09-12 21:45
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [pessoal]
 ---
 Navegando por acaso no site do <a href="http://www.tse.gov.br/" target="_blank">Tribunal Superior Eleitora</a>l, encontrei uma falha que permite ataques do tipo XSS (já que estamos perto da eleição, bem que posso ganhar alguma fama por isso né?), resolvi postar por postar, e porque estou escrevendo um texto, sobre como tirar todo potencial desse tipo de falha, fazendo mais do que simplesmente exibir uma msgbox na tela, enfim, ai vai the proof of concept:
 

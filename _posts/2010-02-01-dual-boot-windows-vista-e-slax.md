@@ -5,6 +5,7 @@ date: 2010-02-01 00:23
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [pessoal]
 ---
 Primeiro post de 2010 demorou mais chegou, era pra eu ter postado mais cedo mais a <span style="text-decoration:line-through;">preguiça</span> falta de tempo não deixou, então deixa eu parar de falar besteira e começar a falar logo sobre o que é de interesse.
 

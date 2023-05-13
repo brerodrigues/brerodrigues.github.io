@@ -5,6 +5,7 @@ date: 2009-11-17 23:58
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [estudo]
 ---
 Como faz muito tempo (exatamente 11 dias), que eu não posto nada no blog (talvez seja melhor pouco material de qualidade <span style="text-decoration:line-through;">duvidosa</span>, do que muitos posts sem qualidade nenhuma), resolvi postar alguma coisa, não para tapar o buraco, mas... Foda-se, vamos ao que interessa.
 

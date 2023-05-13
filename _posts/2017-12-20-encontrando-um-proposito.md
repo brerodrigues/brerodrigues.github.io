@@ -5,6 +5,7 @@ date: 2017-12-20 16:07
 author: obrerodrigues
 comments: true
 categories: [Rant, Favorites]
+tags: [estudo, pessoal]
 ---
 Entre umas hackinages e outras e as idas e vindas de uma vida ordinária, costumo pesquisar, ler e pensar sobre a razão da existência, do porquê se faz as coisas que fazemos e porque continuamos fazendo.
 

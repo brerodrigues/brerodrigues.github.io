@@ -5,6 +5,7 @@ date: 2009-12-14 04:02
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [pessoal]
 ---
 Algumas vezes, tentamos acessar algum arquivo em um determinado site, e nos deparamos com uma página com os dizeres: <strong>403 Forbidden</strong>
 

@@ -5,7 +5,7 @@ date: 2016-11-20 00:35
 author: obrerodrigues
 comments: true
 categories: [CTFs, Favorites]
-tags: [Leviathan OverTheWire]
+tags: [Leviathan OverTheWire, assembly, reversing, engenharia reversa]
 ---
 <ul>
     <li><a href="https://brerodrigues.github.io/ctfs/level-0-e-1-overthewire-ctf-leviathan-write-ups">Level 0</a></li>

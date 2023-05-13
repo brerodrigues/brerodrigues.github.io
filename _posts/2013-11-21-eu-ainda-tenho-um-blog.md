@@ -5,6 +5,7 @@ date: 2013-11-21 17:26
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Nossa, há quanto tempo que eu não venho nesse lugar. Minha última postagem está datada do dia <a href="http://brenn0.wordpress.com/2012/05/08/straight-flush-e-uma-demonstracao-do-que-eu-ja-aprendi-com-o-poker/" target="_blank">8 de maio de 2012</a>, isso vai dar mais de 1 ano e meio de ausência e abandono.
 

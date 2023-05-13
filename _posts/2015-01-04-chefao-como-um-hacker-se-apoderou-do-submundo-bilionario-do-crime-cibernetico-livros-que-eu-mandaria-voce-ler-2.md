@@ -5,6 +5,7 @@ date: 2015-01-04 00:14
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [estudo, pessoal]
 ---
 O li há algum tempo e, após prometer a mim mesmo que escreveria sobre, aqui estou para falar desse livro muito bom mas, pelo que vi, não tão popular no Brasil: "Chefão - Como um hacker se apoderou do submundo bilionário do crime cibernético".
 

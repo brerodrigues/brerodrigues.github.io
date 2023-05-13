@@ -5,6 +5,7 @@ date: 2017-04-18 19:47
 author: obrerodrigues
 comments: true
 categories: [CTFs]
+tags: [Sem Categoria, exploits]
 ---
 O <a href="https://ctftime.org/event/444">Ins'hAck</a> foi um ctf online que ocorreu do dia 6 de abril ao dia 9. Teve uns desafios bem interessantes e foi bem organizado pelo time <a href="https://ctftime.org/team/11869">InSecurity</a>.
 

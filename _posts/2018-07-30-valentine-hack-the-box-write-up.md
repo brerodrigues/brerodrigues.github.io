@@ -3,7 +3,7 @@ layout: post
 title: Valentine [Hack The Box] - Hearthbleed
 author: obrerodrigues
 categories: [CTFs]
-tags: [Hack The Box]
+tags: [Hack The Box, exploits, hearthbleed, linux]
 ---
 ![](https://github.com/brerodrigues/brerodrigues.github.io/raw/master/assets/img/valentine.png)
 

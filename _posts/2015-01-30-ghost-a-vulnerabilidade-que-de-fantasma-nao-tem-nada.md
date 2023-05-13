@@ -5,6 +5,7 @@ date: 2015-01-30 18:11
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [estudo, exploits]
 ---
 Durante a semana, no dia 28 de janeiro para ser mais exato, vi minha linha do tempo no twitter ser infestada por gente falando sobre um tal de <strong>GHOST</strong>.
 

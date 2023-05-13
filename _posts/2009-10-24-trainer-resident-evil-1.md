@@ -5,6 +5,7 @@ date: 2009-10-24 01:53
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [programaçaõ]
 ---
 Esse jogo parecer ser o mais dificil de toda a série, até para achar uns truques foi dificil, a munição é escassa, ervas e sprays também, e ninguém merece ter que matar aqueles zombies chatos com facadas.
 <!-- <p style="text-align:center;"><img src="http://img834.imageshack.us/img834/1284/re2b.jpg" alt="" /> -->

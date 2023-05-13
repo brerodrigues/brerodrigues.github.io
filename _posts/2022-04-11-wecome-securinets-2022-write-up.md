@@ -5,6 +5,7 @@ date: 2022-04-11 20:53
 author: obrerodrigues
 comments: true
 categories: [CTFs]
+tags: [Sem Categoria, stack overflow, return-to-libc, rop, exploits]
 ---
 **Link para o challenge: https://github.com/brerodrigues/exploit_drafts/tree/main/ctfing/Securinets_CTF_Quals_2022/1_welc**
 

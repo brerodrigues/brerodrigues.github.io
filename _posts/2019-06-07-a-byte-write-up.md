@@ -5,6 +5,7 @@ date: 2019-06-07 22:50
 author: obrerodrigues
 comments: true
 categories: [CTFs]
+tags: [Sem Categoria, reversing, engenharia reversa]
 ---
 Quando o binário vem stripped desanima um pouco porque sou noob. Mas enquanto caminho para um dia deixar de ser, vou aprendendo como analisar e lidar com esses casos. Esse desafio foi um desses que com um truque simples deu para pegar a flag.
 

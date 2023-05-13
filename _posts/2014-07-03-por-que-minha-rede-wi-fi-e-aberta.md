@@ -5,6 +5,7 @@ date: 2014-07-03 13:37
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Nessa última semana, não lembro exatamente como, mas esbarrei com o site deste projeto: <a href="https://openwireless.org/" target="_blank">https://openwireless.org/</a>
 

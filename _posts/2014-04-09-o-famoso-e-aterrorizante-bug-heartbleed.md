@@ -5,6 +5,7 @@ date: 2014-04-09 17:39
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [estudo, exploits]
 ---
 Muito tem se falado ultimamente sobre esse bug. Mas é realmente uma coisa tão séria assim? Sim, bastante.
 

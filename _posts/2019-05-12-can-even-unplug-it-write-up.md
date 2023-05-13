@@ -5,6 +5,7 @@ date: 2019-05-12 22:00
 author: obrerodrigues
 comments: true
 categories: [CTFs]
+tags: [Sem Categoria, OSINT]
 ---
 No fim de semana (11/05/2019), participei, com meu time, do [DEF CON CTF Qualifier](https://ctftime.org/event/762). 
 

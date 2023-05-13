@@ -5,6 +5,7 @@ date: 2019-06-12 18:22
 author: obrerodrigues
 comments: true
 categories: [CTFs]
+tags: [Sem Categoria, exploits, rop]
 ---
 Não consigo me recordar da descrição desse desafio mas citava algo com ROP (Return Oriented Programming). O achei divertido porque me relembrou das diferenças entre explorar um binário 32bits e um 64.
 

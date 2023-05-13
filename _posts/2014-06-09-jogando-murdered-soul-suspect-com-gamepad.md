@@ -5,6 +5,7 @@ date: 2014-06-09 14:51
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [misc]
 ---
 
 Essa postagem vai para meus manos pobres que, assim como eu, não puderam pagar <a href="http://www.walmart.com.br/produto/Games/Acessorios-Xbox-360/Microsoft/252729-Controle-sem-Fio-XBox-NSF-00023-Preto-Microsoft" target="_blank">189 reais em um controle original no estilo do xb0x 360 da querida Microsoft.</a>

@@ -5,6 +5,7 @@ date: 2016-10-20 17:24
 author: obrerodrigues
 comments: true
 categories: [CTFs, Favorites]
+tags: [Sem Categoria, misc, programação]
 ---
 Descrição:
 

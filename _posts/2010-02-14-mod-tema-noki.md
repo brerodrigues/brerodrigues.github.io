@@ -5,6 +5,7 @@ date: 2010-02-14 02:03
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [pessoal]
 ---
 Enfim consegui um novo celular, esse pelo menos me dá mais opções pra eu ficar fuçando nele, já consegui fazer algumas coisas que não são ensinadas no manual (tão emocionante :P), mas não interessa, por que qualquer idiota, com o minimo de inteligência também consegue fazer o mesmo, mas acho que agora enfim fiz algo realmente útil :) .
 

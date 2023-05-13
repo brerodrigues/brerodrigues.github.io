@@ -5,6 +5,7 @@ date: 2019-07-09 18:55
 author: obrerodrigues
 comments: true
 categories: [CTFs, Favorites]
+tags: [Sem Categoria, reversing, engenharia reversa]
 ---
 Depois de um chegado do [RATF](http://ratf.com.br/) ter me falado de um desafio interessante de engenharia reversa do [hackaflag]([http://hackaflag.com.br](http://hackaflag.com.br/)), decidi tentar a sorte e ver até onde eu chegaria na resolução. Acabei dando sorte com minhas pobres habilidades e consegui analisar e compreender o programa a ponto de criar um script que gera seriais válidos.
 

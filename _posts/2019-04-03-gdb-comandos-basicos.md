@@ -4,6 +4,7 @@ title: GDB - Comandos básicos
 date: 2019-04-03 22:08
 author: obrerodrigues
 categories: [Hacking]
+tags: [exploits, engenharia reversa, reversing, gdb]
 ---
 
 Estava eu, compilando uns links para auxiliar uns chegados no aprendizado da arte obscura da engenharia reversa, quando, ao iniciar as pesquisas sobre algo relacionado ao gdb, me frustrei por não encontrar porra nenhuma em pt-br. E claro que isso não é admissível.

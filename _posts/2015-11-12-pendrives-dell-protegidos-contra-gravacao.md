@@ -5,6 +5,7 @@ date: 2015-11-12 17:28
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [estudo]
 ---
 Alguns computadores da Dell ultimamente estão vindo acompanhados com pendrives para a recuperação do sistema operacional. Como forma de evitar que o dono do computador use o pendrive para outro fim que não seja a recuperação do sistema, a Dell resolveu protege-lo contra gravação.
 

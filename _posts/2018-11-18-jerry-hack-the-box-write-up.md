@@ -3,7 +3,7 @@ layout: post
 title: Jerry [Hack The Box] - Explorando Apache Tomcat
 author: obrerodrigues
 categories: [CTFs]
-tags: [Hack The Box]
+tags: [Hack The Box, windows, tomcat]
 ---
 Jerry é uma máquina windows nada díficil.
 

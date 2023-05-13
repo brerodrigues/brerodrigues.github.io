@@ -5,6 +5,7 @@ date: 2012-05-08 21:54
 author: obrerodrigues
 comments: true
 categories: [Rant, Favorites]
+tags: [pessoal, poker]
 ---
 Jogando uma pequena sessão de sits-and-go hoje, me deparei com a seguinte situação:
 

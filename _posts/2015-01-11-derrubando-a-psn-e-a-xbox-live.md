@@ -5,6 +5,7 @@ date: 2015-01-11 00:22
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [estudo]
 ---
 Como você talvez deva ter ouvido falar, no natal do ano passado, o grupo <a href="http://www.gamevicio.com/i/noticias/203/203560-grupo-lizard-squad-ameaca-desligar-o-xbox-live-no-natal-para-sempre/" target="_blank">Lizard Squad</a> deixou vários jogadores de video-game frustrados ao deixar off-line a <a href="http://br.playstation.com/psn/" target="_blank">Playstation Network</a> e a <a href="http://www.xbox.com/pt-BR/Live/Home" target="_blank">Xbox Live</a>.
 

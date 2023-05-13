@@ -5,7 +5,7 @@ date: 2016-12-13 17:32
 author: obrerodrigues
 comments: true
 categories: [CTFs]
-tags: [Narnia OverTheWire]
+tags: [Narnia OverTheWire, exploits, stack overflow]
 ---
 <ul>
     <li><a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">Level 0</a></li>

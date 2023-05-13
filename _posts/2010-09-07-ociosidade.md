@@ -5,6 +5,7 @@ date: 2010-09-07 02:45
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [pessoa, engenharia reversa, reversing]
 ---
 
 Here we go again ...

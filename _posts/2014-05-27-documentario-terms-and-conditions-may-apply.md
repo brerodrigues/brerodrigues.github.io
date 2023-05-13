@@ -5,6 +5,7 @@ date: 2014-05-27 13:05
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Segunda-feira a noite, lá estava eu com preguiça de sair da cama e vagando pelo Netflix, quando encontro um documentário que já havia ouvido falar mas nunca  tinha dado uma chance: "<a href="http://www.imdb.com/title/tt2084953/" target="_blank">Terms and conditions may apply</a>", que em uma tradução livre significa: "Termos e condições podem ser aplicados".
 

@@ -5,6 +5,7 @@ date: 2021-09-26 18:55
 author: obrerodrigues
 comments: true
 categories: [Hacking, Favorites]
+tags: [shellcoding, assembly, exploits]
 ---
 
 Um dia desses tive a necessidade de escrever um shellcode que não tivesse nenhuma das instruções utilizadas para fazer uma syscall (int, syscall e sysenter). A solução? Criar um código que não tivesse essas instruções originalmente. Um shellcode que se auto modificava.

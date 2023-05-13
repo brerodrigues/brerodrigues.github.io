@@ -5,6 +5,7 @@ date: 2014-07-14 15:17
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Como de costume, aqui eu estava vagando pela internet a procura de algo que nem mesmo sei e lendo tudo que encontrava de interessante pelo caminho. Em meio a esse processo, encontrei a página de um projeto bem interessante chamado de: "Tem boi na linha?"
 

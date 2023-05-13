@@ -5,6 +5,7 @@ date: 2010-04-14 07:35
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [programação]
 ---
 Eu tinha feito esse trainer já faz um tempo, já deveria ter postado ele aqui, mas enfim, o que importa eu que eu tô postando agora .
 

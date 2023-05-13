@@ -5,6 +5,7 @@ date: 2011-07-24 22:28
 author: obrerodrigues
 comments: true
 categories: [Hacking]
+tags: [pessoal]
 ---
 Eu pretendia escrever um post falando sobre a minha demora pra pôr atualizações aqui mas não tô muito afim pra falar a verdade, então resolvi postar uma coisa rapidinha aqui: como fazer o <strong>COSI</strong> rodar via wine.
 

@@ -5,7 +5,7 @@ date: 2017-12-24 15:57
 author: obrerodrigues
 comments: true
 categories: [CTFs, Favorites]
-tags: [Narnia OverTheWire]
+tags: [Narnia OverTheWire, exploits, return to libc]
 ---
 <ul>
     <li><a href="https://brerodrigues.github.io/ctfs/level-0-overthewire-ctf-narnia-write-up">Level 0</a></li>

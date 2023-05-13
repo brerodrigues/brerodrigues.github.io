@@ -3,7 +3,7 @@ layout: post
 title: Canape [Hack The Box] - Modificando exploits e explorando o Pip
 author: obrerodrigues
 categories: [CTFs, Favorites]
-tags: [Hack The Box]
+tags: [Hack The Box, exploits, linux]
 ---
 
 ![](https://raw.githubusercontent.com/brerodrigues/brerodrigues.github.io/master/assets/img/canape.png)

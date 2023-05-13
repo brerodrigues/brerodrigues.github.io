@@ -5,6 +5,7 @@ date: 2012-01-17 00:39
 author: obrerodrigues
 comments: true
 categories: [Rant, Categories]
+tags: [pessoal]
 ---
 Meu primeiro post sobre poker, acho que ainda não dá muito pra falar sobre estratégias de jogo por enquanto (ainda não devo jogar tão bem pra aconselhar alguém), então achei válido citar as razões que estão me levando a passar parte das minhas férias jogando e lendo sobre o mesmo.
 

@@ -5,6 +5,7 @@ date: 2015-02-07 23:43
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Indicado ao oscar em várias categorias (incluindo melhor filme), <strong>O jogo da imitação</strong> (<em>The imitation game</em>), é um filme que conta a história de como o famoso matemático e influente cientista da computação (considerado por alguns o pai da computação) <strong><a href="https://pt.wikipedia.org/wiki/Alan_Turing">Alan Turing</a></strong> (se você não o conhece e quer ver o filme, recomendo que não leia o artigo do wikipédia, ou encontrará vários spoilers) e uma seleta equipe de matemáticos e criptologos lutaram para quebrar a criptografia usada na infame <strong><a href="https://pt.wikipedia.org/wiki/Enigma_%28m%C3%A1quina%29" target="_blank">máquina Enigma</a></strong>, que foi utilizada pelos nazistas para a troca de mensagens cifradas durante a segunda guerra mundial. E eu sei que se você prestou a atenção nas aulas de história já sabe de tudo isso.
 

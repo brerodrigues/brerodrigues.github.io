@@ -5,6 +5,7 @@ date: 2014-04-22 14:07
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Hoje iniciando mais uma categoria nova (<a href="http://brenn0.wordpress.com/2014/04/17/palestra-contrate-os-hackers/" target="_blank">assim como fiz na última sexta-feira </a>18/04), que terá sempre uma indicação de link ou site que eu achar de conteúdo relevante para o blog.
 

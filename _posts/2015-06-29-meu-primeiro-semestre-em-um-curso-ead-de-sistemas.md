@@ -5,6 +5,7 @@ date: 2015-06-29 21:44
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [estudo, pessoal]
 ---
 Há quase seis meses, escrevi neste blog esse texto: "<a href="https://brenn0.wordpress.com/2015/02/15/cursando-ead-de-sistemas-da-informacao-expectativas/" target="_blank">Cursando EAD de Sistemas da Informação - Expectativas</a>". Então, duas semanas após essa postagem, abandonei meu compromisso de publicar algo novo todos os sábados.
 

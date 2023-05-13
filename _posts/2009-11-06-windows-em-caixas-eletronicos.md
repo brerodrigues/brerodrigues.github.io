@@ -5,6 +5,7 @@ date: 2009-11-06 00:46
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [estudo, pessoal]
 ---
 Antes de ontem, tive que fazer uma visita ao banco, e me parece que mais um monte de pessoas também tiveram essa idéia, por que tive que enfrentar uma maravilhosa fila, para poder ter acesso a um caixa eletrônico.
 

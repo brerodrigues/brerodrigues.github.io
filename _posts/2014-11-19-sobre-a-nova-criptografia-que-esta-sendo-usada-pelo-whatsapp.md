@@ -5,6 +5,7 @@ date: 2014-11-19 14:02
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Ontem, enquanto bebia cerveja e vagava pela internet ao som dessa inspiradora <a href="https://www.youtube.com/watch?v=FoUWHfh733Y" target="_blank">música</a>, dei de cara com essa notícia: "<a href="http://g1.globo.com/tecnologia/noticia/2014/11/whatsapp-adota-criptografia-para-proteger-mensagens-em-transito.html" target="_blank">WhatsApp adota criptografia para proteger mensagens em trânsito</a>".
 

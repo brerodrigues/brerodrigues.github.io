@@ -5,6 +5,7 @@ date: 2014-06-23 22:25
 author: obrerodrigues
 comments: true
 categories: [Rant]
+tags: [pessoal]
 ---
 Quem me conhece sabe o tanto de valor que dou para privacidade online. Até que ando tomando muito cuidado com as informações pessoais que todas as pessoas costumam expôr no Facebook, por exemplo. Aos poucos, ainda pretendo abandonar a rede social por completo, mas isso é assunto para um outro texto.
 

@@ -3,6 +3,7 @@ layout: post
 title: Pwncollege - hackeando e aprendendo
 author: obrerodrigues
 categories: [Hacking]
+tags: [estudo, exploits]
 ---
 
 Enquanto tento sobreviver a pandemia no meu lockdown solitário, ando usando o tempo livre para estudar e hackear umas coisas. Não é como se antes eu já saísse de casa, mas agora há uma desculpa aceitável socialmente.

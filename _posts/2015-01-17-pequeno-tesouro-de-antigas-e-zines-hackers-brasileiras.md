@@ -5,6 +5,7 @@ date: 2015-01-17 23:08
 author: obrerodrigues
 comments: true
 categories: [Hacking, Favorites]
+tags: [estudo]
 ---
 Lhes trago uma curta postagem, mas com informação suficiente para passar algumas semanas se divertindo. Lhes trago um tesouro que encontrei pela internet há certo tempo. Lhes trago um conjunto de antigas <em>e-zines</em> (creio que seja a forma correta de se dizer, já que uma <em>zine</em> utiliza o papel impresso, mas foda-se) hackers brasileiras.
 

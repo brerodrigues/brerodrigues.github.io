@@ -5,6 +5,7 @@ date: 2014-04-29 23:00
 author: obrerodrigues
 comments: true
 categories: [Hacking, Favorites]
+tags: [estudo, pessoal, exploits]
 ---
 
 Ultimamente venho lendo o livro <a href="http://www.amazon.com/The-Best-2600-Hacker-Odyssey/dp/0470294191" target="_blank">The Best of 2600 [A Hacker odyssey]</a> e encontrei um texto na categoria "A filosofia Hacker (The Hacker philosophy)" que achei interessante.
