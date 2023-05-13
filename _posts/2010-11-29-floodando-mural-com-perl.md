@@ -5,7 +5,7 @@ date: 2010-11-29 15:32
 author: obrerodrigues
 comments: true
 categories: [Hacking]
-tags: [programação]
+tags: [programacao]
 ---
 
 Porra, cada vez mais que eu uso perl, mas vejo o quanto de coisas que dá pra se fazer usando o mesmo, final de semana passado, começei a ver o que daria pra fazer com sites usando perl.

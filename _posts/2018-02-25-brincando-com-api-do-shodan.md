@@ -5,7 +5,7 @@ date: 2018-02-25 11:45
 author: obrerodrigues
 comments: true
 categories: [Hacking]
-tags: [estudo, programação]
+tags: [estudo, programacao]
 ---
 Se não conheces, o Shodan é um buscador que vive escaneando a internet e indexando os metadados (os banners) que são retornados pelos dispositivos que estejam aceitando conexões indiscriminadamente.
 

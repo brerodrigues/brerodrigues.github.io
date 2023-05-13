@@ -56,7 +56,7 @@ puts(WrongWrong
 ```
 
 É, não deu em nada. Ele provavelmente usa um simples <a href="http://www.inf.pucrs.br/flash/cbp/selecao_if.html"><em>if/else</em></a> e nesses casos ltrace não é tão útil.
-O que fazer, o que fazer... Lembrei bem que na descrição do ctf dizia que não seriam precisos conhecimentos em programação para resolver os challs, então eu não deveria ter que abrir o gdb e tentar ler assembly. Mas foda-se.
+O que fazer, o que fazer... Lembrei bem que na descrição do ctf dizia que não seriam precisos conhecimentos em programacao para resolver os challs, então eu não deveria ter que abrir o gdb e tentar ler assembly. Mas foda-se.
 
 <script src="https://gist.github.com/nick-belane/6c46caa5723e2464c17783873ccd4d12.js"></script>
 

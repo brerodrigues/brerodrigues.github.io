@@ -9,7 +9,7 @@ tags: [Leviathan OverTheWire]
 ---
 Depois de finalizar o <a href="http://overthewire.org/wargames/bandit/">Bandit</a> do notório CTF online <a href="http://overthewire.org/about">OverTheWire</a>, me achei preparado para encarar os outros desafios. Pretendo, talvez, fazer write-up para os challs do Bandit, mas eles são tão simples que caberiam em uma postagem de uma única linha (a maioria deles). Logo achei melhor qualquer dia desses fazer um único grande post com a história de como passei de cada nível.
 
-Se quiser uma descrição completa sobre os challs do Leviathan, dê uma checada nesse <a href="http://overthewire.org/wargames/leviathan/">link</a>. Mas, de forma resumida, o que disseram é que: para resolver os desafios não será necessário conhecimento em programação, apenas bom senso e conhecimento sobre alguns comandos básicos *nix.
+Se quiser uma descrição completa sobre os challs do Leviathan, dê uma checada nesse <a href="http://overthewire.org/wargames/leviathan/">link</a>. Mas, de forma resumida, o que disseram é que: para resolver os desafios não será necessário conhecimento em programacao, apenas bom senso e conhecimento sobre alguns comandos básicos *nix.
 
 Era hora de abrir um terminal e começar.
 

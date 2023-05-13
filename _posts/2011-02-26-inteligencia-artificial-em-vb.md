@@ -5,7 +5,7 @@ date: 2011-02-26 17:57
 author: obrerodrigues
 comments: true
 categories: [Hacking]
-tags: [programação]
+tags: [programacao]
 ---
 Duas semanas sem nenhum novo post, já vamos chegando a terceira semana sem postagens novas, é que esses dias tão meio fodas, mas juro que vou começar a voltar ao normal e cumprir minha promessa de um post semanal (rimou, que legal).
 

@@ -83,7 +83,7 @@ try {
 ?>
 ```
 
-Não me importava com nome de variáveis e boas práticas de programação. O importante era que o negócio funcionava. Pude comprovar quando fiz a seguinte requisição: http://10.10.10.185/ratf.php?cmd=select%20*%20from%20login; e vi o resultado:
+Não me importava com nome de variáveis e boas práticas de programacao. O importante era que o negócio funcionava. Pude comprovar quando fiz a seguinte requisição: http://10.10.10.185/ratf.php?cmd=select%20*%20from%20login; e vi o resultado:
 
 ```
 select * from login;stdClass Object

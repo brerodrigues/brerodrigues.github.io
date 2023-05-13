@@ -47,7 +47,7 @@ Caso a falha seja explorada, é possível que, com um pouco de paciência, o car
 
 E como a falha é explorada?
 
-Se segure aí porque aqui vão um pouco de informações técnicas.
+Se segure aí porque aqui vão um pouco de informações tecnicas.
 
 Basicamente, é tudo culpa dessa única linha de código:
 

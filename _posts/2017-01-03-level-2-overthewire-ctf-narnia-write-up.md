@@ -111,7 +111,7 @@ Usei o comando 'n' de next para executar e parar na instrução seguinte sem ent
 
 Agora é só pôr nesse endereço o shellcode e sobreescrever o endereço de retorno.
 
-Para mudar o endereço de retorno, preciso saber qual parte dos 150 B's sobreescreveu o mesmo. Também há várias técnicas para descobrir. Muitas vezes consigo calcular o tamanho do stack frame analisando o asm da função, dessa forma, adiciono + 4 ao tamanho do frame e sobreescrevo exatamente o endereço de retorno.
+Para mudar o endereço de retorno, preciso saber qual parte dos 150 B's sobreescreveu o mesmo. Também há várias tecnicas para descobrir. Muitas vezes consigo calcular o tamanho do stack frame analisando o asm da função, dessa forma, adiciono + 4 ao tamanho do frame e sobreescrevo exatamente o endereço de retorno.
 
 <script src="https://gist.github.com/anonymous/fb9335ee41a863cc8bab2aa94b205e90.js"></script>
 

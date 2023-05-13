@@ -44,7 +44,7 @@ Mas, desde o começo, acreditei que esse level não seria mais um simples stack 
 
 O bit <strong>NX</strong> está setado! Ou seja, pôr shellcode na stack e jogar a execução do programa pra lá não vai funcionar, porque quando esta forma de proteção está habilitada, as regiões da memória são separadas entre as que contém código executável e as que servem apenas para o armazenamento de dados. Como a stack foi criada apenas para guardar valores, faz sentido que nada que esteja nela seja executável. Você pode aprender mais sobre NX <a href="https://pt.wikipedia.org/wiki/Bit_NX" target="_blank" rel="noopener">aqui</a> e usando o google.
 
-Depois de observar esse fator, lembrei de uma das técnicas utilizadas para burlar esse mecanismo de segurança: a <a href="https://pt.wikipedia.org/wiki/Return-to-libc_attack" target="_blank" rel="noopener">return-to-libc</a>.
+Depois de observar esse fator, lembrei de uma das tecnicas utilizadas para burlar esse mecanismo de segurança: a <a href="https://pt.wikipedia.org/wiki/Return-to-libc_attack" target="_blank" rel="noopener">return-to-libc</a>.
 
 Já que não é possível inserir e executar nosso próprio código, que tal usar o código que já está no executável?
 

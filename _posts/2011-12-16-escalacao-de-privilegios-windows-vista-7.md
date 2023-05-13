@@ -19,7 +19,7 @@ O exploit já tem pouco mais de um ano, eu não sei como não o tinha no meu pob
 
 Se explorada com sucesso, é possível conseguir permissões a nível de sistema, o que significa total poder sobre o Windows.
 
-Muito mais informações técnicas podem ser vistas aqui (em inglês): <a href="http://www.exploit-db.com/bypassing-uac-with-user-privilege-under-windows-vista7-mirror/" target="_blank">http://www.exploit-db.com/bypassing-uac-with-user-privilege-under-windows-vista7-mirror/</a>
+Muito mais informações tecnicas podem ser vistas aqui (em inglês): <a href="http://www.exploit-db.com/bypassing-uac-with-user-privilege-under-windows-vista7-mirror/" target="_blank">http://www.exploit-db.com/bypassing-uac-with-user-privilege-under-windows-vista7-mirror/</a>
 
 Era tudo que eu precisava naquele momento, então rapidamente baixei o PoC: <a href="http://dl.packetstormsecurity.net/1011-exploits/uacpoc.zip">http://dl.packetstormsecurity.net/1011-exploits/uacpoc.zip</a>
 
@@ -44,4 +44,4 @@ O único aviso sobre esse exploit é que ele é meio instável (também, ele mex
 
 Aqui se encontra um vídeo onde a falha é explorada no Windows 7: <a href="http://www.nsai.it/wp-content/uploads/video.swf" target="_blank">http://www.nsai.it/wp-content/uploads/video.swf</a>
 
-E aqui mais umas informações (não tão técnicas e mais "legiveis" que as do exploit-db.com): <a href="http://isc.sans.edu/diary.html?storyid=9988" target="_blank">http://isc.sans.edu/diary.html?storyid=9988</a>
+E aqui mais umas informações (não tão tecnicas e mais "legiveis" que as do exploit-db.com): <a href="http://isc.sans.edu/diary.html?storyid=9988" target="_blank">http://isc.sans.edu/diary.html?storyid=9988</a>

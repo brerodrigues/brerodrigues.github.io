@@ -198,9 +198,9 @@ zR
 
 Ela continua surgindo, mas é bem mais difícil de reconhece-la. E agora acredito que seja menos custoso tentar traduzi-la nesse meio ao invés de abrir o debugger e começar a hackinagem de verdade.
 
-Esta postagem está se tornando grande demais e, com base nos padrões atuais de leitura e engajamento do usuário médio da world wide web, preciso finaliza-la para evitar problemas de monetização. Deixo para contar em uma eventual segunda parte as técnicas que usei para criar uma versão melhorada desse desafio. Usei umas noobices legais anti-debugging e expandi o aprendizado. <a href="http://twitter.com/obrerodrigues">Siga-me</a> e tenha a garantia que não irá perder o próximo post.
+Esta postagem está se tornando grande demais e, com base nos padrões atuais de leitura e engajamento do usuário médio da world wide web, preciso finaliza-la para evitar problemas de monetização. Deixo para contar em uma eventual segunda parte as tecnicas que usei para criar uma versão melhorada desse desafio. Usei umas noobices legais anti-debugging e expandi o aprendizado. <a href="http://twitter.com/obrerodrigues">Siga-me</a> e tenha a garantia que não irá perder o próximo post.
 
-E usando essa desculpa cheia de palavras bonitas <del>para justificar a preguiça, </del>finalizo esta linda e glamorosa postagem de técnicas 1337.
+E usando essa desculpa cheia de palavras bonitas <del>para justificar a preguiça, </del>finalizo esta linda e glamorosa postagem de tecnicas 1337.
 
 Antes que esqueça, aqui vão uns links que me ajudaram a aprender:
 

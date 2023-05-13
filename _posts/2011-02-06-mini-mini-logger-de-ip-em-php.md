@@ -5,7 +5,7 @@ date: 2011-02-06 01:32
 author: obrerodrigues
 comments: true
 categories: [Hacking]
-tags: [programação]
+tags: [programacao]
 ---
 Primeira vez que eu posto algum código escrito em PHP aqui, não é nada super especial, eu criei ele pra incorporar a outro código, como não vi nenhum código prontinho e comentado em nenhum lugar, resolvi trazer pra cá.
 
