@@ -20,11 +20,12 @@ title: CTFs writeups
 </ul>
 
 {% assign desired_tags = ['Hack The Box', 'Leviathan OverTheWire', 'Narnia OverTheWire'] %}
-
+{{ desired_tags }}
 {% for tag in desired_tags %}
-  <strong>{{ t }}</strong>
+  <strong>{{ tag }}</strong>
   <ul>
     {% for post in site.categories.CTFs %}
+    
       {% if post.tags.size > 0 and post.tags[0] == tag %}
         <p><a href="{{ post.url }}">{{ post.title }}</a> - <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
         {{ post.content | strip_html | truncatewords:20 }}
