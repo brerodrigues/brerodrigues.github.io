@@ -3,7 +3,7 @@ layout: post
 title: Magic [Hack The Box] - writeup
 author: obrerodrigues
 categories: [CTFs]
-tags: [Hack The Box]
+tags: [Hack The Box, Magic, SQL Injection]
 ---
 Comecei com um scan básicão do nmap como de costume (nmap -v -A 10.10.10.185) e vi isso:
 
