@@ -21,7 +21,7 @@ title: CTFs writeups
 
 {% for tag in site.tags %}
   {% assign t = tag[0] | first %}
-  {% assign posts = tag | last %}
+  {% assign posts = tag[1] | last %}
 <strong>{{ t }}</strong>
 <ul>
     {% for post in site.categories.CTFs %}
