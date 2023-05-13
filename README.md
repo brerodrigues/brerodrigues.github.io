@@ -8,6 +8,7 @@ Theme used is [**Jekyll Shell Theme**](https://github.com/tareqdandachi/jekyll-s
 - Inserted the plugin `jekyll-feed`
 - Inserted posts tags in the post
 - Inserted the tag_page.html in _layouts folder to show posts by tags
-- Inserted .py script to generate .md tags in the tags folder because in githubpages we cannot generate them
+- Inserted update_tags.py script to generate .md tags in the tags folder because in githubpages we cannot generate them
+  - Warning: this script is modified by me and the modificiations are not well documented for now
 
 Feel free to create your fork and modify too.
