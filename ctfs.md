@@ -22,18 +22,16 @@ title: CTFs writeups
 {% for tag in site.tags %}
   {% assign t = tag[0] %}
   {% assign posts = tag[1] %}
-  {% assign filtered_posts = site.categories.CTFs | where_exp: "post", "post.tags contains t" %}
-  {% if filtered_posts.size > 0 %}
-    <strong>{{ t }}</strong>
-    <ul>
-      {% for post in filtered_posts %}
-        <li>
-          <p><a href="{{ post.url }}">{{ post.title }}</a> - <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
-          {{ post.content | strip_html | truncatewords:20 }}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+  <strong>{{ t }}</strong>
+  <ul>
+    {% for post in site.categories.CTFs %}
+      {% assign first_tag = post.tags | first %}
+      {% if post.tags.size > 0 and first_tag == t %}
+        <p><a href="{{ post.url }}">{{ post.title }}</a> - <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
+        {{ post.content | strip_html | truncatewords:20 }}
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endfor %}
 
 
