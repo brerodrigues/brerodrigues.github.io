@@ -20,7 +20,7 @@ title: CTFs writeups
 </ul>
 
 {% for tag in site.tags %}
-  {% assign t = tag | first %}
+  {% assign t = tag[0] | first %}
   {% assign posts = tag | last %}
 <strong>{{ t }}</strong>
 <ul>
