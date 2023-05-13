@@ -1,6 +1,6 @@
 ---
 layout: tag_page
-title: "Tag: técnicas"
-tag: técnicas
+title: "Tag: tecnicas"
+tag: tecnicas
 robots: noindex
 ---
