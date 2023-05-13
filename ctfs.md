@@ -19,13 +19,13 @@ title: CTFs writeups
 {% endfor %}
 </ul>
 
-{% for tag in site.tags %}
-  {% assign t = tag[0] %}
-  {% assign posts = tag[1] %}
+{% assign desired_tags = ['Hack The Box', 'Leviathan OverTheWire', 'Narnia OverTheWire'] %}
+
+{% for tag in desired_tags %}
   <strong>{{ t }}</strong>
   <ul>
     {% for post in site.categories.CTFs %}
-      {% if post.tags.size > 0 and post.tags[0] == t %}
+      {% if post.tags.size > 0 and post.tags[0] == tag %}
         <p><a href="{{ post.url }}">{{ post.title }}</a> - <b>{{ post.date | date: "%b %-d, %Y" }}</b></p>
         {{ post.content | strip_html | truncatewords:20 }}
       {% endif %}
