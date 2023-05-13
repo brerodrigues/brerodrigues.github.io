@@ -17,3 +17,9 @@ title:  "POSTS"
 </span>
 
 {{ content }}
+
+<p>
+    <i>tags</i>{% for tag in page.tags %}
+    {{ tag }}
+    {% endfor %}
+</p>
