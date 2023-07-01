@@ -5,7 +5,7 @@ date: 2023-07-01 20:15
 author: obrerodrigues
 comments: true
 categories: [Hacking, Favorites]
-tags: [OSCP, Offsec, certificação]
+tags: [OSCP, Offsec, certificacao, guia, experiencia]
 ---
 Eu iria fazer um único texto sobre a certificação mas percebi que o mesmo começou a ficar longo. Então separei em dois. Nessa versão conto minha experiência em primeira pessoa desde a compra do curso até o exame. Na próxima versão (atualizo esse post assim que publicar, enquanto isso recomendo [esse link aqui](https://johnjhacking.com/blog/oscp-reborn-2023/)) compartilharei uns conselhos mais práticos e úteis, seja para noobs da área de segurança ou para alguém mais experiente.
 
