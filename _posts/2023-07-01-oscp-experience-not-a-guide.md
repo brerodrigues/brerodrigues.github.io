@@ -13,18 +13,22 @@ Bora lá.
 
 Dizem por aí que quem consegue essa certificação e não posta sobre o assunto nunca mais consegue acesso root em um servidor. Então aqui vai minha história.
 
+## Background e preparação
 Posso dizer que tenho algum background e experiência hackeando umas coisas. O leitor atento pode observar que tenho textos horríveis e sem revisão de 2009, época em que eu era uma criança fazendo o que não deve e que só mantenho online como registro histórico. Um exemplo é a pérola [em que ensino a fazer como fazer ligações em telefones trancados](https://brerodrigues.github.io/hacking/favorites/2009/10/12/fazendo-ligacoes-em-telefones-trancados.html). Aliás, a pausa que descrevi ser de 7 segundos entre pulsos parece excessivamente longa, 2 ou 3 segundos são suficientes. Tendo em vista esses fatos, posso me definir como alguém que não é um iniciante no hacking.
 
 Comprei o curso em outubro de 2022, mas só comecei a fazê-lo em dezembro (após a compra é possível decidir qual a data de inicio). Em 2023 saiu uma versão atualizada, mas essa postagem não entra o suficiente nas especificidades do curso, então ainda o vejo como útil. Utilizei um tempo pré-curso para afiar minhas habilidades fazendo algumas máquinas Windows do HTB e alguns cursos relacionados ao Active Directory.
 
+## Planejamento e estudo
 Decidi planejar os 90 dias de curso assim: 30 dias estudando o material e fazendo todos os exercícios e os 60 restantes hackeando o máximo de máquinas possíveis nos labs.
 
 Minha ideia era passar por cima do material de forma superficial porque eu dominava quase todo o conteúdo. As exceções eram os módulos de escalação de privilégios no Windows e a parte do AD. Os exercícios precisavam ser feitos por que, além de ser necessário no mínimo 80% de completude nos mesmos (e 30 máquinas hackeadas nos labs) para obter 10 pontos extras para o exame, saber que acertei os exercícios me daria a confiança de que eu realmente dominava o conteúdo.
 
+## Experiência com o material
 Nos 30 dias iniciais finalizei os exercícios com relativa facilidade. Estudei algumas horinhas todos os dias e nos fins de semana dava um gás a mais. É mais fácil investir seu tempo livre quando você curte o negócio e sonhava com essa merda desde a época que descobriu o [BackTrack](https://en.wikipedia.org/wiki/BackTrack) em 2008. O material não é profundo e tem aquela filosofia de te ensinar o básico e depois te cobrar um pouco mais nos exercícios. Aquela vibe de ensinar a pescar e não te dar o peixe. Um novato teria que se matar e pôr muito mais horas que eu para consumir o curso e ainda ter tempo para os labs. Apanhei na parte de AD e foi lá que deixei para trás um dos únicos exercícios que não completei. Claro que isso deu um baque na minha confiança. Que tipo de hacker era eu que não conseguia um Domain Admin nos exercícios? Minha mente me dizia que era óbvio que eu ia me foder no exame se continuasse assim.
 
 Ah, um segredo: desde as primeiras seções do curso eu fui fazendo anotações utilizando o Obsidian. Nada verboso. Anotava o que sentia que iria precisar um dia, sabe? A ideia era fazer notas práticas e não um resumo do material.
 
+## Experiência com os labs
 Fui para os labs. Comecei a escanear e hackear furiosamente tudo que podia. Priorizei as máquinas Windows e fui em busca dos Active Directories por saber que eram meus pontos fracos. Tentava não passar muito tempo em algum alvo que eu estivesse completamente sem rumo porque era possível que ele tivesse alguma dependência (nos labs há máquinas que não são vulneráveis inicialmente e só podem ser comprometidas ao se acessar uma outra máquina). Nesse processo, minhas anotações eram testadas e eu as enriquecia a cada novo comando que eu aprendia. Em determinado momento comecei a montar um checklist de passos e os respectivos comando ou ferramentas utilizadas para ownar uma máquina porque percebi que um dos meus erros mais comuns era esquecer de fazer algo bobo, como por exemplo não tentar logar em um serviço com credenciais default. Percebi minha tendência a pensar demais, ir para as soluções complexas ao invés de enxergar as simples. Seria um erro fatal levar esse defeito para um exame em que o tempo era meu maior rival.
 
 Foi assim que encarei os labs e onde achei seu maior valor: encontrar o que iria fazer com que eu falhasse no exame e corrigir antes do dia da prova.
@@ -37,6 +41,7 @@ Quando chegou o meu último dia de lab era óbvio que eu me sentia um completo d
 
 Sem mais acesso ao lab e com alguns emails da Offsec me lembrando que precisava marcar o dia do exame, tomei a decisão que qualquer ansioso tomaria: marquei para o último dia possível, 9 de junho. Ainda era 5 de março então achei que poderia esquecer da OSCP, me convencer de que não era grande coisa e seguir com a vida normal. Não façam isso. Tirar uma folga de umas 2 semanas para descansar a cabeça é ok, principalmente se você estava rushando pelos labs (90 dias pode ser muito pouco para a maioria), mas qualquer pessoa sã iria sugerir que a prova fosse feita o mais cedo possível porque é bom estar com o conteúdo fresquinho na mente.
 
+## O famigerado exame
 Três meses depois lá estava eu, mentalmente abalado mas, de acordo com a equipe de psicólogos que me acompanhava, supostamente preparado. Marquei o inicio do exame para as 21 horas porque, como um bom morcego de computador, sabia que meu cérebro estaria no auge as 02:00 e conseguiria manter o ritmo até o amanhecer sem problemas. Eu não tinha planos para dormir, mas me prometi que faria intervalos regulares de pelo menos 1 hora para ir tomar uma água e respirar outro ar que não fosse do quarto.
 
 Quando o proctor (o carinha, ou a carinha, que nos acompanha durante todo exame) falou comigo, me dei conta que não sabia mais falar inglês e tive que recorrer ao tradutor. Passei umas boas 2 horas para me acostumar que havia alguém me olhando na webcam, vendo minha tela e julgando cada comando errado que eu tentava rodar!
@@ -76,4 +81,5 @@ Enfim mandei aquela porra e tentei aceitar que havia acabado. Estava nas mãos d
 
 Meu sofrimento durou pouco, menos de 48 horas depois recebi o famoso email de congratulações. Eu havia sido aprovado neste caralho.
 
+## Conclusão
 Minha experiência não foi o exemplo mais brilhante e não caberia num post estilo coach para ir ao linkedin, mas espero que prove um ponto importante: faça essa merda do seu jeito. Eu li tudo que encontrei sobre a experiência dos outros e reconheço que há conselhos bons por aí, mas se eu não tivesse feito do meu jeito talvez não tivesse sido bem sucedido. Não há receita de bolo. Ainda é possível que no dia de exame você seja amaldiçoado e pegue máquinas que sejam feitas com base nos seus pontos fracos. E aí não tem o que fazer. Hacking é baseado nos detalhes e tem vezes que você conhece 99 deles mas no dia da prova a máquina vai te cobrar o detalhe número 100. Não esqueça de dar seu devido valor e reconhecer seus méritos. É só uma prova. Ela não vai provar seu valor profissional ou pessoal, isso aí quem define é você. Ou não.
