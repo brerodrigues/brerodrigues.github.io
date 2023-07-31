@@ -7,6 +7,8 @@ title: Hello friend
 detail_image: assets/site-logo.png
 
 ---
+(Não estou mais atualizando esse blog, migrei para o [brerodrigues.wordpress.com](brerodrigues.wordpress.com))
+
 Eu sei. Eu também quase esqueci que nos dias de hoje as pessoas ainda escrevem conteúdo para a internet.
 
 Mesmo assim, nos tempos de vlogs e tutorias coloridos no youtube, uma vez ou outra apareço para contar algo sobre algumas [hackinagens](https://brerodrigues.github.io/hacking/), [CTF’s](https://brerodrigues.github.io/ctfs) que participo (muitos deles com o time do qual faço parte, o [RATF](https://ctf-br.org/wiki/ratf/)) ou [qualquer outra bobagem](https://brerodrigues.github.io/rant) que desperte meu interesse.
