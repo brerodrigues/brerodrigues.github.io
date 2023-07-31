@@ -7,7 +7,7 @@ title: Hello friend
 detail_image: assets/site-logo.png
 
 ---
-(Não estou mais atualizando esse blog, migrei para o [brerodrigues.wordpress.com](brerodrigues.wordpress.com))
+(Não estou mais atualizando esse blog, migrei para o [brerodrigues.wordpress.com](https://brerodrigues.wordpress.com) e até newsletter tem)
 
 Eu sei. Eu também quase esqueci que nos dias de hoje as pessoas ainda escrevem conteúdo para a internet.
 
