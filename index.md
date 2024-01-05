@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 permalink_name: /home
-title: Hello friend
+title: Hello, friend
 
 detail_image: assets/site-logo.png
 
