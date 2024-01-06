@@ -21,4 +21,6 @@ Não sabe por onde começar? Dá uma olhada nos meus textos favoritos: [https://
 [{{ post.title }}]({{ site.url }}{{ post.url }}) - **{{ post.date | date: "%b %-d, %Y" }}**
 {% endfor %}
 
-Para falar comigo basta usar o [twitter](https://twitter.com/obrerodrigues).
+Se gosta do que escrevo, possivelmente pode gostar do que leio. [Aqui](https://brerodrigues.github.io/books) mantenho uma lista dos livros que li e curti.
+
+E para falar comigo basta usar o [twitter](https://twitter.com/obrerodrigues) ou abrir uma [issue](https://github.com/brerodrigues/brerodrigues.github.io/issues/new) nesse repositorio com a label *comment*.
