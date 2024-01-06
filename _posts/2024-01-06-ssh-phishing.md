@@ -5,7 +5,7 @@ date: 2024-01-06 19:42
 author: obrerodrigues
 comments: true
 categories: [Hacking]
-tags: [ssh, phishing, tools]
+tags: [ferramentas, programacao, tecnicas]
 ---
 
 ## O que é
