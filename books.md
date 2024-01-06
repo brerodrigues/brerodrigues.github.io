@@ -5,6 +5,7 @@ permalink_name: /books
 title: Livros favoritos
 ---
 **2023**
+- \*[Overcoming Social Anxiety and Shyness](https://www.amazon.com/Overcoming-Social-Anxiety-Shyness-Behavioral/dp/1849010005)\*
 - [O Problema dos três corpos](https://www.amazon.com.br/problema-dos-tr%C3%AAs-corpos/dp/8556510205)
 - [Recursão](https://www.amazon.com.br/Recurs%C3%A3o-Blake-Crouch/dp/8551005367)
 - [Raiva](https://www.amazon.com.br/Raiva-rua-Sabao-Monica-Isakstuen/dp/658921803X)
