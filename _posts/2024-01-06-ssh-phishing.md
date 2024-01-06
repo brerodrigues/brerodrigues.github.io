@@ -36,7 +36,7 @@ O script pode ser encontrado neste repositório: [ssh_phishing](https://github.c
 
 No final do dia, após uma tarde hackeando para fazer esse código funcionar do jeito que queria, percebi que a ideia de comprometer as credenciais dos meus colegas de trabalho era boba. O que eu poderia fazer? Commitar nos nossos repositórios códigos piores do que eles já escreviam sozinhos? Ser juvenil e trocar seus papéis de parede por algo obsceno?
 
-Fui dormir tranquilo sabendo que tinha o poder, mas que não iria usá-lo. Afinal, se eu tivesse um advogado, ele me aconselharia a dizer que fazer isso seria eticamente questionável. E que você não deve fazer o mesmo. E caso o faça, é por sua conta e risco. No README do script, existe um gigante aviso que você deve seguir.
+Fui dormir tranquilo sabendo que tinha o poder, mas que não iria usá-lo. Afinal, se eu tivesse um advogado, ele me aconselharia a dizer que fazer isso seria eticamente questionável. E que você não deve fazer o mesmo. E caso o faça, é por sua conta em risco. No README do script, existe um gigante aviso que você deve seguir.
 
 
 
